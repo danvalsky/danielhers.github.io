@@ -96,7 +96,8 @@
     <div class="news">
         <ul>
             <li>Our paper, <a href="#naacl2019"><i>Content Differences in Syntactic and Semantic Representations</i></a>,
-                was accepted to NAACL 2019!</li>
+                was accepted to NAACL 2019!
+            </li>
             <li>We are organizing a <a href="http://mrp.nlpl.eu">shared task on
                 Cross-Framework Meaning Representation Parsing (MRP 2019)</a> in
                 <a href="http://www.conll.org/">CoNLL 2019</a>,
@@ -119,6 +120,39 @@
 
     <div class="publications">
         <ul>
+
+            <li><a name="repeval2019"></a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>Syntactic Interchangeability in Word Embedding Models</i></b>.
+                        <br>
+                        <b>Daniel Hershcovich</b>, Assaf Toledo, Alon Halfon and Noam Slonim.<br>
+                        <a href='https://repeval2019.github.io' target="_blank">RepEval 2019</a>.
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="interchangeability.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#repeval2019_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="interchangeability.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                        <a href="https://github.com/danielhers/interchangeability"
+                           class="btn btn-outline-primary btn-sm">code</a>
+                    </div>
+                    <div id="repeval2019_abstract" class="abstract row" style="display:none;">
+                        <i>Nearest neighbors in word embedding models are commonly observed to be semantically similar,
+                            but the relations between them can vary greatly. We investigate the extent to which word
+                            embedding models preserve syntactic interchangeability, as reflected by distances between
+                            word vectors, and the effect of hyper-parameters---context window size in particular. We use
+                            part of speech (POS) as a proxy for syntactic interchangeability, as generally speaking,
+                            words with the same POS are syntactically valid in the same contexts. We also investigate
+                            the relationship between interchangeability and similarity as judged by commonly-used word
+                            similarity benchmarks, and correlate the result with the performance of word embedding
+                            models on these benchmarks. Our results will inform future research and applications in the
+                            selection of word embedding model, suggesting a principle for an appropriate selection of
+                            the context window size parameter depending on the use-case.
+                        </i>
+                    </div>
+                </div>
+            </li>
 
             <li><a name="naacl2019"></a>
                 <div class="row">
