@@ -903,6 +903,34 @@ T16	Center 13 16	Dan
 </td></tr></tbody>
 </table>
 
+### Linker cc
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-299148-0001
+# text = Outdated but not bad
+1       Outdated        outdated        ADJ     JJ      Degree=Pos      0       root    _  _
+2       but     but     CCONJ   CC      _       4       cc      _    _
+3       not     not     ADV     RB      _       4       advmod  _        _
+4       bad     bad     ADJ     JJ      Degree=Pos      1       conj    _      _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Outdated but not bad
+T2	ParallelScene 0 8	Outdated
+T3	Linker 9 12	but
+T4	ParallelScene 13 20	not bad
+T6	Adverbial 13 16	not
+T7	State 17 20	bad
+T9	State 0 8	Outdated
+</div>
+</td></tr></tbody>
+</table>
+
+
 
 <table>
 <tbody><tr><td width="600">
