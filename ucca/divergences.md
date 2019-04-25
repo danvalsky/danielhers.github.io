@@ -1745,6 +1745,98 @@ T37	Function 9 11	to
 </td></tr></tbody>
 </table>
 
+## Multi-Word Expressions
+
+### Elaborator compound
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-241739-0002
+# text = Firstly, the other reviewer clearly has never been to Nick's, or he would know that Nick only charges $13 for a haircut which is pretty much industry standard.
+1       Firstly firstly ADV     RB      _       11      advmod  _       SpaceAfter=No
+2       ,       ,       PUNCT   ,       _       11      punct   _        _
+3       the     the     DET     DT      Definite=Def|PronType=Art       5       det     _   _
+4       other   other   ADJ     JJ      Degree=Pos      5       amod    _  _
+5       reviewer        reviewer        NOUN    NN      Number=Sing     11      nsubj   _        _
+6       clearly clearly ADV     RB      _       11      advmod  _       _
+7       has     have    AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   11      aux     _  _
+8       never   never   ADV     RB      _       11      advmod  _       _
+9       been    be      AUX     VBN     Tense=Past|VerbForm=Part        11      cop     _  _
+10      to      to      ADP     IN      _       11      case    _ _
+11      Nick    Nick    PROPN   NNP     Number=Sing     0       root    _  SpaceAfter=No
+12      's      's      PART    POS     _       11      case    _ SpaceAfter=No
+13      ,       ,       PUNCT   ,       _       17      punct   _        _
+14      or      or      CCONJ   CC      _       17      cc      _   _
+15      he      he      PRON    PRP     Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs  17      nsubj   _        _
+16      would   would   AUX     MD      VerbForm=Fin    17      aux     _  _
+17      know    know    VERB    VB      VerbForm=Inf    11      conj    _      _
+18      that    that    SCONJ   IN      _       21      mark    _ _
+19      Nick    Nick    PROPN   NNP     Number=Sing     21      nsubj   _        _
+20      only    only    ADV     RB      _       21      advmod  _       _
+21      charges charge  VERB    VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   17      ccomp   _        _
+22      $       $       SYM     $       _       21      obj     _  SpaceAfter=No
+23      13      13      NUM     CD      NumType=Card    22      nummod  _       _
+24      for     for     ADP     IN      _       26      case    _ _
+25      a       a       DET     DT      Definite=Ind|PronType=Art       26      det     _  _
+26      haircut haircut NOUN    NN      Number=Sing     21      obl     _      _
+27      which   which   PRON    WDT     PronType=Int    32      nsubj   _        _
+28      is      be      AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   32      cop     _  _
+29      pretty  pretty  ADV     RB      _       30      advmod  _       _
+30      much    much    ADV     RB      _       32      advmod  _       _
+31      industry        industry        NOUN    NN      Number=Sing     32      compound        _     _
+32      standard        standard        NOUN    NN      Number=Sing     21      parataxis       _    SpaceAfter=No
+33      .       .       PUNCT   .       _       11      punct   _        _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Firstly , the other reviewer clearly has never been to Nick 's , or he would know that Nick only charges $ 13 for a haircut which is pretty much industry standard .
+T2	Linker 0 7	Firstly
+T3	ParallelScene 10 62	the other reviewer clearly has never been to Nick 's
+T4	Linker 65 67	or
+T5	ParallelScene 68 123	he would know that Nick only charges $ 13 for a haircut
+T6	Linker 124 129	which
+T7	ParallelScene 130 164	is pretty much industry standard .
+T11	Function 130 132	is
+T12	Adverbial 133 144	pretty much
+T13	Participant 145 153	industry
+T14	State 154 162	standard
+T15	Participant 68 70	he
+T16	Adverbial 71 76	would
+T17	Process 77 81	know
+T18	Participant 82 123	that Nick only charges $ 13 for a haircut
+T19	Relator 82 86	that
+T20	Participant 87 91	Nick
+T21	Adverbial 92 96	only
+T22	Process 97 104	charges
+T23	Participant 105 123	$ 13 for a haircut
+T24	Participant 105 109	$ 13
+R1	Participant parent:T7 child:T24
+T25	Function 110 113	for
+T26	Process 114 123	a haircut
+T27	Function 114 115	a
+T28	Center 116 123	haircut
+T29	Quantifier 105 109	$ 13
+T30	Participant 10 28	the other reviewer
+T31	Ground 29 36	clearly
+T32	Function 37 40	has
+T33	Adverbial|Time 41 46	never
+T34	Process 47 51	been
+T35	Participant 52 62	to Nick 's
+T36	Relator 52 54	to
+T37	Center 55 59	Nick
+T38	Relator 60 62	's
+T39	Function 10 13	the
+T40	Elaborator 14 19	other
+T41	Center 20 28	reviewer
+</div>
+</td></tr></tbody>
+</table>
+
+
+
 
 <table>
 <tbody><tr><td width="600">
