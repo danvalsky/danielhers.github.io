@@ -1184,6 +1184,36 @@ T21	Center 25 30	store
 </td></tr></tbody>
 </table>
 
+### Participant advmod
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-047007-0002
+# text = I will never come here again.
+1       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      4       nsubj   _ _
+2       will    will    AUX     MD      VerbForm=Fin    4       aux     _   _
+3       never   never   ADV     RB      _       4       advmod  _        _
+4       come    come    VERB    VB      VerbForm=Inf    0       root    _  _
+5       here    here    ADV     RB      PronType=Dem    4       advmod  _        _
+6       again   again   ADV     RB      _       4       advmod  _        SpaceAfter=No
+7       .       .       PUNCT   .       _       4       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+I will never come here again .
+T2	ParallelScene 0 30	I will never come here again .
+T3	Participant 0 1	I
+T4	Function 2 6	will
+T5	Time|Adverbial 7 12	never
+T6	Process 13 17	come
+T7	Participant 18 22	here
+T8	Adverbial 23 28	again
+</div>
+</td></tr></tbody>
+</table>
 
 
 
