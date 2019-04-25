@@ -14,7 +14,7 @@ This page provides detailed examples to accompany the following <a href="../dive
       year      = {2019}
     }
 
-Content will be available soon.
+The full content will be available soon.
 
 ## Scene/Non-Scene
 ### Participant nsubj:
