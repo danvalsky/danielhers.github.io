@@ -1,12 +1,13 @@
 # Content Differences in Syntactic and Semantic Representations
 
-This page provides detailed examples to accompany the following <a href="../divergences.pdf">paper</a>:</p>
-            <a href="../divergences.bib"><pre>@InProceedings{hershcovich2019content,
-  author    = {Hershcovich, Daniel  and  Abend, Omri  and  Rappoport, Ari},
-  title     = {Content Differences in Syntactic and Semantic Representations},
-  booktitle = {Proc. of NAACL},
-  year      = {2019}
-}</pre></a>
+This page provides detailed examples to accompany the following <a href="../divergences.pdf">paper</a>:
+
+    @InProceedings{hershcovich2019content,
+      author    = {Hershcovich, Daniel  and  Abend, Omri  and  Rappoport, Ari},
+      title     = {Content Differences in Syntactic and Semantic Representations},
+      booktitle = {Proc. of NAACL},
+      year      = {2019}
+    }
 
 Content will be available soon.
 
