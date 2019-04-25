@@ -970,6 +970,36 @@ T14	Center 28 31	gym
 </table>
 
 
+### Adverbial det
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# newdoc id = reviews-252791
+# sent_id = reviews-252791-0001
+# text = no feathers in stock!!!!
+1       no      no      DET     DT      _       2       det     _   _
+2       feathers        feather NOUN    NNS     Number=Plur     0       root    _  _
+3       in      in      ADP     IN      _       4       case    _  _
+4       stock   stock   NOUN    NN      Number=Sing     2       nmod    _       SpaceAfter=No
+5       !!!!    !!!!    PUNCT   .       _       2       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+no feathers in stock !!!!
+T2	ParallelScene 0 25	no feathers in stock !!!!
+T4	Adverbial 0 2	no
+T5	Participant 3 11	feathers
+T6	State 12 25	in stock !!!!
+T7	Relator 12 14	in
+T8	Center 15 20	stock
+</div>
+</td></tr></tbody>
+</table>
+
+
 
 
 <table>
