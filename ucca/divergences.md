@@ -859,8 +859,49 @@ T34	Center 30 36	bustle
 </td></tr></tbody>
 </table>
 
+### Connector cc
 
-
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-023926-0002
+# text = Mercedes and Dan are very thorough and on top of everything!
+1       Mercedes        Mercedes        PROPN   NNP     Number=Sing     6       nsubj   _ _
+2       and     and     CCONJ   CC      _       3       cc      _    _
+3       Dan     Dan     PROPN   NNP     Number=Sing     1       conj    _      _
+4       are     be      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        6       cop     _   _
+5       very    very    ADV     RB      _       6       advmod  _        _
+6       thorough        thorough        ADJ     JJ      Degree=Pos      0       root    _  _
+7       and     and     CCONJ   CC      _       9       cc      _    _
+8       on      on      ADP     IN      _       9       case    _  _
+9       top     top     NOUN    NN      Number=Sing     6       conj    _      _
+10      of      of      ADP     IN      _       11      case    _ _
+11      everything      everything      PRON    NN      Number=Sing     9       nmod    _       SpaceAfter=No
+12      !       !       PUNCT   .       _       6       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Mercedes and Dan are very thorough and on top of everything !
+T2	ParallelScene 0 34	Mercedes and Dan are very thorough
+T3	Linker 35 38	and
+T4	ParallelScene 39 61	on top of everything !
+T5	State 39 45	on top
+T6	Participant 46 61	of everything !
+T7	Relator 46 48	of
+T8	Center 49 59	everything
+T10	Participant 0 16	Mercedes and Dan
+R1	Participant parent:T4 child:T10
+T11	Function 17 20	are
+T12	Adverbial 21 25	very
+T13	State 26 34	thorough
+T14	Center 0 8	Mercedes
+T15	Connector 9 12	and
+T16	Center 13 16	Dan
+</div>
+</td></tr></tbody>
+</table>
 
 
 <table>
