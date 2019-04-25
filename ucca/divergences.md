@@ -2273,7 +2273,7 @@ T7	Center 17 22	cards
 </td></tr></tbody>
 </table>
 
-### Clausal dependents
+### Parallel Scene advcl
 
 <table>
 <tbody><tr><td width="600">
@@ -2281,17 +2281,17 @@ UD:
 <div class="conllu-parse">
 # sent_id = reviews-084373-0003
 # text = We called few companies before we decide to hire them.
-1       We      we      PRON    PRP     Case=Nom|Number=Plur|Person=1|PronType=Prs      2       nsubj   2:nsubj _
-2       called  call    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    0:root  _
-3       few     few     ADJ     JJ      Degree=Pos      4       amod    4:amod  _
-4       companies       company NOUN    NNS     Number=Plur     2       obj     2:obj   _
-5       before  before  SCONJ   IN      _       7       mark    7:mark  _
-6       we      we      PRON    PRP     Case=Nom|Number=Plur|Person=1|PronType=Prs      7       nsubj   7:nsubj|9:nsubj:xsubj   _
-7       decide  decide  VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        2       advcl   2:advcl:before  _
-8       to      to      PART    TO      _       9       mark    9:mark  _
-9       hire    hire    VERB    VB      VerbForm=Inf    7       xcomp   7:xcomp _
-10      them    they    PRON    PRP     Case=Acc|Number=Plur|Person=3|PronType=Prs      9       obj     9:obj   SpaceAfter=No
-11      .       .       PUNCT   .       _       2       punct   2:punct _
+1       We      we      PRON    PRP     Case=Nom|Number=Plur|Person=1|PronType=Prs      2       nsubj   _ _
+2       called  call    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    _  _
+3       few     few     ADJ     JJ      Degree=Pos      4       amod    _  _
+4       companies       company NOUN    NNS     Number=Plur     2       obj     _   _
+5       before  before  SCONJ   IN      _       7       mark    _  _
+6       we      we      PRON    PRP     Case=Nom|Number=Plur|Person=1|PronType=Prs      7       nsubj   _   _
+7       decide  decide  VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        2       advcl   _  _
+8       to      to      PART    TO      _       9       mark    _  _
+9       hire    hire    VERB    VB      VerbForm=Inf    7       xcomp   _ _
+10      them    they    PRON    PRP     Case=Acc|Number=Plur|Person=3|PronType=Prs      9       obj     _   SpaceAfter=No
+11      .       .       PUNCT   .       _       2       punct   _ _
 </div>
 </td><td width="600">
 UCCA:
@@ -2312,6 +2312,44 @@ T13	Process 3 9	called
 T14	Participant 10 23	few companies
 T15	Quantifier 10 13	few
 T16	Center 14 23	companies
+</div>
+</td></tr></tbody>
+</table>
+
+### Parallel Scene parataxis
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-069995-0007
+# text = Check out The Willow Lounge, youll be happy!
+1       Check   check   VERB    VB      Mood=Imp|VerbForm=Fin   0       root    _  _
+2       out     out     ADP     RP      _       1       compound:prt    _  _
+3       The     the     DET     DT      Definite=Def|PronType=Art       5       det     _   _
+4       Willow  Willow  PROPN   NNP     Number=Sing     5       compound        _      _
+5       Lounge  Lounge  PROPN   NNP     Number=Sing     1       obj     _   SpaceAfter=No
+6       ,       ,       PUNCT   ,       _       1       punct   _ _
+7       you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  10      nsubj   _        SpaceAfter=No
+8       ll      will    AUX     MD      VerbForm=Fin    10      aux     _  _
+9       be      be      AUX     VB      VerbForm=Inf    10      cop     _  _
+10      happy   happy   ADJ     JJ      Degree=Pos      1       parataxis       _     SpaceAfter=No
+11      !       !       PUNCT   .       _       1       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Check out The Willow Lounge , you ll be happy !
+T2	ParallelScene 0 27	Check out The Willow Lounge
+T3	ParallelScene 30 47	you ll be happy !
+T5	Participant 30 33	you
+T6	Function 34 36	ll
+T7	Function 37 39	be
+T8	State 40 45	happy
+T11	Process 0 9	Check out
+T12	Participant 10 27	The Willow Lounge
+T13	Function 10 13	The
+T14	Center 14 27	Willow Lounge
 </div>
 </td></tr></tbody>
 </table>
