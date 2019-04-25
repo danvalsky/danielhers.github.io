@@ -2749,6 +2749,54 @@ T17	Participant 25 35	New Jersey
 <tbody><tr><td width="600">
 UD:
 <div class="conllu-parse">
+# sent_id = reviews-007403-0006
+# text = Please visit my website to learn more about my practice at www.veraakulov.com.
+1       Please  please  INTJ    UH      _       2       discourse       _     _
+2       visit   visit   VERB    VB      Mood=Imp|VerbForm=Fin   0       root    _  _
+3       my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      4       nmod:poss       _     _
+4       website website NOUN    NN      Number=Sing     2       obj     _   _
+5       to      to      PART    TO      _       6       mark    _  _
+6       learn   learn   VERB    VB      VerbForm=Inf    2       advcl   _      _
+7       more    more    ADJ     JJR     Degree=Cmp      6       obj     _   _
+8       about   about   ADP     IN      _       10      case    _ _
+9       my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      10      nmod:poss       _    _
+10      practice        practice        NOUN    NN      Number=Sing     7       obl     _     _
+11      at      at      ADP     IN      _       12      case    _ _
+12      www.veraakulov.com      www.veraakulov.com      X       ADD     _       2       obl     _        SpaceAfter=No
+13      .       .       PUNCT   .       _       2       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Please visit my website to learn more about my practice at www.veraakulov.com .
+T2	ParallelScene 0 23;56 79	Please visit my website at www.veraakulov.com .
+T3	Linker 24 26	to
+T4	ParallelScene 27 55	learn more about my practice
+T7	Process 27 32	learn
+T8	Adverbial 33 37	more
+T9	Participant 38 55	about my practice
+T10	Relator 38 43	about
+T11	Participant 44 46	my
+T12	Process 47 55	practice
+T14	Ground 0 6	Please
+T15	Process 7 12	visit
+T16	Participant 13 23;56 79	my website at www.veraakulov.com .
+T17	Elaborator 13 15	my
+T18	Center 16 23	website
+R1	Participant parent:T17 child:T18
+T19	Elaborator 56 79	at www.veraakulov.com .
+T20	Relator 56 58	at
+T21	Center 59 77	www.veraakulov.com
+T22	State 13 15	my
+</div>
+</td></tr></tbody>
+</table>
+
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
 
 </div>
 </td><td width="600">
