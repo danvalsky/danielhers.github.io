@@ -2667,16 +2667,16 @@ UD:
 <div class="conllu-parse">
 # sent_id = reviews-063347-0003
 # text = Excellent chefs are in the kitchen preparing memorable breakfasts.
-1       Excellent       excellent       ADJ     JJ      Degree=Pos      2       amod    2:amod  _
-2       chefs   chef    NOUN    NNS     Number=Plur     6       nsubj   6:nsubj _
-3       are     be      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        6       cop     6:cop   _
-4       in      in      ADP     IN      _       6       case    6:case  _
-5       the     the     DET     DT      Definite=Def|PronType=Art       6       det     6:det   _
-6       kitchen kitchen NOUN    NN      Number=Sing     0       root    0:root  _
-7       preparing       prepare VERB    VBG     VerbForm=Ger    2       acl     2:acl   _
-8       memorable       memorable       ADJ     JJ      Degree=Pos      9       amod    9:amod  _
-9       breakfasts      breakfast       NOUN    NNS     Number=Plur     7       obj     7:obj   SpaceAfter=No
-10      .       .       PUNCT   .       _       6       punct   6:punct _
+1       Excellent       excellent       ADJ     JJ      Degree=Pos      2       amod    _  _
+2       chefs   chef    NOUN    NNS     Number=Plur     6       nsubj   _ _
+3       are     be      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        6       cop     _   _
+4       in      in      ADP     IN      _       6       case    _  _
+5       the     the     DET     DT      Definite=Def|PronType=Art       6       det     _   _
+6       kitchen kitchen NOUN    NN      Number=Sing     0       root    _  _
+7       preparing       prepare VERB    VBG     VerbForm=Ger    2       acl     _   _
+8       memorable       memorable       ADJ     JJ      Degree=Pos      9       amod    _  _
+9       breakfasts      breakfast       NOUN    NNS     Number=Plur     7       obj     _   SpaceAfter=No
+10      .       .       PUNCT   .       _       6       punct   _ _
 </div>
 </td><td width="600">
 UCCA:
@@ -2701,6 +2701,48 @@ T15	Center 27 34	kitchen
 </table>
 
 
+### Ground discourse
+
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-351561-0004
+# text = They say no, Warwick in New Jersey, Call New Jersey.
+1       They    they    PRON    PRP     Case=Nom|Number=Plur|Person=3|PronType=Prs      2       nsubj   _ _
+2       say     say     VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        0       root    _  _
+3       no      no      INTJ    UH      _       5       discourse       _     SpaceAfter=No
+4       ,       ,       PUNCT   ,       _       5       punct   _ _
+5       Warwick Warwick PROPN   NNP     Number=Sing     2       ccomp   _ _
+6       in      in      ADP     IN      _       8       case    _  _
+7       New     New     PROPN   NNP     Number=Sing     8       compound        _      _
+8       Jersey  Jersey  PROPN   NNP     Number=Sing     5       nmod    _       SpaceAfter=No
+9       ,       ,       PUNCT   ,       _       5       punct   _ _
+10      Call    call    VERB    VB      Mood=Imp|VerbForm=Fin   5       parataxis       _     _
+11      New     New     PROPN   NNP     Number=Sing     12      compound        _     _
+12      Jersey  Jersey  PROPN   NNP     Number=Sing     10      obj     _  SpaceAfter=No
+13      .       .       PUNCT   .       _       2       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+They say no , Warwick in New Jersey , Call New Jersey .
+T2	ParallelScene 0 55	They say no , Warwick in New Jersey , Call New Jersey .
+T4	Participant 0 4	They
+T5	Process 5 8	say
+T6	Participant 9 55	no , Warwick in New Jersey , Call New Jersey .
+T7	ParallelScene 9 11	no
+T8	ParallelScene 14 35	Warwick in New Jersey
+T9	ParallelScene 38 55	Call New Jersey .
+T13	Process 38 42	Call
+T14	Participant 43 53	New Jersey
+T15	Participant 14 21	Warwick
+T16	State 22 24	in
+T17	Participant 25 35	New Jersey
+</div>
+</td></tr></tbody>
+</table>
 
 
 <table>
