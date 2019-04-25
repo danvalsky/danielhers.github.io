@@ -1419,6 +1419,57 @@ T56	Center 20 23	car
 </td></tr></tbody>
 </table>
 
+### Participant xcomp
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-068436-0005
+# text = I asked them to change it but they rudely said that it was okay.
+1       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      2       nsubj   _ _
+2       asked   ask     VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    _  _
+3       them    they    PRON    PRP     Case=Acc|Number=Plur|Person=3|PronType=Prs      2       obj     _     _
+4       to      to      PART    TO      _       5       mark    _  _
+5       change  change  VERB    VB      VerbForm=Inf    2       xcomp   _ _
+6       it      it      PRON    PRP     Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs  5       obj     _   _
+7       but     but     CCONJ   CC      _       10      cc      _   _
+8       they    they    PRON    PRP     Case=Nom|Number=Plur|Person=3|PronType=Prs      10      nsubj   _        _
+9       rudely  rudely  ADV     RB      _       10      advmod  _       _
+10      said    say     VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        2       conj    _      _
+11      that    that    SCONJ   IN      _       14      mark    _ _
+12      it      it      PRON    PRP     Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs  14      nsubj   _        _
+13      was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin   14      cop     _  _
+14      okay    okay    ADJ     JJ      Degree=Pos      10      ccomp   _        SpaceAfter=No
+15      .       .       PUNCT   .       _       2       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+I asked them to change it but they rudely said that it was okay .
+T2	ParallelScene 0 25	I asked them to change it
+T3	Linker 26 29	but
+T4	ParallelScene 30 65	they rudely said that it was okay .
+T6	Participant 30 34	they
+T7	Adverbial 35 41	rudely
+T8	Process 42 46	said
+T9	Participant 47 65	that it was okay .
+T10	Relator 47 51	that
+T11	Participant 52 54	it
+T12	Function 55 58	was
+T13	State 59 63	okay
+T14	Participant 0 1	I
+T15	Process 2 7	asked
+T16	Participant 8 12	them
+R1	Participant parent:T17 child:T16
+T17	Participant 13 25	to change it
+T18	Relator 13 15	to
+T19	Process 16 22	change
+T20	Participant 23 25	it
+</div>
+</td></tr></tbody>
+</table>
+
 
 
 <table>
