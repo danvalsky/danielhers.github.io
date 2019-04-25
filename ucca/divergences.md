@@ -1084,23 +1084,23 @@ UD:
 <div class="conllu-parse">
 # sent_id = reviews-349020-0002
 # text = The night I drove back home, I found that the rear window has some leakage.
-1       The     the     DET     DT      Definite=Def|PronType=Art       2       det     2:det   _
-2       night   night   NOUN    NN      Number=Sing     9       obl:tmod        9:obl:tmod      _
-3       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      4       nsubj   4:nsubj _
-4       drove   drive   VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        2       acl:relcl       2:acl:relcl     _
-5       back    back    ADV     RB      _       6       advmod  6:advmod        _
-6       home    home    ADV     RB      _       4       advmod  4:advmod        SpaceAfter=No
-7       ,       ,       PUNCT   ,       _       9       punct   9:punct _
-8       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      9       nsubj   9:nsubj _
-9       found   find    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    0:root  _
-10      that    that    SCONJ   IN      _       14      mark    14:mark _
-11      the     the     DET     DT      Definite=Def|PronType=Art       13      det     13:det  _
-12      rear    rear    ADJ     JJ      Degree=Pos      13      amod    13:amod _
-13      window  window  NOUN    NN      Number=Sing     14      nsubj   14:nsubj        _
-14      has     have    VERB    VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   9       ccomp   9:ccomp _
-15      some    some    DET     DT      _       16      det     16:det  _
-16      leakage leakage NOUN    NN      Number=Sing     14      obj     14:obj  SpaceAfter=No
-17      .       .       PUNCT   .       _       9       punct   9:punct _
+1       The     the     DET     DT      Definite=Def|PronType=Art       2       det     _   _
+2       night   night   NOUN    NN      Number=Sing     9       obl:tmod        _      _
+3       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      4       nsubj   _ _
+4       drove   drive   VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        2       acl:relcl       _     _
+5       back    back    ADV     RB      _       6       advmod  _        _
+6       home    home    ADV     RB      _       4       advmod  _        SpaceAfter=No
+7       ,       ,       PUNCT   ,       _       9       punct   _ _
+8       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      9       nsubj   _ _
+9       found   find    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    _  _
+10      that    that    SCONJ   IN      _       14      mark    _ _
+11      the     the     DET     DT      Definite=Def|PronType=Art       13      det     _  _
+12      rear    rear    ADJ     JJ      Degree=Pos      13      amod    _ _
+13      window  window  NOUN    NN      Number=Sing     14      nsubj   _        _
+14      has     have    VERB    VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   9       ccomp   _ _
+15      some    some    DET     DT      _       16      det     _  _
+16      leakage leakage NOUN    NN      Number=Sing     14      obj     _  SpaceAfter=No
+17      .       .       PUNCT   .       _       9       punct   _ _
 </div>
 </td><td width="600">
 UCCA:
@@ -1129,6 +1129,62 @@ T23	Center 4 9	night
 </div>
 </td></tr></tbody>
 </table>
+
+## Primary/Secondary Relations
+
+### Adverbial advmod
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-241855-0002
+# text = I sometimes go into this store just for something to do on a sunday afternoon.
+1       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      3       nsubj   _ _
+2       sometimes       sometimes       ADV     RB      _       3       advmod  _        _
+3       go      go      VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        0       root    _  _
+4       into    into    ADP     IN      _       6       case    _  _
+5       this    this    DET     DT      Number=Sing|PronType=Dem        6       det     _   _
+6       store   store   NOUN    NN      Number=Sing     3       obl     _      _
+7       just    just    ADV     RB      _       9       advmod  _        _
+8       for     for     ADP     IN      _       9       case    _  _
+9       something       something       PRON    NN      Number=Sing     3       obl     _       _
+10      to      to      PART    TO      _       11      mark    _ _
+11      do      do      VERB    VB      VerbForm=Inf    9       acl     _        _
+12      on      on      ADP     IN      _       15      case    _ _
+13      a       a       DET     DT      Definite=Ind|PronType=Art       15      det     _  _
+14      sunday  sunday  PROPN   NNP     Number=Sing     15      compound        _     _
+15      afternoon       afternoon       NOUN    NN      Number=Sing     11      obl     _       SpaceAfter=No
+16      .       .       PUNCT   .       _       3       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+I sometimes go into this store just for something to do on a sunday afternoon .
+T2	ParallelScene 0 30	I sometimes go into this store
+T3	ParallelScene 31 35;40 79	just something to do on a sunday afternoon .
+T4	Linker 36 39	for
+T6	Adverbial 31 35	just
+T7	Participant 40 49	something
+T8	Function 50 52	to
+T9	Process 53 55	do
+T10	Time 56 79	on a sunday afternoon .
+T11	Relator 56 58	on
+T12	Function 59 60	a
+T13	Center 61 67	sunday
+T14	Center 68 77	afternoon
+T15	Participant 0 1	I
+T16	Time 2 11	sometimes
+T17	Process 12 14	go
+T18	Participant 15 30	into this store
+T19	Relator 15 19	into
+T20	Elaborator 20 24	this
+T21	Center 25 30	store
+</div>
+</td></tr></tbody>
+</table>
+
+
 
 
 
