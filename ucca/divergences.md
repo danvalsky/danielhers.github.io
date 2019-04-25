@@ -319,6 +319,66 @@ T45	Process 16 22	rating
 </table>
 
 
+### Participant nmod:
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-247226-0005
+# text = Going back after graduating your told you get a discount on services nope you dont.
+1       Going   go      VERB    VBG     VerbForm=Ger    7       advcl   7:advcl _
+2       back    back    ADV     RB      _       1       advmod  1:advmod        _
+3       after   after   SCONJ   IN      _       4       mark    4:mark  _
+4       graduating      graduate        VERB    VBG     VerbForm=Ger    1       advcl   1:advcl:after   _
+5       you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  7       nsubj:pass      7:nsubj:pass    SpaceAfter=No
+6       r       be      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        7       aux:pass        7:aux:pass      _
+7       told    tell    VERB    VBN     Tense=Past|VerbForm=Part|Voice=Pass     0       root    0:root  _
+8       you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  9       nsubj   9:nsubj _
+9       get     get     VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        7       ccomp   7:ccomp _
+10      a       a       DET     DT      Definite=Ind|PronType=Art       11      det     11:det  _
+11      discount        discount        NOUN    NN      Number=Sing     9       obj     9:obj   _
+12      on      on      ADP     IN      _       13      case    13:case _
+13      services        service NOUN    NNS     Number=Plur     11      nmod    11:nmod:on      _
+14      nope    nope    INTJ    UH      _       16      discourse       16:discourse    _
+15      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  16      nsubj   16:nsubj        _
+16      do      do      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        7       parataxis       7:parataxis     SpaceAfter=No
+17      nt      not     PART    RB      _       16      advmod  16:advmod       SpaceAfter=No
+18      .       .       PUNCT   .       _       7       punct   7:punct _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Going back after graduating you r told you get a discount on services nope you do nt .
+T2	ParallelScene 0 10	Going back
+T3	ParallelScene 11 27	after graduating
+T4	ParallelScene 28 69	you r told you get a discount on services
+T5	ParallelScene 70 86	nope you do nt .
+T7	Ground 70 74	nope
+T8	Participant 75 78	you
+T9	Function 79 81	do
+T10	Adverbial 82 84	nt
+T12	Participant 28 31	you
+T13	Function 32 33	r
+T14	Process 34 38	told
+T15	Participant 39 69	you get a discount on services
+T16	Participant 39 42	you
+T17	Process 43 46	get
+R1	Process parent:T5 child:T17
+T18	Participant 47 57	a discount
+T19	Participant 58 69	on services
+T20	Relator 58 60	on
+T21	Process 61 69	services
+T22	Function 47 48	a
+T23	Center 49 57	discount
+T25	Relator 11 16	after
+T26	Process 17 27	graduating
+T29	Process 0 5	Going
+T30	Adverbial 6 10	back
+</div>
+</td></tr></tbody>
+</table>
+
+
 ## General
 
 <table>
