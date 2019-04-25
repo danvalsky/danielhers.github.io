@@ -384,32 +384,32 @@ UD:
 <div class="conllu-parse">
 # sent_id = reviews-095040-0004
 # text = Stephanie's knowledge of the market and properties in our price range, made us feel secure in our decision to buy when we did.
-1       Stephanie       Stephanie       PROPN   NNP     Number=Sing     3       nmod:poss       3:nmod:poss     SpaceAfter=No
-2       's      's      PART    POS     _       1       case    1:case  _
-3       knowledge       knowledge       NOUN    NN      Number=Sing     14      nsubj   14:nsubj        _
-4       of      of      ADP     IN      _       6       case    6:case  _
-5       the     the     DET     DT      Definite=Def|PronType=Art       6       det     6:det   _
-6       market  market  NOUN    NN      Number=Sing     3       nmod    3:nmod:of       _
-7       and     and     CCONJ   CC      _       8       cc      8:cc    _
-8       properties      property        NOUN    NNS     Number=Plur     6       conj    3:nmod:of|6:conj:and    _
-9       in      in      ADP     IN      _       12      case    12:case _
-10      our     we      PRON    PRP$    Number=Plur|Person=1|Poss=Yes|PronType=Prs      12      nmod:poss       12:nmod:poss    _
-11      price   price   NOUN    NN      Number=Sing     12      compound        12:compound     _
-12      range   range   NOUN    NN      Number=Sing     8       nmod    8:nmod:in       SpaceAfter=No
-13      ,       ,       PUNCT   ,       _       14      punct   14:punct        _
-14      made    make    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    0:root  _
-15      us      we      PRON    PRP     Case=Acc|Number=Plur|Person=1|PronType=Prs      14      obj     14:obj  _
-16      feel    feel    VERB    VB      VerbForm=Inf    15      xcomp   15:xcomp        _
-17      secure  secure  ADJ     JJ      Degree=Pos      16      xcomp   16:xcomp        _
-18      in      in      ADP     IN      _       20      case    20:case _
-19      our     we      PRON    PRP$    Number=Plur|Person=1|Poss=Yes|PronType=Prs      20      nmod:poss       20:nmod:poss    _
-20      decision        decision        NOUN    NN      Number=Sing     17      obl     17:obl:in       _
-21      to      to      PART    TO      _       22      mark    22:mark _
-22      buy     buy     VERB    VB      VerbForm=Inf    20      acl     20:acl:to       _
-23      when    when    ADV     WRB     PronType=Int    25      mark    25:mark _
-24      we      we      PRON    PRP     Case=Nom|Number=Plur|Person=1|PronType=Prs      25      nsubj   25:nsubj        _
-25      did     do      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        22      advcl   22:advcl:when   SpaceAfter=No
-26      .       .       PUNCT   .       _       14      punct   14:punct        _
+1       Stephanie       Stephanie       PROPN   NNP     Number=Sing     3       nmod:poss       _:poss     SpaceAfter=No
+2       's      's      PART    POS     _       1       case    _  _
+3       knowledge       knowledge       NOUN    NN      Number=Sing     14      nsubj   1_        _
+4       of      of      ADP     IN      _       6       case    _  _
+5       the     the     DET     DT      Definite=Def|PronType=Art       6       det     _   _
+6       market  market  NOUN    NN      Number=Sing     3       nmod    _:of       _
+7       and     and     CCONJ   CC      _       8       cc      _    _
+8       properties      property        NOUN    NNS     Number=Plur     6       conj    _:of|_:and    _
+9       in      in      ADP     IN      _       12      case    1_ _
+10      our     we      PRON    PRP$    Number=Plur|Person=1|Poss=Yes|PronType=Prs      12      nmod:poss       1_:poss    _
+11      price   price   NOUN    NN      Number=Sing     12      compound        1_     _
+12      range   range   NOUN    NN      Number=Sing     8       nmod    _:in       SpaceAfter=No
+13      ,       ,       PUNCT   ,       _       14      punct   1_        _
+14      made    make    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    _  _
+15      us      we      PRON    PRP     Case=Acc|Number=Plur|Person=1|PronType=Prs      14      obj     1_  _
+16      feel    feel    VERB    VB      VerbForm=Inf    15      xcomp   1_        _
+17      secure  secure  ADJ     JJ      Degree=Pos      16      xcomp   1_        _
+18      in      in      ADP     IN      _       20      case    2_ _
+19      our     we      PRON    PRP$    Number=Plur|Person=1|Poss=Yes|PronType=Prs      20      nmod:poss       2_:poss    _
+20      decision        decision        NOUN    NN      Number=Sing     17      obl     1_:in       _
+21      to      to      PART    TO      _       22      mark    2_ _
+22      buy     buy     VERB    VB      VerbForm=Inf    20      acl     2_:to       _
+23      when    when    ADV     WRB     PronType=Int    25      mark    2_ _
+24      we      we      PRON    PRP     Case=Nom|Number=Plur|Person=1|PronType=Prs      25      nsubj   2_        _
+25      did     do      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        22      advcl   2_:when   SpaceAfter=No
+26      .       .       PUNCT   .       _       14      punct   1_        _
 </div>
 </td><td width="600">
 UCCA:
@@ -452,6 +452,172 @@ T36	Relator 10 12	's
 </div>
 </td></tr></tbody>
 </table>
+
+### Elaborator nmod/acl:
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-295288-0006
+# text = Now my cars gears and brakes have never run so well... ever its like driving a new car.
+1       Now     now     ADV     RB      _       10      advmod  1_       _
+2       my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      3       nmod:poss       _:poss     _
+3       car     car     NOUN    NN      Number=Sing     5       nmod:poss       _:poss     SpaceAfter=No
+4       s       's      PART    POS     _       3       case    _  _
+5       gears   gear    NOUN    NNS     Number=Plur     10      nsubj   1_        _
+6       and     and     CCONJ   CC      _       7       cc      _    _
+7       brakes  brake   NOUN    NNS     Number=Plur     5       conj    _:and|1_     _
+8       have    have    AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        10      aux     1_  _
+9       never   never   ADV     RB      _       10      advmod  1_       _
+10      run     run     VERB    VBN     Tense=Past|VerbForm=Part        0       root    _  _
+11      so      so      ADV     RB      _       12      advmod  1_       _
+12      well    well    ADV     RB      Degree=Pos      10      advmod  1_       SpaceAfter=No
+13      ...     ...     PUNCT   ,       _       10      punct   1_        _
+14      ever    ever    ADV     RB      _       10      advmod  1_       _
+15      it      it      PRON    PRP     Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs  16      nsubj   1_        SpaceAfter=No
+16      s       be      VERB    VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   10      parataxis       1_    _
+17      like    like    SCONJ   IN      _       18      mark    1_ _
+18      driving drive   VERB    VBG     VerbForm=Ger    16      advcl   1_:like   _
+19      a       a       DET     DT      Definite=Ind|PronType=Art       21      det     2_  _
+20      new     new     ADJ     JJ      Degree=Pos      21      amod    2_ _
+21      car     car     NOUN    NN      Number=Sing     18      obj     1_  SpaceAfter=No
+22      .       .       PUNCT   .       _       10      punct   1_        _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Now my car s gears and brakes have never run so well ... ever it s like driving a new car .
+T2	Linker 0 3	Now
+T3	ParallelScene 4 61	my car s gears and brakes have never run so well ... ever
+T4	ParallelScene 62 66;72 91	it s driving a new car .
+T5	Linker 67 71	like
+T7	Participant 62 64	it
+T8	Function 65 66	s
+T9	Process 72 79	driving
+T10	Participant 80 91	a new car .
+T11	Function 80 81	a
+T12	Elaborator 82 85	new
+T13	Center 86 89	car
+R1	Participant parent:T12 child:T13
+T14	State 82 85	new
+T15	Participant 4 29	my car s gears and brakes
+T16	Function 30 34	have
+T17	Time 35 40	never
+T18	Process 41 44	run
+T19	Adverbial 45 52	so well
+T20	Ground 57 61	ever
+T22	Elaborator 45 47	so
+T23	Center 48 52	well
+T24	Elaborator 4 12	my car s
+T25	Center 13 29	gears and brakes
+T26	Center 13 18	gears
+T27	Connector 19 22	and
+T28	Center 23 29	brakes
+T29	Elaborator 4 6	my
+T30	Center 7 10	car
+R2	Participant parent:T29 child:T30
+T31	Relator 11 12	s
+T32	State 4 6	my
+</div>
+</td></tr></tbody>
+</table>
+
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-241739-0005
+# text = Some of the younger kids that work there are a bit sub par, but if you wait for Nick... you'll be good.
+1       Some    some    DET     DT      _       13      nsubj   1_        _
+2       of      of      ADP     IN      _       5       case    _  _
+3       the     the     DET     DT      Definite=Def|PronType=Art       5       det     _   _
+4       younger younger ADJ     JJR     Degree=Cmp      5       amod    _  _
+5       kids    kid     NOUN    NNS     Number=Plur     1       nmod    _:of|_       _
+6       that    that    PRON    WDT     PronType=Rel    7       nsubj   _   _
+7       work    work    VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        5       acl:relcl       _:relcl     _
+8       there   there   ADV     RB      PronType=Dem    7       advmod  _        _
+9       are     be      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        13      cop     1_  _
+10      a       a       DET     DT      Definite=Ind|PronType=Art       11      det     1_  _
+11      bit     bit     NOUN    NN      Number=Sing     13      obl:npmod       1_:npmod    _
+12      sub     sub     X       AFX     _       13      advmod  1_       _
+13      par     par     ADJ     JJ      Degree=Pos      0       root    _  SpaceAfter=No
+14      ,       ,       PUNCT   ,       _       25      punct   2_        _
+15      but     but     CCONJ   CC      _       25      cc      2_   _
+16      if      if      SCONJ   IN      _       18      mark    1_ _
+17      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  18      nsubj   1_        _
+18      wait    wait    VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        25      advcl   2_:if     _
+19      for     for     ADP     IN      _       20      case    2_ _
+20      Nick    Nick    PROPN   NNP     Number=Sing     18      obl     1_:for      SpaceAfter=No
+21      ...     ...     PUNCT   ,       _       25      punct   2_        _
+22      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  25      nsubj   2_        SpaceAfter=No
+23      'll     will    AUX     MD      VerbForm=Fin    25      aux     2_  _
+24      be      be      AUX     VB      VerbForm=Inf    25      cop     2_  _
+25      good    good    ADJ     JJ      Degree=Pos      13      conj    1_:but     SpaceAfter=No
+26      .       .       PUNCT   .       _       13      punct   1_        _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Some of the younger kids that work there are a bit sub par , but if you wait for Nick ... you 'll be good .
+T2	ParallelScene 0 58	Some of the younger kids that work there are a bit sub par
+T3	Linker 61 64	but
+T4	Linker 65 67	if
+T5	ParallelScene 68 85	you wait for Nick
+T6	ParallelScene 90 107	you 'll be good .
+T9	Participant 90 93	you
+T10	Function 94 97	'll
+T11	Function 98 100	be
+T12	State 101 105	good
+T14	Participant 68 71	you
+T15	Process 72 76	wait
+T16	Participant 77 85	for Nick
+T17	Relator 77 80	for
+T18	Center 81 85	Nick
+T19	Participant 0 40	Some of the younger kids that work there
+T20	Function 41 44	are
+T21	Adverbial 45 50	a bit
+T22	State 51 58	sub par
+T23	Elaborator 51 54	sub
+T24	Center 55 58	par
+T25	Quantifier 0 7	Some of
+T26	Function 8 11	the
+T27	Elaborator 12 19	younger
+T28	Center 20 24	kids
+R1	Participant parent:T29 child:T28
+T29	Elaborator 25 40	that work there
+T30	Relator 25 29	that
+T31	Process 30 34	work
+T32	Participant 35 40	there
+T33	Center 0 4	Some
+T34	Relator 5 7	of
+</div>
+</td></tr></tbody>
+</table>
+
+
+
+
+
+
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+
+</div>
+</td></tr></tbody>
+</table>
+
+
+
+
 
 
 ## General
