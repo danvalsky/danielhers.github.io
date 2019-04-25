@@ -782,6 +782,83 @@ T25	Center 16 18	us
 </td></tr></tbody>
 </table>
 
+### State case
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-034501-0003
+# text = It is right on the hustle and bustle of Wisconsin Ave but some might miss it as it is nestled in between Subway Sandwiches and Modell's.
+1       It      it      PRON    PRP     Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs  6       nsubj   _ _
+2       is      be      AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   6       cop     _   _
+3       right   right   ADV     RB      _       6       advmod  _        _
+4       on      on      ADP     IN      _       6       case    _  _
+5       the     the     DET     DT      Definite=Def|PronType=Art       6       det     _   _
+6       hustle  hustle  NOUN    NN      Number=Sing     0       root    _  _
+7       and     and     CCONJ   CC      _       8       cc      _    _
+8       bustle  bustle  NOUN    NN      Number=Sing     6       conj    _      _
+9       of      of      ADP     IN      _       11      case    _ _
+10      Wisconsin       Wisconsin       PROPN   NNP     Number=Sing     11      compound        _     _
+11      Ave     Ave     PROPN   NNP     Number=Sing     6       nmod    _       _
+12      but     but     CCONJ   CC      _       15      cc      _   _
+13      some    some    DET     DT      _       15      nsubj   _        _
+14      might   might   AUX     MD      VerbForm=Fin    15      aux     _  _
+15      miss    miss    VERB    VB      VerbForm=Inf    6       conj    _      _
+16      it      it      PRON    PRP     Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs  15      obj     _  _
+17      as      as      SCONJ   IN      _       20      mark    _ _
+18      it      it      PRON    PRP     Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs  20      nsubj:pass      _   _
+19      is      be      AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   20      aux:pass        _     _
+20      nestled nestle  VERB    VBN     Tense=Past|VerbForm=Part        15      advcl   _     _
+21      in      in      ADP     IN      _       24      case    _ _
+22      between between ADP     IN      _       21      fixed   _        _
+23      Subway  Subway  PROPN   NNP     Number=Sing     24      compound        _     _
+24      Sandwiches      Sandwiches      PROPN   NNPS    Number=Plur     20      obl     _       _
+25      and     and     CCONJ   CC      _       26      cc      _   _
+26      Modell  Modell  PROPN   NNP     Number=Sing     24      conj    _   SpaceAfter=No
+27      's      's      PART    POS     _       26      case    _ SpaceAfter=No
+28      .       .       PUNCT   .       _       6       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+It is right on the hustle and bustle of Wisconsin Ave but some might miss it as it is nestled in between Subway Sandwiches and Modell 's .
+T2	ParallelScene 0 53	It is right on the hustle and bustle of Wisconsin Ave
+T3	Linker 54 57	but
+T4	ParallelScene 58 76	some might miss it
+T5	Linker 77 79	as
+T6	ParallelScene 80 138	it is nestled in between Subway Sandwiches and Modell 's .
+T8	Participant 80 82	it
+T9	Function 83 85	is
+T10	State 86 93	nestled
+T11	Participant 94 138	in between Subway Sandwiches and Modell 's .
+T12	Relator 94 104	in between
+T13	Center 105 122	Subway Sandwiches
+T14	Connector 123 126	and
+T15	Center 127 136	Modell 's
+T16	Function 94 96	in
+T17	Center 97 104	between
+T18	Participant 58 62	some
+T19	Adverbial 63 68	might
+T20	Process 69 73	miss
+T21	Participant 74 76	it
+T22	Participant 0 2	It
+T23	Function 3 5	is
+T24	Adverbial 6 11	right
+T25	State 12 14	on
+T26	Participant 15 53	the hustle and bustle of Wisconsin Ave
+T27	Function 15 18	the
+T28	Center 19 36	hustle and bustle
+T29	Elaborator 37 53	of Wisconsin Ave
+T30	Relator 37 39	of
+T31	Center 40 53	Wisconsin Ave
+T32	Center 19 25	hustle
+T33	Connector 26 29	and
+T34	Center 30 36	bustle
+</div>
+</td></tr></tbody>
+</table>
+
 
 
 
