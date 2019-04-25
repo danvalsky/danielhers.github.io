@@ -2273,6 +2273,49 @@ T7	Center 17 22	cards
 </td></tr></tbody>
 </table>
 
+### Clausal dependents
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-084373-0003
+# text = We called few companies before we decide to hire them.
+1       We      we      PRON    PRP     Case=Nom|Number=Plur|Person=1|PronType=Prs      2       nsubj   2:nsubj _
+2       called  call    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    0:root  _
+3       few     few     ADJ     JJ      Degree=Pos      4       amod    4:amod  _
+4       companies       company NOUN    NNS     Number=Plur     2       obj     2:obj   _
+5       before  before  SCONJ   IN      _       7       mark    7:mark  _
+6       we      we      PRON    PRP     Case=Nom|Number=Plur|Person=1|PronType=Prs      7       nsubj   7:nsubj|9:nsubj:xsubj   _
+7       decide  decide  VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        2       advcl   2:advcl:before  _
+8       to      to      PART    TO      _       9       mark    9:mark  _
+9       hire    hire    VERB    VB      VerbForm=Inf    7       xcomp   7:xcomp _
+10      them    they    PRON    PRP     Case=Acc|Number=Plur|Person=3|PronType=Prs      9       obj     9:obj   SpaceAfter=No
+11      .       .       PUNCT   .       _       2       punct   2:punct _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+We called few companies before we decide to hire them .
+T2	ParallelScene 0 23	We called few companies
+T3	Linker 24 30	before
+T4	ParallelScene 31 55	we decide to hire them .
+T6	Participant 31 33	we
+R1	Participant parent:T8 child:T6
+T7	Process 34 40	decide
+T8	Participant 41 55	to hire them .
+T9	Function 41 43	to
+T10	Process 44 48	hire
+T11	Participant 49 53	them
+T12	Participant 0 2	We
+T13	Process 3 9	called
+T14	Participant 10 23	few companies
+T15	Quantifier 10 13	few
+T16	Center 14 23	companies
+</div>
+</td></tr></tbody>
+</table>
+
 
 
 <table>
