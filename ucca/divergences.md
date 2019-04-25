@@ -1304,6 +1304,122 @@ T25	Process 44 51	service
 </td></tr></tbody>
 </table>
 
+### Participant ccomp
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-245160-0003
+# text = i was looking for a car but did not really know what i wanted and they were very helpful and took the time to first figure out what my needs were and showing me various options to meet those needs.
+1       i       i       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      3       nsubj   _        _
+2       was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin   3       aux     _   _
+3       looking look    VERB    VBG     VerbForm=Ger    0       root    _  _
+4       for     for     ADP     IN      _       6       case    _  _
+5       a       a       DET     DT      Definite=Ind|PronType=Art       6       det     _   _
+6       car     car     NOUN    NN      Number=Sing     3       obl     _       _
+7       but     but     CCONJ   CC      _       11      cc      _   _
+8       did     do      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        11      aux     _  _
+9       not     not     PART    RB      _       11      advmod  _       _
+10      really  really  ADV     RB      _       11      advmod  _       _
+11      know    know    VERB    VB      VerbForm=Inf    3       conj    _      _
+12      what    what    PRON    WP      PronType=Int    14      obj     _  _
+13      i       i       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      14      nsubj   _        _
+14      wanted  want    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        11      ccomp   _        _
+15      and     and     CCONJ   CC      _       19      cc      _   _
+16      they    they    PRON    PRP     Case=Nom|Number=Plur|Person=3|PronType=Prs      19      nsubj   _       _
+17      were    be      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        19      cop     _  _
+18      very    very    ADV     RB      _       19      advmod  _       _
+19      helpful helpful ADJ     JJ      Degree=Pos      3       conj    _      _
+20      and     and     CCONJ   CC      _       21      cc      _   _
+21      took    take    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        19      conj    _     _
+22      the     the     DET     DT      Definite=Def|PronType=Art       23      det     _  _
+23      time    time    NOUN    NN      Number=Sing     21      obj     _  _
+24      to      to      PART    TO      _       26      mark    _ _
+25      first   first   ADV     RB      _       26      advmod  _       _
+26      figure  figure  VERB    VB      VerbForm=Inf    21      advcl   _     _
+27      out     out     ADP     RP      _       26      compound:prt    _ _
+28      what    what    PRON    WP      PronType=Int    26      ccomp   _        _
+29      my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      30      nmod:poss       _    _
+30      needs   need    NOUN    NNS     Number=Plur     28      nsubj   _        _
+31      were    be      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        28      cop     _  _
+32      and     and     CCONJ   CC      _       33      cc      _   _
+33      showing show    VERB    VBG     VerbForm=Ger    26      conj    _ _
+34      me      I       PRON    PRP     Case=Acc|Number=Sing|Person=1|PronType=Prs      33      iobj    _ _
+35      various various ADJ     JJ      Degree=Pos      36      amod    _ _
+36      options option  NOUN    NNS     Number=Plur     33      obj     _  _
+37      to      to      PART    TO      _       38      mark    _ _
+38      meet    meet    VERB    VB      VerbForm=Inf    33      advcl   _     _
+39      those   those   DET     DT      Number=Plur|PronType=Dem        40      det     _  _
+40      needs   need    NOUN    NNS     Number=Plur     38      obj     _  SpaceAfter=No
+41      .       .       PUNCT   .       _       3       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+i was looking for a car but did not really know what i wanted and they were very helpful and took the time to first figure out what my needs were and showing me various options to meet those needs .
+T2	ParallelScene 0 23	i was looking for a car
+T3	Linker 24 27	but
+T4	ParallelScene 28 61	did not really know what i wanted
+T5	Linker 62 65	and
+T6	ParallelScene 66 88	they were very helpful
+T7	Linker 89 92	and
+T8	ParallelScene 93 198	took the time to first figure out what my needs were and showing me various options to meet those needs .
+T11	Process 93 97	took
+T12	Participant 98 198	the time to first figure out what my needs were and showing me various options to meet those needs .
+T13	ParallelScene 98 145	the time to first figure out what my needs were
+T14	Linker 146 149	and
+T15	ParallelScene 150 198	showing me various options to meet those needs .
+T16	Process 150 157	showing
+T17	Participant 158 160	me
+T18	Participant 161 198	various options to meet those needs .
+T19	Elaborator 161 168	various
+T20	Center 169 176	options
+R1	Participant parent:T21 child:T20
+T21	Elaborator 177 198	to meet those needs .
+T22	Function 177 179	to
+T23	Process 180 184	meet
+T24	Participant 185 198	those needs .
+T25	Elaborator 185 190	those
+T26	Center 191 196	needs
+T27	Time 98 106	the time
+T28	Function 107 109	to
+T29	Time 110 115	first
+T30	Process 116 126	figure out
+T31	Participant 127 145	what my needs were
+T32	Participant 127 131	what
+T33	Participant 132 134	my
+T34	State 135 140	needs
+T35	Function 141 145	were
+T36	Function 98 101	the
+T37	Center 102 106	time
+T38	Participant 66 70	they
+R2	Participant parent:T13 child:T38
+R3	Participant parent:T15 child:T38
+T39	Function 71 75	were
+T40	Adverbial 76 80	very
+T41	State 81 88	helpful
+T42	Function 28 31	did
+T43	Adverbial 32 35	not
+T44	Adverbial 36 42	really
+T45	Process 43 47	know
+T46	Participant 48 61	what i wanted
+T47	Participant 48 52	what
+T48	Participant 53 54	i
+T49	Process 55 61	wanted
+T50	Participant 0 1	i
+R4	Participant parent:T4 child:T50
+T51	Function 2 5	was
+T52	Process 6 13	looking
+T53	Participant 14 23	for a car
+T54	Relator 14 17	for
+T55	Function 18 19	a
+T56	Center 20 23	car
+</div>
+</td></tr></tbody>
+</table>
+
+
 
 <table>
 <tbody><tr><td width="600">
