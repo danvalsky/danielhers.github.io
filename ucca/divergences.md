@@ -2466,6 +2466,124 @@ T55	State 24 26	my
 </td></tr></tbody>
 </table>
 
+### Linker oblique
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-292997-0002
+# text = From the moment you enter the restaurant, you know you are some place special.
+1       From    from    ADP     IN      _       3       case    _  _
+2       the     the     DET     DT      Definite=Def|PronType=Art       3       det     _   _
+3       moment  moment  NOUN    NN      Number=Sing     10      obl     _     _
+4       you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  5       nsubj   _ _
+5       enter   enter   VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        3       acl:relcl       _     _
+6       the     the     DET     DT      Definite=Def|PronType=Art       7       det     _   _
+7       restaurant      restaurant      NOUN    NN      Number=Sing     5       obj     _   SpaceAfter=No
+8       ,       ,       PUNCT   ,       _       10      punct   _        _
+9       you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  10      nsubj   _        _
+10      know    know    VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        0       root    _  _
+11      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  14      nsubj   _        _
+12      are     be      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        14      cop     _  _
+13      some    some    DET     DT      _       14      det     _  _
+14      place   place   NOUN    NN      Number=Sing     10      ccomp   _        _
+15      special special ADJ     JJ      Degree=Pos      14      amod    _ SpaceAfter=No
+16      .       .       PUNCT   .       _       10      punct   _        _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+From the moment you enter the restaurant , you know you are some place special .
+T2	Linker 0 15	From the moment
+T3	ParallelScene 16 40	you enter the restaurant
+T4	ParallelScene 43 80	you know you are some place special .
+T7	Participant 43 46	you
+T8	State 47 51	know
+T9	Participant 52 80	you are some place special .
+T11	Participant 52 55	you
+T12	Function 56 59	are
+T13	Participant 60 80	some place special .
+T14	Elaborator 60 64	some
+T15	Center 65 70	place
+R1	Participant parent:T16 child:T15
+T16	Elaborator 71 80	special .
+T17	State 71 78	special
+T18	Participant 16 19	you
+T19	Process 20 25	enter
+T20	Participant 26 40	the restaurant
+T21	Function 26 29	the
+T22	Center 30 40	restaurant
+T23	Relator 0 4	From
+T24	Function 5 8	the
+T25	Center 9 15	moment
+</div>
+</td></tr></tbody>
+</table>
+
+## Other
+
+### Apposition
+
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-351058-0002
+# text = This place and its sister store Peking Garden are the worst places to order from.
+1       This    this    DET     DT      Number=Sing|PronType=Dem        2       det     _   _
+2       place   place   NOUN    NN      Number=Sing     12      nsubj   _        _
+3       and     and     CCONJ   CC      _       6       cc      _    _
+4       its     its     PRON    PRP$    Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs  6       nmod:poss       _     _
+5       sister  sister  NOUN    NN      Number=Sing     6       compound        _      _
+6       store   store   NOUN    NN      Number=Sing     2       conj    _     _
+7       Peking  Peking  PROPN   NNP     Number=Sing     8       compound        _      _
+8       Garden  Garden  PROPN   NNP     Number=Sing     6       appos   _ _
+9       are     be      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        12      cop     _  _
+10      the     the     DET     DT      Definite=Def|PronType=Art       12      det     _  _
+11      worst   worst   ADJ     JJS     Degree=Sup      12      amod    _ _
+12      places  place   NOUN    NNS     Number=Plur     0       root    _  _
+13      to      to      PART    TO      _       14      mark    _ _
+14      order   order   VERB    VB      VerbForm=Inf    12      acl     _       _
+15      from    from    ADP     IN      _       14      obl     _  SpaceAfter=No
+16      .       .       PUNCT   .       _       12      punct   _        _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+This place and its sister store Peking Garden are the worst places to order from .
+T2	ParallelScene 0 82	This place and its sister store Peking Garden are the worst places to order from .
+T4	Participant 0 45	This place and its sister store Peking Garden
+T5	State 46 49	are
+T6	Participant 50 82	the worst places to order from .
+T7	Elaborator 50 59	the worst
+T8	Center 60 66	places
+R1	Participant parent:T7 child:T8
+R2	Center parent:T12 child:T8
+T9	Elaborator 67 82	to order from .
+T10	Relator 67 69	to
+T11	Process 70 75	order
+T12	Participant 76 82	from .
+T13	Relator 76 80	from
+T14	State 50 59	the worst
+T15	Function 50 53	the
+T16	Center 54 59	worst
+T17	Center 0 10	This place
+T18	Connector 11 14	and
+T19	Center 15 45	its sister store Peking Garden
+T20	Elaborator 15 31	its sister store
+T21	Center 32 45	Peking Garden
+T22	Relator 15 18	its
+T23	State 19 25	sister
+T24	Participant 26 31	store
+T25	Elaborator 0 4	This
+T26	Center 5 10	place
+</div>
+</td></tr></tbody>
+</table>
+
+
 
 
 <table>
