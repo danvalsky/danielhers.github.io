@@ -93,6 +93,7 @@ UD:
 14      .       .       PUNCT   .       _       7       punct   _ _
 </div>
 </td><td width="600">
+UCCA:
 Overall , Joe is a happy camper who has found a great spot .
 T2	Linker 0 7	Overall
 T3	ParallelScene 10 31	Joe is a happy camper
@@ -134,6 +135,7 @@ UD:
 8       .       .       PUNCT   .       _       3       punct   _ _
 </div>
 </td><td width="600">
+UCCA:
 A perfect place for a romantic dinner .
 T2	ParallelScene 0 15	A perfect place
 T3	Linker 16 19	for
@@ -150,7 +152,6 @@ T13	Center 10 15	place
 </td></tr></tbody>
 </table>
 
-
 ### State amod:
 <table>
 <tbody><tr><td width="600">
@@ -163,10 +164,62 @@ UD:
 3       !       !       PUNCT   .       _       2       punct   _ _
 </div>
 </td><td width="600">
+UCCA:
 Beautiful hotel !
 T2	ParallelScene 0 17	Beautiful hotel !
 T4	State 0 9	Beautiful
 T5	Participant 10 15	hotel
+</div>
+</td></tr></tbody>
+</table>
+
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-303922-0005
+# text = Such a convenient location as well with coffee shop and bradley food and beverage right around corner.
+1       Such    such    DET     PDT     _       4       det:predet      _:predet    _
+2       a       a       DET     DT      Definite=Ind|PronType=Art       4       det     _   _
+3       convenient      convenient      ADJ     JJ      Degree=Pos      4       amod    _  _
+4       location        location        NOUN    NN      Number=Sing     0       root    _  _
+5       as      as      ADV     RB      _       4       advmod  _        _
+6       well    well    ADV     RB      Degree=Pos      5       fixed   _ _
+7       with    with    SCONJ   IN      _       9       case    _  _
+8       coffee  coffee  NOUN    NN      Number=Sing     9       compound        _      _
+9       shop    shop    NOUN    NN      Number=Sing     4       nmod    _:with     _
+10      and     and     CCONJ   CC      _       12      cc      1_   _
+11      bradley bradley PROPN   NNP     Number=Sing     12      compound        1_     _
+12      food    food    PROPN   NNP     Number=Sing     9       conj    _:with|_:and  _
+13      and     and     CCONJ   CC      _       14      cc      1_   _
+14      beverage        beverage        PROPN   NNP     Number=Sing     12      conj    1_:and     _
+15      right   right   ADV     RB      _       17      advmod  1_       _
+16      around  around  ADP     IN      _       17      case    1_ _
+17      corner  corner  NOUN    NN      Number=Sing     9       nmod    _:around   SpaceAfter=No
+18      .       .       PUNCT   .       _       4       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+Such a convenient location as well with coffee shop and bradley food and beverage right around corner .
+T2	ParallelScene 0 34	Such a convenient location as well
+T3	Linker 35 39	with
+T4	ParallelScene 40 103	coffee shop and bradley food and beverage right around corner .
+T5	Participant 40 81	coffee shop and bradley food and beverage
+T6	Adverbial 82 87	right
+T7	State 88 94	around
+T8	Participant 95 101	corner
+T10	Center 40 51	coffee shop
+T11	Connector 52 55	and
+T12	Center 56 81	bradley food and beverage
+T13	Elaborator 40 46	coffee
+T14	Center 47 51	shop
+T15	Adverbial 0 4	Such
+T16	Participant 5 6;18 26	a location
+T17	State 7 17	convenient
+T18	Adverbial 27 34	as well
+T19	Function 5 6	a
+T20	Center 18 26	location
 </div>
 </td></tr></tbody>
 </table>
