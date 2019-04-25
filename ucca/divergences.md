@@ -1965,6 +1965,42 @@ T24	Center 4 11	mark up
 </td></tr></tbody>
 </table>
 
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-363685-0020
+# text = If you go later, it's all cleaned up.
+1       If      if      SCONJ   IN      _       3       mark    _  _
+2       you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  3       nsubj   _ _
+3       go      go      VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        9       advcl   _      _
+4       later   later   ADV     RBR     Degree=Cmp      3       advmod  _        SpaceAfter=No
+5       ,       ,       PUNCT   ,       _       9       punct   _ _
+6       it      it      PRON    PRP     Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs  9       nsubj:pass      _    SpaceAfter=No
+7       's      be      AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   9       aux:pass        _      _
+8       all     all     ADV     RB      _       9       advmod  _        _
+9       cleaned clean   VERB    VBN     Tense=Past|VerbForm=Part|Voice=Pass     0       root    _  _
+10      up      up      ADP     RP      _       9       compound:prt    _  SpaceAfter=No
+11      .       .       PUNCT   .       _       9       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+If you go later , it 's all cleaned up .
+T2	Linker 0 2	If
+T3	ParallelScene 3 15	you go later
+T4	ParallelScene 18 40	it 's all cleaned up .
+T6	Participant 18 20	it
+T7	Function 21 23	's
+T8	Adverbial 24 27	all
+T9	Process 28 38	cleaned up
+T10	Participant 3 6	you
+T11	Process 7 9	go
+T12	Time 10 15	later
+</div>
+</td></tr></tbody>
+</table>
+
 ### Participant compound
 
 <table>
