@@ -1078,6 +1078,58 @@ T42	Center 8 13	there
 </td></tr></tbody>
 </table>
 
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-349020-0002
+# text = The night I drove back home, I found that the rear window has some leakage.
+1       The     the     DET     DT      Definite=Def|PronType=Art       2       det     2:det   _
+2       night   night   NOUN    NN      Number=Sing     9       obl:tmod        9:obl:tmod      _
+3       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      4       nsubj   4:nsubj _
+4       drove   drive   VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        2       acl:relcl       2:acl:relcl     _
+5       back    back    ADV     RB      _       6       advmod  6:advmod        _
+6       home    home    ADV     RB      _       4       advmod  4:advmod        SpaceAfter=No
+7       ,       ,       PUNCT   ,       _       9       punct   9:punct _
+8       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      9       nsubj   9:nsubj _
+9       found   find    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    0:root  _
+10      that    that    SCONJ   IN      _       14      mark    14:mark _
+11      the     the     DET     DT      Definite=Def|PronType=Art       13      det     13:det  _
+12      rear    rear    ADJ     JJ      Degree=Pos      13      amod    13:amod _
+13      window  window  NOUN    NN      Number=Sing     14      nsubj   14:nsubj        _
+14      has     have    VERB    VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   9       ccomp   9:ccomp _
+15      some    some    DET     DT      _       16      det     16:det  _
+16      leakage leakage NOUN    NN      Number=Sing     14      obj     14:obj  SpaceAfter=No
+17      .       .       PUNCT   .       _       9       punct   9:punct _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+The night I drove back home , I found that the rear window has some leakage .
+T2	Linker 0 9	The night
+T3	ParallelScene 10 27	I drove back home
+T4	ParallelScene 30 77	I found that the rear window has some leakage .
+T7	Participant 30 31	I
+T8	Process 32 37	found
+T9	Participant 38 77	that the rear window has some leakage .
+T10	Relator 38 42	that
+T11	Participant 43 58	the rear window
+T12	Function 59 62	has
+T13	Adverbial 63 67	some
+T14	Process 68 75	leakage
+T15	Function 43 46	the
+T16	Elaborator 47 51	rear
+T17	Center 52 58	window
+T18	Participant 10 11	I
+T19	Process 12 17	drove
+T20	Adverbial 18 22	back
+T21	Participant 23 27	home
+T22	Function 0 3	The
+T23	Center 4 9	night
+</div>
+</td></tr></tbody>
+</table>
+
 
 
 <table>
