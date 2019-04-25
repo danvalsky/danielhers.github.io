@@ -2817,6 +2817,77 @@ T4	Participant 7 11	Mark
 </table>
 
 
+### Function nsubj (expletive)
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-295288-0006
+# text = Now my cars gears and brakes have never run so well... ever its like driving a new car.
+1       Now     now     ADV     RB      _       10      advmod  _       _
+2       my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      3       nmod:poss       _     _
+3       car     car     NOUN    NN      Number=Sing     5       nmod:poss       _     SpaceAfter=No
+4       s       's      PART    POS     _       3       case    _  _
+5       gears   gear    NOUN    NNS     Number=Plur     10      nsubj   _        _
+6       and     and     CCONJ   CC      _       7       cc      _    _
+7       brakes  brake   NOUN    NNS     Number=Plur     5       conj    _     _
+8       have    have    AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        10      aux     _  _
+9       never   never   ADV     RB      _       10      advmod  _       _
+10      run     run     VERB    VBN     Tense=Past|VerbForm=Part        0       root    _  _
+11      so      so      ADV     RB      _       12      advmod  _       _
+12      well    well    ADV     RB      Degree=Pos      10      advmod  _       SpaceAfter=No
+13      ...     ...     PUNCT   ,       _       10      punct   _        _
+14      ever    ever    ADV     RB      _       10      advmod  _       _
+15      it      it      PRON    PRP     Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs  16      nsubj   _        SpaceAfter=No
+16      s       be      VERB    VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   10      parataxis       _    _
+17      like    like    SCONJ   IN      _       18      mark    _ _
+18      driving drive   VERB    VBG     VerbForm=Ger    16      advcl   _   _
+19      a       a       DET     DT      Definite=Ind|PronType=Art       21      det     _  _
+20      new     new     ADJ     JJ      Degree=Pos      21      amod    _ _
+21      car     car     NOUN    NN      Number=Sing     18      obj     _  SpaceAfter=No
+22      .       .       PUNCT   .       _       10      punct   _        _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Now my car s gears and brakes have never run so well ... ever it s like driving a new car .
+T2	Linker 0 3	Now
+T3	ParallelScene 4 61	my car s gears and brakes have never run so well ... ever
+T4	ParallelScene 62 66;72 91	it s driving a new car .
+T5	Linker 67 71	like
+T7	Participant 62 64	it
+T8	Function 65 66	s
+T9	Process 72 79	driving
+T10	Participant 80 91	a new car .
+T11	Function 80 81	a
+T12	Elaborator 82 85	new
+T13	Center 86 89	car
+R1	Participant parent:T12 child:T13
+T14	State 82 85	new
+T15	Participant 4 29	my car s gears and brakes
+T16	Function 30 34	have
+T17	Time 35 40	never
+T18	Process 41 44	run
+T19	Adverbial 45 52	so well
+T20	Ground 57 61	ever
+T22	Elaborator 45 47	so
+T23	Center 48 52	well
+T24	Elaborator 4 12	my car s
+T25	Center 13 29	gears and brakes
+T26	Center 13 18	gears
+T27	Connector 19 22	and
+T28	Center 23 29	brakes
+T29	Elaborator 4 6	my
+T30	Center 7 10	car
+R2	Participant parent:T29 child:T30
+T31	Relator 11 12	s
+T32	State 4 6	my
+</div>
+</td></tr></tbody>
+</table>
+
+
 
 <!-- ([\d_]+(:\w+)+\|?)+ -->
 
