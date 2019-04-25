@@ -2583,7 +2583,7 @@ T26	Center 5 10	place
 </td></tr></tbody>
 </table>
 
-### Copula expressing identity
+### State copula (expressing identity)
 
 
 <table>
@@ -2657,6 +2657,50 @@ T34	Center 12 20	original
 </div>
 </td></tr></tbody>
 </table>
+
+### Function copula (expressing _tion/location)
+
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-063347-0003
+# text = Excellent chefs are in the kitchen preparing memorable breakfasts.
+1       Excellent       excellent       ADJ     JJ      Degree=Pos      2       amod    2:amod  _
+2       chefs   chef    NOUN    NNS     Number=Plur     6       nsubj   6:nsubj _
+3       are     be      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        6       cop     6:cop   _
+4       in      in      ADP     IN      _       6       case    6:case  _
+5       the     the     DET     DT      Definite=Def|PronType=Art       6       det     6:det   _
+6       kitchen kitchen NOUN    NN      Number=Sing     0       root    0:root  _
+7       preparing       prepare VERB    VBG     VerbForm=Ger    2       acl     2:acl   _
+8       memorable       memorable       ADJ     JJ      Degree=Pos      9       amod    9:amod  _
+9       breakfasts      breakfast       NOUN    NNS     Number=Plur     7       obj     7:obj   SpaceAfter=No
+10      .       .       PUNCT   .       _       6       punct   6:punct _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Excellent chefs are in the kitchen preparing memorable breakfasts .
+T2	ParallelScene 0 34	Excellent chefs are in the kitchen
+T3	ParallelScene 35 67	preparing memorable breakfasts .
+T5	Process 35 44	preparing
+T6	Participant 45 67	memorable breakfasts .
+T7	Adverbial 45 54	memorable
+T8	Process 55 65	breakfasts
+T9	Adverbial 0 9	Excellent
+T10	Process|Participant 10 15	chefs
+R1	Participant parent:T3 child:T10
+T11	Function 16 19	are
+T12	Participant 20 34	in the kitchen
+T13	Relator 20 22	in
+T14	Function 23 26	the
+T15	Center 27 34	kitchen
+</div>
+</td></tr></tbody>
+</table>
+
+
 
 
 <table>
