@@ -466,7 +466,7 @@ UD:
 4       s       's      PART    POS     _       3       case    _  _
 5       gears   gear    NOUN    NNS     Number=Plur     10      nsubj   _        _
 6       and     and     CCONJ   CC      _       7       cc      _    _
-7       brakes  brake   NOUN    NNS     Number=Plur     5       conj    __     _
+7       brakes  brake   NOUN    NNS     Number=Plur     5       conj    _     _
 8       have    have    AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        10      aux     _  _
 9       never   never   ADV     RB      _       10      advmod  _       _
 10      run     run     VERB    VBN     Tense=Past|VerbForm=Part        0       root    _  _
@@ -533,7 +533,7 @@ UD:
 2       of      of      ADP     IN      _       5       case    _  _
 3       the     the     DET     DT      Definite=Def|PronType=Art       5       det     _   _
 4       younger younger ADJ     JJR     Degree=Cmp      5       amod    _  _
-5       kids    kid     NOUN    NNS     Number=Plur     1       nmod    __       _
+5       kids    kid     NOUN    NNS     Number=Plur     1       nmod    _       _
 6       that    that    PRON    WDT     PronType=Rel    7       nsubj   _   _
 7       work    work    VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        5       acl:relcl       _     _
 8       there   there   ADV     RB      PronType=Dem    7       advmod  _        _
