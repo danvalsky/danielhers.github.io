@@ -930,6 +930,46 @@ T9	State 0 8	Outdated
 </td></tr></tbody>
 </table>
 
+### Elaborator det
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-071650-0013
+# text = I will never recommend this gym to any woman.
+1       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      4       nsubj   _ _
+2       will    will    AUX     MD      VerbForm=Fin    4       aux     _   _
+3       never   never   ADV     RB      _       4       advmod  _        _
+4       recommend       recommend       VERB    VB      VerbForm=Inf    0       root    _  _
+5       this    this    DET     DT      Number=Sing|PronType=Dem        6       det     _   _
+6       gym     gym     NOUN    NN      Number=Sing     4       obj     _   _
+7       to      to      ADP     IN      _       9       case    _  _
+8       any     any     DET     DT      _       9       det     _   _
+9       woman   woman   NOUN    NN      Number=Sing     4       obl     _        SpaceAfter=No
+10      .       .       PUNCT   .       _       4       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+I will never recommend this gym to any woman .
+T2	ParallelScene 0 46	I will never recommend this gym to any woman .
+T4	Participant 0 1	I
+T5	Function 2 6	will
+T6	Adverbial|Time 7 12	never
+T7	Process 13 22	recommend
+T8	Participant 23 31	this gym
+T9	Participant 32 46	to any woman .
+T10	Relator 32 34	to
+T11	Elaborator 35 38	any
+T12	Center 39 44	woman
+T13	Elaborator 23 27	this
+T14	Center 28 31	gym
+</div>
+</td></tr></tbody>
+</table>
+
+
 
 
 <table>
