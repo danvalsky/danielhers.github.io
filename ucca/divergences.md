@@ -1553,6 +1553,118 @@ T37	Function 9 11	to
 </table>
 
 
+### State xcomp
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-254908-0002
+# text = The price they gave was good so I said hey this seems great.
+1       The     the     DET     DT      Definite=Def|PronType=Art       2       det     _   _
+2       price   price   NOUN    NN      Number=Sing     6       nsubj   _ _
+3       they    they    PRON    PRP     Case=Nom|Number=Plur|Person=3|PronType=Prs      4       nsubj   _ _
+4       gave    give    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        2       acl:relcl       _     _
+5       was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin   6       cop     _   _
+6       good    good    ADJ     JJ      Degree=Pos      0       root    _  _
+7       so      so      ADV     RB      _       9       mark    _  _
+8       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      9       nsubj   _ _
+9       said    say     VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        6       advcl   _      _
+10      hey     hey     INTJ    UH      _       12      discourse       _    _
+11      this    this    PRON    DT      Number=Sing|PronType=Dem        12      nsubj   _ _
+12      seems   seem    VERB    VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   9       ccomp   _ _
+13      great   great   ADJ     JJ      Degree=Pos      12      xcomp   _        SpaceAfter=No
+14      .       .       PUNCT   .       _       6       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+The price they gave was good so I said hey this seems great .
+T2	ParallelScene 0 28	The price they gave was good
+T3	Linker 29 31	so
+T4	ParallelScene 32 61	I said hey this seems great .
+T6	Participant 32 33	I
+T7	Process 34 38	said
+T8	Participant 39 61	hey this seems great .
+T9	Function 39 42	hey
+T10	Participant 43 47	this
+T11	Ground 48 53	seems
+T12	State 54 59	great
+T13	Participant 0 19	The price they gave
+T14	Function 20 23	was
+T15	State 24 28	good
+T16	Function 0 3	The
+T17	Center 4 9	price
+R1	Participant parent:T18 child:T17
+T18	Elaborator 10 19	they gave
+T19	Participant 10 14	they
+T20	Process 15 19	gave
+</div>
+</td></tr></tbody>
+</table>
+
+
+### Function aux
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-105518-0004
+# text = If you are on the lookout for a pure breed pup don't forget to check out the shelters!
+1       If      if      SCONJ   IN      _       6       mark    _  _
+2       you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  6       nsubj   _ _
+3       are     be      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        6       cop     _   _
+4       on      on      ADP     IN      _       6       case    _  _
+5       the     the     DET     DT      Definite=Def|PronType=Art       6       det     _   _
+6       lookout lookout NOUN    NN      Number=Sing     14      advcl   _     _
+7       for     for     ADP     IN      _       11      case    _ _
+8       a       a       DET     DT      Definite=Ind|PronType=Art       11      det     _  _
+9       pure    pure    ADJ     JJ      Degree=Pos      10      amod    _ _
+10      breed   breed   NOUN    NN      Number=Sing     11      compound        _     _
+11      pup     pup     NOUN    NN      Number=Sing     6       nmod    _      _
+12      do      do      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        14      aux     _  SpaceAfter=No
+13      n't     not     PART    RB      _       14      advmod  _       _
+14      forget  forget  VERB    VB      Mood=Imp|VerbForm=Fin   0       root    _  _
+15      to      to      PART    TO      _       16      mark    _ _
+16      check   check   VERB    VB      VerbForm=Inf    14      xcomp   _        _
+17      out     out     ADP     RP      _       16      compound:prt    _ _
+18      the     the     DET     DT      Definite=Def|PronType=Art       19      det     _  _
+19      shelters        shelter NOUN    NNS     Number=Plur     16      obj     _  SpaceAfter=No
+20      !       !       PUNCT   .       _       14      punct   _        _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+If you are on the lookout for a pure breed pup do n't forget to check out the shelters !
+T2	Linker 0 2	If
+T3	ParallelScene 3 46	you are on the lookout for a pure breed pup
+T4	ParallelScene 47 88	do n't forget to check out the shelters !
+T6	Function 47 49	do
+T7	Adverbial 50 53	n't
+T8	Adverbial 54 60	forget
+T9	Function 61 63	to
+T10	Process 64 73	check out
+T11	Participant 74 88	the shelters !
+T12	Function 74 77	the
+T13	Center 78 86	shelters
+T14	Participant 3 6	you
+R1	Participant parent:T4 child:T14
+T15	Function 7 10	are
+T16	Process 11 25	on the lookout
+T17	Participant 26 46	for a pure breed pup
+T18	Relator 26 29	for
+T19	Function 30 31	a
+T20	Elaborator 32 42	pure breed
+T21	Center 43 46	pup
+T22	Elaborator 32 36	pure
+T23	Center 37 42	breed
+</div>
+</td></tr></tbody>
+</table>
+
+
+
 
 <table>
 <tbody><tr><td width="600">
