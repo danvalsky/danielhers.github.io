@@ -1906,6 +1906,124 @@ T36	Center 4 11	service
 </td></tr></tbody>
 </table>
 
+### Unmatched compound
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-081796-0005
+# text = The mark up is minimal considering that the clothing is hard to find and often shipped for Europe.
+1       The     the     DET     DT      Definite=Def|PronType=Art       3       det     _   _
+2       mark    mark    NOUN    NN      Number=Sing     3       compound        _      _
+3       up      up      NOUN    NN      Number=Sing     5       nsubj   _ _
+4       is      be      AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   5       cop     _   _
+5       minimal minimal ADJ     JJ      Degree=Pos      0       root    _  _
+6       considering     consider        VERB    VBG     VerbForm=Ger    5       advcl   _ _
+7       that    that    SCONJ   IN      _       11      mark    _ _
+8       the     the     DET     DT      Definite=Def|PronType=Art       9       det     _   _
+9       clothing        clothing        NOUN    NN      Number=Sing     11      nsubj:pass      _     _
+10      is      be      VERB    VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   11      aux:pass        _     _
+11      hard    hard    ADJ     JJ      Degree=Pos      6       ccomp   _ _
+12      to      to      PART    TO      _       13      mark    _ _
+13      find    find    VERB    VB      VerbForm=Inf    11      ccomp   _        _
+14      and     and     CCONJ   CC      _       16      cc      _   _
+15      often   often   ADV     RB      _       16      advmod  _       _
+16      shipped ship    VERB    VBN     Tense=Past|VerbForm=Part        11      conj    _     _
+17      for     for     ADP     IN      _       18      case    _ _
+18      Europe  Europe  PROPN   NNP     Number=Sing     16      obl     _      SpaceAfter=No
+19      .       .       PUNCT   .       _       5       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+The mark up is minimal considering that the clothing is hard to find and often shipped for Europe .
+T2	ParallelScene 0 22	The mark up is minimal
+T3	Linker 23 39	considering that
+T4	ParallelScene 40 68	the clothing is hard to find
+T5	Linker 69 72	and
+T6	ParallelScene 73 99	often shipped for Europe .
+T8	Time 73 78	often
+T9	Process 79 86	shipped
+T10	Participant 87 99	for Europe .
+T11	Relator 87 90	for
+T12	Center 91 97	Europe
+T13	Participant 40 52	the clothing
+T14	Function 53 55	is
+T15	Adverbial 56 60	hard
+T16	Function 61 63	to
+T17	Process 64 68	find
+T18	Function 40 43	the
+T19	Center 44 52	clothing
+R1	Participant parent:T6 child:T19
+T20	Process 0 11	The mark up
+T21	Function 12 14	is
+T22	Adverbial 15 22	minimal
+T23	Function 0 3	The
+T24	Center 4 11	mark up
+</div>
+</td></tr></tbody>
+</table>
+
+### Participant compound
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-247097-0003
+# text = Before treatment, my food cravings were "out of control" which caused me to be stressed out.
+1       Before  before  ADP     IN      _       2       case    _  _
+2       treatment       treatment       NOUN    NN      Number=Sing     11      obl     _   SpaceAfter=No
+3       ,       ,       PUNCT   ,       _       11      punct   _        _
+4       my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      6       nmod:poss       _     _
+5       food    food    NOUN    NN      Number=Sing     6       compound        _      _
+6       cravings        craving NOUN    NNS     Number=Plur     11      nsubj   _        _
+7       were    be      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        11      cop     _  _
+8       "       "       PUNCT   ``      _       11      punct   _        SpaceAfter=No
+9       out     out     ADP     IN      _       11      case    _ _
+10      of      of      ADP     IN      _       11      case    _ _
+11      control control NOUN    NN      Number=Sing     0       root    _  SpaceAfter=No
+12      "       "       PUNCT   ''      _       11      punct   _        _
+13      which   which   PRON    WDT     PronType=Int    14      nsubj   _        _
+14      caused  cause   VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        11      parataxis       _    _
+15      me      I       PRON    PRP     Case=Acc|Number=Sing|Person=1|PronType=Prs      14      obj     _   _
+16      to      to      PART    TO      _       18      mark    _ _
+17      be      be      AUX     VB      VerbForm=Inf    18      aux:pass        _     _
+18      stressed        stress  VERB    VBN     Tense=Past|VerbForm=Part        14      xcomp   _        _
+19      out     out     ADP     RP      _       18      compound:prt    _ SpaceAfter=No
+20      .       .       PUNCT   .       _       11      punct   _        _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Before treatment , my food cravings were " out of control " which caused me to be stressed out .
+T2	Linker 0 6	Before
+T3	ParallelScene 7 16	treatment
+T4	ParallelScene 19 57	my food cravings were " out of control
+T5	Linker 60 65	which
+T6	ParallelScene 66 96	caused me to be stressed out .
+T10	Adverbial 66 72	caused
+T11	Participant 73 75	me
+T12	Function 76 78	to
+T13	State 79 96	be stressed out .
+T14	Function 79 81	be
+T15	Center 82 94	stressed out
+T16	Participant 19 35	my food cravings
+T17	Function 36 40	were
+T18	State 43 57	out of control
+T20	Function 43 46	out
+T21	Relator 47 49	of
+T22	Center 50 57	control
+T23	Participant 19 21	my
+T24	Participant 22 26	food
+T25	Process 27 35	cravings
+R1	Participant parent:T6 child:T25
+T26	Process 7 16	treatment
+</div>
+</td></tr></tbody>
+</table>
+
 
 
 <table>
