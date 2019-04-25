@@ -225,6 +225,95 @@ T20	Center 18 26	location
 </table>
 
 
+### Elaborator amod:
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-071650-0007
+# text = Back to my poor rating - I was excepted to medical school and went in to cancel my membership as I was told I could do since I was moving away.
+1       Back    back    ADV     RB      _       0       root    0:root  _
+2       to      to      ADP     IN      _       5       case    5:case  _
+3       my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      5       nmod:poss       5:nmod:poss     _
+4       poor    poor    ADJ     JJ      Degree=Pos      5       amod    5:amod  _
+5       rating  rating  NOUN    NN      Number=Sing     1       obl     1:obl:to        _
+6       -       -       PUNCT   ,       _       1       punct   1:punct _
+7       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      9       nsubj:pass      9:nsubj:pass|14:nsubj:pass      _
+8       was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin   9       aux:pass        9:aux:pass      _
+9       excepted        accept  VERB    VBN     Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass    1       parataxis       1:parataxis     _
+10      to      to      ADP     IN      _       12      case    12:case _
+11      medical medical ADJ     JJ      Degree=Pos      12      amod    12:amod _
+12      school  school  NOUN    NN      Number=Sing     9       obl     9:obl:to        _
+13      and     and     CCONJ   CC      _       14      cc      14:cc   _
+14      went    go      VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        9       conj    9:conj:and      _
+15      in      in      ADV     RB      _       14      advmod  14:advmod       _
+16      to      to      PART    TO      _       17      mark    17:mark _
+17      cancel  cancel  VERB    VB      VerbForm=Inf    14      advcl   14:advcl:to     _
+18      my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      19      nmod:poss       19:nmod:poss    _
+19      membership      membership      NOUN    NN      Number=Sing     17      obj     17:obj  _
+20      as      as      SCONJ   IN      _       23      mark    23:mark _
+21      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      23      nsubj:pass      23:nsubj:pass   _
+22      was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin   23      aux:pass        23:aux:pass     _
+23      told    tell    VERB    VBN     Tense=Past|VerbForm=Part|Voice=Pass     17      advcl   17:advcl:as     _
+24      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      26      nsubj   26:nsubj        _
+25      could   could   AUX     MD      VerbForm=Fin    26      aux     26:aux  _
+26      do      do      VERB    VB      VerbForm=Inf    23      ccomp   23:ccomp        _
+27      since   since   SCONJ   IN      _       30      mark    30:mark _
+28      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      30      nsubj   30:nsubj        _
+29      was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin   30      aux     30:aux  _
+30      moving  move    VERB    VBG     Tense=Pres|VerbForm=Part        23      ccomp   23:ccomp        _
+31      away    away    ADV     RB      _       30      advmod  30:advmod       SpaceAfter=No
+32      .       .       PUNCT   .       _       1       punct   1:punct _
+</div>
+</td><td width="600">
+UCCA:
+Back to my poor rating - I was excepted to medical school and went in to cancel my membership as I was told I could do since I was moving away .
+T2	ParallelScene 0 22	Back to my poor rating
+T3	ParallelScene 25 57	I was excepted to medical school
+T4	Linker 58 61	and
+T5	ParallelScene 62 93	went in to cancel my membership
+T6	Linker 94 96	as
+T7	ParallelScene 97 118	I was told I could do
+T8	Linker 119 124	since
+T9	ParallelScene 125 144	I was moving away .
+T12	Participant 125 126	I
+T13	Function 127 130	was
+T14	Process 131 137	moving
+T15	Adverbial 138 142	away
+T16	Participant 97 98	I
+T17	Function 99 102	was
+T18	Process 103 107	told
+T19	Participant 108 118	I could do
+T20	Participant 108 109	I
+T21	Adverbial 110 115	could
+T22	Process 116 118	do
+T24	Process 62 66	went
+T25	Participant 67 69	in
+T26	Participant 70 93	to cancel my membership
+T27	Function 70 72	to
+T28	Process 73 79	cancel
+T29	Participant 80 93	my membership
+T30	Participant 80 82	my
+T31	State 83 93	membership
+T33	Relator 67 69	in
+T34	Participant 25 26	I
+R1	Participant parent:T26 child:T34
+T35	Function 27 30	was
+T36	Process 31 39	excepted
+T37	Participant 40 57	to medical school
+T38	Relator 40 42	to
+T39	Elaborator 43 50	medical
+T40	Center 51 57	school
+T41	Adverbial 0 4	Back
+T42	Function 5 7	to
+T43	Participant 8 10	my
+T44	Adverbial 11 15	poor
+T45	Process 16 22	rating
+</div>
+</td></tr></tbody>
+</table>
+
+
 ## General
 
 <table>
