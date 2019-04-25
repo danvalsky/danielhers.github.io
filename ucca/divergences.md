@@ -14,8 +14,6 @@ This page provides detailed examples to accompany the following <a href="../dive
       year      = {2019}
     }
 
-The full content will be available soon.
-
 ## Scene/Non-Scene
 ### Participant nsubj:
 <table>
@@ -597,7 +595,6 @@ T34	Relator 5 7	of
 
 
 ### Unmatched acl
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -632,7 +629,6 @@ T12	Center 4 10	prices
 </table>
 
 ### Relator case
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -687,7 +683,6 @@ T23	Center 12 27	Bradley Chevron
 </table>
 
 ### Linker case
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -725,7 +720,6 @@ T13	Center 44 48	work
 </table>
 
 ### Elaborator case
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -783,7 +777,6 @@ T25	Center 16 18	us
 </table>
 
 ### State case
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -860,7 +853,6 @@ T34	Center 30 36	bustle
 </table>
 
 ### Connector cc
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -904,7 +896,6 @@ T16	Center 13 16	Dan
 </table>
 
 ### Linker cc
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -931,7 +922,6 @@ T9	State 0 8	Outdated
 </table>
 
 ### Elaborator det
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -971,7 +961,6 @@ T14	Center 28 31	gym
 
 
 ### Adverbial det
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -1131,9 +1120,7 @@ T23	Center 4 9	night
 </table>
 
 ## Primary/Secondary Relations
-
 ### Adverbial advmod
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -1185,7 +1172,6 @@ T21	Center 25 30	store
 </table>
 
 ### Participant advmod
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -1216,7 +1202,6 @@ T8	Adverbial 23 28	again
 </table>
 
 ### Adverbial obl
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -1244,7 +1229,6 @@ T7	Adverbial 20 26	by far
 </table>
 
 ### Participant csubj
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -1305,7 +1289,6 @@ T25	Process 44 51	service
 </table>
 
 ### Participant ccomp
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -1420,7 +1403,6 @@ T56	Center 20 23	car
 </table>
 
 ### Participant xcomp
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -1471,7 +1453,6 @@ T20	Participant 23 25	it
 </table>
 
 ### Unmatched xcomp
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -1554,7 +1535,6 @@ T37	Function 9 11	to
 
 
 ### State xcomp
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -1603,9 +1583,7 @@ T20	Process 15 19	gave
 </td></tr></tbody>
 </table>
 
-
 ### Function aux
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -1664,7 +1642,6 @@ T23	Center 37 42	breed
 </table>
 
 ### Adverbial aux
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -1746,9 +1723,7 @@ T37	Function 9 11	to
 </table>
 
 ## Multi-Word Expressions
-
 ### Elaborator compound
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -1907,7 +1882,6 @@ T36	Center 4 11	service
 </table>
 
 ### Unmatched compound
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2002,7 +1976,6 @@ T12	Time 10 15	later
 </table>
 
 ### Participant compound
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2061,8 +2034,6 @@ T26	Process 7 16	treatment
 </table>
 
 ### Adverbial compound
-
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2124,8 +2095,6 @@ T27	Center 11 15	time
 
 
 ### Unmatched obj
-
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2183,8 +2152,6 @@ T9	State 8 13	great
 </table>
 
 ### Unmatched advcl
-
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2245,9 +2212,7 @@ T25	Center 14 17	mom
 </table>
 
 ## Linkage
-
 ### Head selection
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2274,7 +2239,6 @@ T7	Center 17 22	cards
 </table>
 
 ### Parallel Scene advcl
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2317,7 +2281,6 @@ T16	Center 14 23	companies
 </table>
 
 ### Parallel Scene parataxis
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2355,7 +2318,6 @@ T14	Center 14 27	Willow Lounge
 </table>
 
 ### Linker wh-pronoun
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2467,7 +2429,6 @@ T55	State 24 26	my
 </table>
 
 ### Linker oblique
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2522,10 +2483,7 @@ T25	Center 9 15	moment
 </table>
 
 ## Other
-
 ### Apposition
-
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2584,8 +2542,6 @@ T26	Center 5 10	place
 </table>
 
 ### State copula (expressing identity)
-
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2659,8 +2615,6 @@ T34	Center 12 20	original
 </table>
 
 ### Function copula (expressing _tion/location)
-
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2702,8 +2656,6 @@ T15	Center 27 34	kitchen
 
 
 ### Ground discourse
-
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2794,7 +2746,6 @@ T22	State 13 15	my
 
 
 ### Ground + Participant vocative
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2818,7 +2769,6 @@ T4	Participant 7 11	Mark
 
 
 ### Function nsubj (expletive)
-
 <table>
 <tbody><tr><td width="600">
 UD:
@@ -2893,7 +2843,6 @@ T32	State 4 6	my
 
 
 ## General
-
 <table>
 <tbody><tr><td width="600">
 </td><td width="600">
