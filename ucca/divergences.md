@@ -15,7 +15,7 @@ This page provides detailed examples to accompany the following <a href="../dive
     }
 
 ## Scene/Non-Scene
-### Participant nsubj:
+### Participant nsubj
 <table id="305187-0005">
 <tbody><tr><td width="600">
 UD:
@@ -39,7 +39,7 @@ T6	State 9 18	excellent
 </td></tr></tbody>
 </table>
 
-### Process nsubj:
+### Process nsubj
 <table id="079007-0002">
 <tbody><tr><td width="600">
 UD:
@@ -68,7 +68,7 @@ T10	Center 20 24	poor
 </td></tr></tbody>
 </table>
 
-### Linker nsubj:
+### Linker nsubj
 <table id="295491-0007">
 <tbody><tr><td width="1200">
 UD:
@@ -117,7 +117,7 @@ T20	Center 25 31	camper
 </td></tr></tbody>
 </table>
 
-### Adverbial amod:
+### Adverbial amod
 <table id="305187-0007">
 <tbody><tr><td width="600">
 UD:
@@ -152,7 +152,7 @@ T13	Center 10 15	place
 </td></tr></tbody>
 </table>
 
-### State amod:
+### State amod
 <table id="073356-0001">
 <tbody><tr><td width="600">
 UD:
@@ -227,7 +227,7 @@ T20	Center 18 26	location
 </table>
 
 
-### Elaborator amod:
+### Elaborator amod
 <table id="071650-0007">
 <tbody><tr><td width="600">
 UD:
@@ -317,7 +317,7 @@ T45	Process 16 22	rating
 </table>
 
 
-### Participant nmod:
+### Participant nmod
 <table id="247226-0005">
 <tbody><tr><td width="600">
 UD:
@@ -451,7 +451,7 @@ T36	Relator 10 12	's
 </td></tr></tbody>
 </table>
 
-### Elaborator nmod/acl:
+### Elaborator nmod/acl
 <table id="295288-0006">
 <tbody><tr><td width="600">
 UD:
