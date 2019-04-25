@@ -2244,6 +2244,36 @@ T25	Center 14 17	mom
 </td></tr></tbody>
 </table>
 
+## Linkage
+
+### Head selection
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-052884-0001
+# text = unique gifts and cards
+1       unique  unique  ADJ     JJ      Degree=Pos      2       amod    _  _
+2       gifts   gift    NOUN    NNS     Number=Plur     0       root    _  _
+3       and     and     CCONJ   CC      _       4       cc      _    _
+4       cards   card    NOUN    NNS     Number=Plur     2       conj    _      _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+unique gifts and cards
+T2	ParallelScene 0 22	unique gifts and cards
+T3	State 0 6	unique
+T4	Participant 7 22	gifts and cards
+T5	Center 7 12	gifts
+T6	Connector 13 16	and
+T7	Center 17 22	cards
+</div>
+</td></tr></tbody>
+</table>
+
+
 
 <table>
 <tbody><tr><td width="600">
