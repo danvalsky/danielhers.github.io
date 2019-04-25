@@ -83,13 +83,13 @@ UD:
 4       is      be      AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   7       cop     _   _
 5       a       a       DET     DT      Definite=Ind|PronType=Art       7       det     _   _
 6       happy   happy   ADJ     JJ      Degree=Pos      7       amod    _  _
-7       camper  camper  NOUN    NN      Number=Sing     0       root    1_        _
+7       camper  camper  NOUN    NN      Number=Sing     0       root    _        _
 8       who     who     PRON    WP      PronType=Rel    10      nsubj   _   _
-9       has     have    AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   10      aux     1_  _
+9       has     have    AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   10      aux     _  _
 10      found   find    VERB    VBN     Tense=Past|VerbForm=Part        7       acl:relcl       _     _
-11      a       a       DET     DT      Definite=Ind|PronType=Art       13      det     1_  _
-12      great   great   ADJ     JJ      Degree=Pos      13      amod    1_ _
-13      spot    spot    NOUN    NN      Number=Sing     10      obj     1_  SpaceAfter=No
+11      a       a       DET     DT      Definite=Ind|PronType=Art       13      det     _  _
+12      great   great   ADJ     JJ      Degree=Pos      13      amod    _ _
+13      spot    spot    NOUN    NN      Number=Sing     10      obj     _  SpaceAfter=No
 14      .       .       PUNCT   .       _       7       punct   _ _
 </div>
 </td><td width="600">
@@ -192,13 +192,13 @@ UD:
 7       with    with    SCONJ   IN      _       9       case    _  _
 8       coffee  coffee  NOUN    NN      Number=Sing     9       compound        _      _
 9       shop    shop    NOUN    NN      Number=Sing     4       nmod    _     _
-10      and     and     CCONJ   CC      _       12      cc      1_   _
-11      bradley bradley PROPN   NNP     Number=Sing     12      compound        1_     _
+10      and     and     CCONJ   CC      _       12      cc      _   _
+11      bradley bradley PROPN   NNP     Number=Sing     12      compound        _     _
 12      food    food    PROPN   NNP     Number=Sing     9       conj    _  _
-13      and     and     CCONJ   CC      _       14      cc      1_   _
+13      and     and     CCONJ   CC      _       14      cc      _   _
 14      beverage        beverage        PROPN   NNP     Number=Sing     12      conj    _     _
-15      right   right   ADV     RB      _       17      advmod  1_       _
-16      around  around  ADP     IN      _       17      case    1_ _
+15      right   right   ADV     RB      _       17      advmod  _       _
+16      around  around  ADP     IN      _       17      case    _ _
 17      corner  corner  NOUN    NN      Number=Sing     9       nmod    _   SpaceAfter=No
 18      .       .       PUNCT   .       _       4       punct   _ _
 </div>
@@ -245,28 +245,28 @@ UD:
 7       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      9       nsubj:pass      _      _
 8       was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin   9       aux:pass        _      _
 9       excepted        accept  VERB    VBN     Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass    1       parataxis       _     _
-10      to      to      ADP     IN      _       12      case    1_ _
-11      medical medical ADJ     JJ      Degree=Pos      12      amod    1_ _
+10      to      to      ADP     IN      _       12      case    _ _
+11      medical medical ADJ     JJ      Degree=Pos      12      amod    _ _
 12      school  school  NOUN    NN      Number=Sing     9       obl     _        _
-13      and     and     CCONJ   CC      _       14      cc      1_   _
+13      and     and     CCONJ   CC      _       14      cc      _   _
 14      went    go      VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        9       conj    _      _
-15      in      in      ADV     RB      _       14      advmod  1_       _
-16      to      to      PART    TO      _       17      mark    1_ _
+15      in      in      ADV     RB      _       14      advmod  _       _
+16      to      to      PART    TO      _       17      mark    _ _
 17      cancel  cancel  VERB    VB      VerbForm=Inf    14      advcl   _     _
 18      my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      19      nmod:poss       _    _
-19      membership      membership      NOUN    NN      Number=Sing     17      obj     1_  _
-20      as      as      SCONJ   IN      _       23      mark    2_ _
+19      membership      membership      NOUN    NN      Number=Sing     17      obj     _  _
+20      as      as      SCONJ   IN      _       23      mark    _ _
 21      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      23      nsubj:pass      _   _
 22      was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin   23      aux:pass        _     _
 23      told    tell    VERB    VBN     Tense=Past|VerbForm=Part|Voice=Pass     17      advcl   _     _
-24      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      26      nsubj   2_        _
-25      could   could   AUX     MD      VerbForm=Fin    26      aux     2_  _
-26      do      do      VERB    VB      VerbForm=Inf    23      ccomp   2_        _
-27      since   since   SCONJ   IN      _       30      mark    3_ _
-28      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      30      nsubj   3_        _
-29      was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin   30      aux     3_  _
-30      moving  move    VERB    VBG     Tense=Pres|VerbForm=Part        23      ccomp   2_        _
-31      away    away    ADV     RB      _       30      advmod  3_       SpaceAfter=No
+24      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      26      nsubj   _        _
+25      could   could   AUX     MD      VerbForm=Fin    26      aux     _  _
+26      do      do      VERB    VB      VerbForm=Inf    23      ccomp   _        _
+27      since   since   SCONJ   IN      _       30      mark    _ _
+28      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      30      nsubj   _        _
+29      was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin   30      aux     _  _
+30      moving  move    VERB    VBG     Tense=Pres|VerbForm=Part        23      ccomp   _        _
+31      away    away    ADV     RB      _       30      advmod  _       SpaceAfter=No
 32      .       .       PUNCT   .       _       1       punct   _ _
 </div>
 </td><td width="600">
@@ -335,14 +335,14 @@ UD:
 7       told    tell    VERB    VBN     Tense=Past|VerbForm=Part|Voice=Pass     0       root    _  _
 8       you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  9       nsubj   _ _
 9       get     get     VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        7       ccomp   _ _
-10      a       a       DET     DT      Definite=Ind|PronType=Art       11      det     1_  _
+10      a       a       DET     DT      Definite=Ind|PronType=Art       11      det     _  _
 11      discount        discount        NOUN    NN      Number=Sing     9       obj     _   _
-12      on      on      ADP     IN      _       13      case    1_ _
+12      on      on      ADP     IN      _       13      case    _ _
 13      services        service NOUN    NNS     Number=Plur     11      nmod    _      _
-14      nope    nope    INTJ    UH      _       16      discourse       1_    _
-15      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  16      nsubj   1_        _
+14      nope    nope    INTJ    UH      _       16      discourse       _    _
+15      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  16      nsubj   _        _
 16      do      do      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        7       parataxis       _     SpaceAfter=No
-17      nt      not     PART    RB      _       16      advmod  1_       SpaceAfter=No
+17      nt      not     PART    RB      _       16      advmod  _       SpaceAfter=No
 18      .       .       PUNCT   .       _       7       punct   _ _
 </div>
 </td><td width="600">
@@ -386,30 +386,30 @@ UD:
 # text = Stephanie's knowledge of the market and properties in our price range, made us feel secure in our decision to buy when we did.
 1       Stephanie       Stephanie       PROPN   NNP     Number=Sing     3       nmod:poss       _     SpaceAfter=No
 2       's      's      PART    POS     _       1       case    _  _
-3       knowledge       knowledge       NOUN    NN      Number=Sing     14      nsubj   1_        _
+3       knowledge       knowledge       NOUN    NN      Number=Sing     14      nsubj   _        _
 4       of      of      ADP     IN      _       6       case    _  _
 5       the     the     DET     DT      Definite=Def|PronType=Art       6       det     _   _
 6       market  market  NOUN    NN      Number=Sing     3       nmod    _       _
 7       and     and     CCONJ   CC      _       8       cc      _    _
 8       properties      property        NOUN    NNS     Number=Plur     6       conj    _    _
-9       in      in      ADP     IN      _       12      case    1_ _
+9       in      in      ADP     IN      _       12      case    _ _
 10      our     we      PRON    PRP$    Number=Plur|Person=1|Poss=Yes|PronType=Prs      12      nmod:poss       _    _
-11      price   price   NOUN    NN      Number=Sing     12      compound        1_     _
+11      price   price   NOUN    NN      Number=Sing     12      compound        _     _
 12      range   range   NOUN    NN      Number=Sing     8       nmod    _       SpaceAfter=No
-13      ,       ,       PUNCT   ,       _       14      punct   1_        _
+13      ,       ,       PUNCT   ,       _       14      punct   _        _
 14      made    make    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    _  _
-15      us      we      PRON    PRP     Case=Acc|Number=Plur|Person=1|PronType=Prs      14      obj     1_  _
-16      feel    feel    VERB    VB      VerbForm=Inf    15      xcomp   1_        _
-17      secure  secure  ADJ     JJ      Degree=Pos      16      xcomp   1_        _
-18      in      in      ADP     IN      _       20      case    2_ _
+15      us      we      PRON    PRP     Case=Acc|Number=Plur|Person=1|PronType=Prs      14      obj     _  _
+16      feel    feel    VERB    VB      VerbForm=Inf    15      xcomp   _        _
+17      secure  secure  ADJ     JJ      Degree=Pos      16      xcomp   _        _
+18      in      in      ADP     IN      _       20      case    _ _
 19      our     we      PRON    PRP$    Number=Plur|Person=1|Poss=Yes|PronType=Prs      20      nmod:poss       _    _
 20      decision        decision        NOUN    NN      Number=Sing     17      obl     _       _
-21      to      to      PART    TO      _       22      mark    2_ _
+21      to      to      PART    TO      _       22      mark    _ _
 22      buy     buy     VERB    VB      VerbForm=Inf    20      acl     _       _
-23      when    when    ADV     WRB     PronType=Int    25      mark    2_ _
-24      we      we      PRON    PRP     Case=Nom|Number=Plur|Person=1|PronType=Prs      25      nsubj   2_        _
+23      when    when    ADV     WRB     PronType=Int    25      mark    _ _
+24      we      we      PRON    PRP     Case=Nom|Number=Plur|Person=1|PronType=Prs      25      nsubj   _        _
 25      did     do      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        22      advcl   _   SpaceAfter=No
-26      .       .       PUNCT   .       _       14      punct   1_        _
+26      .       .       PUNCT   .       _       14      punct   _        _
 </div>
 </td><td width="600">
 UCCA:
@@ -460,28 +460,28 @@ UD:
 <div class="conllu-parse">
 # sent_id = reviews-295288-0006
 # text = Now my cars gears and brakes have never run so well... ever its like driving a new car.
-1       Now     now     ADV     RB      _       10      advmod  1_       _
+1       Now     now     ADV     RB      _       10      advmod  _       _
 2       my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      3       nmod:poss       _     _
 3       car     car     NOUN    NN      Number=Sing     5       nmod:poss       _     SpaceAfter=No
 4       s       's      PART    POS     _       3       case    _  _
-5       gears   gear    NOUN    NNS     Number=Plur     10      nsubj   1_        _
+5       gears   gear    NOUN    NNS     Number=Plur     10      nsubj   _        _
 6       and     and     CCONJ   CC      _       7       cc      _    _
-7       brakes  brake   NOUN    NNS     Number=Plur     5       conj    _1_     _
-8       have    have    AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        10      aux     1_  _
-9       never   never   ADV     RB      _       10      advmod  1_       _
+7       brakes  brake   NOUN    NNS     Number=Plur     5       conj    __     _
+8       have    have    AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        10      aux     _  _
+9       never   never   ADV     RB      _       10      advmod  _       _
 10      run     run     VERB    VBN     Tense=Past|VerbForm=Part        0       root    _  _
-11      so      so      ADV     RB      _       12      advmod  1_       _
-12      well    well    ADV     RB      Degree=Pos      10      advmod  1_       SpaceAfter=No
-13      ...     ...     PUNCT   ,       _       10      punct   1_        _
-14      ever    ever    ADV     RB      _       10      advmod  1_       _
-15      it      it      PRON    PRP     Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs  16      nsubj   1_        SpaceAfter=No
-16      s       be      VERB    VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   10      parataxis       1_    _
-17      like    like    SCONJ   IN      _       18      mark    1_ _
+11      so      so      ADV     RB      _       12      advmod  _       _
+12      well    well    ADV     RB      Degree=Pos      10      advmod  _       SpaceAfter=No
+13      ...     ...     PUNCT   ,       _       10      punct   _        _
+14      ever    ever    ADV     RB      _       10      advmod  _       _
+15      it      it      PRON    PRP     Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs  16      nsubj   _        SpaceAfter=No
+16      s       be      VERB    VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   10      parataxis       _    _
+17      like    like    SCONJ   IN      _       18      mark    _ _
 18      driving drive   VERB    VBG     VerbForm=Ger    16      advcl   _   _
-19      a       a       DET     DT      Definite=Ind|PronType=Art       21      det     2_  _
-20      new     new     ADJ     JJ      Degree=Pos      21      amod    2_ _
-21      car     car     NOUN    NN      Number=Sing     18      obj     1_  SpaceAfter=No
-22      .       .       PUNCT   .       _       10      punct   1_        _
+19      a       a       DET     DT      Definite=Ind|PronType=Art       21      det     _  _
+20      new     new     ADJ     JJ      Degree=Pos      21      amod    _ _
+21      car     car     NOUN    NN      Number=Sing     18      obj     _  SpaceAfter=No
+22      .       .       PUNCT   .       _       10      punct   _        _
 </div>
 </td><td width="600">
 UCCA:
@@ -529,7 +529,7 @@ UD:
 <div class="conllu-parse">
 # sent_id = reviews-241739-0005
 # text = Some of the younger kids that work there are a bit sub par, but if you wait for Nick... you'll be good.
-1       Some    some    DET     DT      _       13      nsubj   1_        _
+1       Some    some    DET     DT      _       13      nsubj   _        _
 2       of      of      ADP     IN      _       5       case    _  _
 3       the     the     DET     DT      Definite=Def|PronType=Art       5       det     _   _
 4       younger younger ADJ     JJR     Degree=Cmp      5       amod    _  _
@@ -537,24 +537,24 @@ UD:
 6       that    that    PRON    WDT     PronType=Rel    7       nsubj   _   _
 7       work    work    VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        5       acl:relcl       _     _
 8       there   there   ADV     RB      PronType=Dem    7       advmod  _        _
-9       are     be      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        13      cop     1_  _
-10      a       a       DET     DT      Definite=Ind|PronType=Art       11      det     1_  _
+9       are     be      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        13      cop     _  _
+10      a       a       DET     DT      Definite=Ind|PronType=Art       11      det     _  _
 11      bit     bit     NOUN    NN      Number=Sing     13      obl:npmod       _    _
-12      sub     sub     X       AFX     _       13      advmod  1_       _
+12      sub     sub     X       AFX     _       13      advmod  _       _
 13      par     par     ADJ     JJ      Degree=Pos      0       root    _  SpaceAfter=No
-14      ,       ,       PUNCT   ,       _       25      punct   2_        _
-15      but     but     CCONJ   CC      _       25      cc      2_   _
-16      if      if      SCONJ   IN      _       18      mark    1_ _
-17      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  18      nsubj   1_        _
+14      ,       ,       PUNCT   ,       _       25      punct   _        _
+15      but     but     CCONJ   CC      _       25      cc      _   _
+16      if      if      SCONJ   IN      _       18      mark    _ _
+17      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  18      nsubj   _        _
 18      wait    wait    VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        25      advcl   _     _
-19      for     for     ADP     IN      _       20      case    2_ _
+19      for     for     ADP     IN      _       20      case    _ _
 20      Nick    Nick    PROPN   NNP     Number=Sing     18      obl     _      SpaceAfter=No
-21      ...     ...     PUNCT   ,       _       25      punct   2_        _
-22      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  25      nsubj   2_        SpaceAfter=No
-23      'll     will    AUX     MD      VerbForm=Fin    25      aux     2_  _
-24      be      be      AUX     VB      VerbForm=Inf    25      cop     2_  _
+21      ...     ...     PUNCT   ,       _       25      punct   _        _
+22      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  25      nsubj   _        SpaceAfter=No
+23      'll     will    AUX     MD      VerbForm=Fin    25      aux     _  _
+24      be      be      AUX     VB      VerbForm=Inf    25      cop     _  _
 25      good    good    ADJ     JJ      Degree=Pos      13      conj    _     SpaceAfter=No
-26      .       .       PUNCT   .       _       13      punct   1_        _
+26      .       .       PUNCT   .       _       13      punct   _        _
 </div>
 </td><td width="600">
 UCCA:
