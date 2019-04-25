@@ -2152,6 +2152,36 @@ T9	Center 12 15	try
 </td></tr></tbody>
 </table>
 
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-024385-0001
+# text = Another great business bites the dust!
+1       Another another DET     DT      _       3       det     _   _
+2       great   great   ADJ     JJ      Degree=Pos      3       amod    _  _
+3       business        business        NOUN    NN      Number=Sing     4       nsubj   _ _
+4       bites   bite    VERB    VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   0       root    _  _
+5       the     the     DET     DT      Definite=Def|PronType=Art       6       det     _   _
+6       dust    dust    NOUN    NN      Number=Sing     4       obj     _   SpaceAfter=No
+7       !       !       PUNCT   .       _       4       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Another great business bites the dust !
+T2	ParallelScene 0 39	Another great business bites the dust !
+T4	Participant 0 22	Another great business
+T5	Process 23 37	bites the dust
+T6	Elaborator 0 7	Another
+T7	Elaborator 8 13	great
+T8	Center 14 22	business
+R1	Participant parent:T7 child:T8
+T9	State 8 13	great
+</div>
+</td></tr></tbody>
+</table>
+
 
 
 
