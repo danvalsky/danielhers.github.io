@@ -17,9 +17,21 @@ This page provides detailed examples to accompany the following <a href="../dive
 Content will be available soon.
 
 ~~~ conllu
-# I wrote the letter with a quill.
-1   Я         ja         PRON   _   Case=Nom|Number=Sing|Person=1|PronType=Prs        2   nsubj   _   I
-2   написал   napisat'   VERB   _   Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act   0   root    _   wrote
-3   письмо    pis'mo     NOUN   _   Case=Acc|Gender=Neut|Number=Sing                  2   obj     _   the-letter
-4   пером     pero       NOUN   _   Case=Ins|Gender=Neut|Number=Sing                  2   nmod    _   with-a-quill
+# sent_id = reviews-305187-0005
+# text = Wine was excellent.
+1       Wine    wine    NOUN    NN      Number=Sing     3       nsubj   3:nsubj _
+2       was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin   3       cop     3:cop   _
+3       excellent       excellent       ADJ     JJ      Degree=Pos      0       root    0:root  SpaceAfter=No
+4       .       .       PUNCT   .       _       3       punct   3:punct _
+~~~
+
+~~~ conllu
+# sent_id = reviews-079007-0002
+# text = But service is very poor.
+1       But     but     CCONJ   CC      _       5       cc      5:cc    _
+2       service service NOUN    NN      Number=Sing     5       nsubj   5:nsubj _
+3       is      be      AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   5       cop     5:cop   _
+4       very    very    ADV     RB      _       5       advmod  5:advmod        _
+5       poor    poor    ADJ     JJ      Degree=Pos      0       root    0:root  SpaceAfter=No
+6       .       .       PUNCT   .       _       5       punct   5:punct _
 ~~~
