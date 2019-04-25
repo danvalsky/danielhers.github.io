@@ -686,6 +686,101 @@ T23	Center 12 27	Bradley Chevron
 </td></tr></tbody>
 </table>
 
+### Linker case
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-295935-0001
+# text = Very Informative website with alot of good work
+1       Very    very    ADV     RB      _       2       advmod  _        _
+2       Informative     informative     ADJ     JJ      Degree=Pos      3       amod    _  _
+3       website website NOUN    NN      Number=Sing     0       root    _  _
+4       with    with    ADP     IN      _       6       case    _  _
+5       a       a       DET     DT      Definite=Ind|PronType=Art       6       det     _   SpaceAfter=No
+6       lot     lot     NOUN    NN      Number=Sing     3       nmod    _     _
+7       of      of      ADP     IN      _       9       case    _  _
+8       good    good    ADJ     JJ      Degree=Pos      9       amod    _  _
+9       work    work    NOUN    NN      Number=Sing     6       nmod    _       _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Very Informative website with a lot of good work
+T2	ParallelScene 0 48	Very Informative website with a lot of good work
+T3	Adverbial 0 4	Very
+T4	State 5 16	Informative
+T5	Participant 17 48	website with a lot of good work
+T6	Center 17 24	website
+T7	Elaborator 25 48	with a lot of good work
+T8	Relator 25 29	with
+T9	Adverbial 30 35	a lot
+T10	Process 36 38;44 48	of work
+T11	Adverbial 39 43	good
+T12	Relator 36 38	of
+T13	Center 44 48	work
+</div>
+</td></tr></tbody>
+</table>
+
+### Elaborator case
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-095040-0003
+# text = She worked with us for over a year, helping us find our perfect home.
+1       She     she     PRON    PRP     Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs   2       nsubj   _ _
+2       worked  work    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    _  _
+3       with    with    ADP     IN      _       4       case    _  _
+4       us      we      PRON    PRP     Case=Acc|Number=Plur|Person=1|PronType=Prs      2       obl     _      _
+5       for     for     ADP     IN      _       8       case    _  _
+6       over    over    ADP     IN      _       8       case    _  _
+7       a       a       DET     DT      Definite=Ind|PronType=Art       8       det     _   _
+8       year    year    NOUN    NN      Number=Sing     2       obl     _      SpaceAfter=No
+9       ,       ,       PUNCT   ,       _       2       punct   _ _
+10      helping help    VERB    VBG     VerbForm=Ger    2       advcl   _ _
+11      us      we      PRON    PRP     Case=Acc|Number=Plur|Person=1|PronType=Prs      10      obj     _   _
+12      find    find    VERB    VB      VerbForm=Inf    10      xcomp   _        _
+13      our     we      PRON    PRP$    Number=Plur|Person=1|Poss=Yes|PronType=Prs      15      nmod:poss       _    _
+14      perfect perfect ADJ     JJ      Degree=Pos      15      amod    _ _
+15      home    home    NOUN    NN      Number=Sing     12      obj     _  SpaceAfter=No
+16      .       .       PUNCT   .       _       2       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+She worked with us for over a year , helping us find our perfect home .
+T2	ParallelScene 0 34	She worked with us for over a year
+T3	ParallelScene 37 71	helping us find our perfect home .
+T6	Adverbial 37 44	helping
+T7	Participant 45 47	us
+T8	Process 48 52	find
+T9	Participant 53 71	our perfect home .
+T10	Elaborator 53 56	our
+T11	Elaborator 57 64	perfect
+T12	Center 65 69	home
+R1	Participant parent:T10 child:T12
+R2	Participant parent:T11 child:T12
+T13	State 57 64	perfect
+T14	State 53 56	our
+T15	Participant 0 3	She
+R3	Participant parent:T3 child:T15
+T16	Process 4 10	worked
+T17	Participant 11 18	with us
+T18	Time 19 34	for over a year
+T19	Relator 19 22	for
+T20	Quantifier 23 29	over a
+T21	Center 30 34	year
+T22	Elaborator 23 27	over
+T23	Center 28 29	a
+T24	Relator 11 15	with
+T25	Center 16 18	us
+</div>
+</td></tr></tbody>
+</table>
 
 
 
