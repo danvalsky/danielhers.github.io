@@ -77,20 +77,20 @@ UD:
 <div class="conllu-parse">
 # sent_id = reviews-295491-0007
 # text = Overall, Joe is a happy camper who has found a great spot.
-1       Overall overall ADV     RB      _       7       advmod  7:advmod        SpaceAfter=No
-2       ,       ,       PUNCT   ,       _       7       punct   7:punct _
-3       Joe     Joe     PROPN   NNP     Number=Sing     7       nsubj   7:nsubj _
-4       is      be      AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   7       cop     7:cop   _
-5       a       a       DET     DT      Definite=Ind|PronType=Art       7       det     7:det   _
-6       happy   happy   ADJ     JJ      Degree=Pos      7       amod    7:amod  _
-7       camper  camper  NOUN    NN      Number=Sing     0       root    10:nsubj        _
-8       who     who     PRON    WP      PronType=Rel    10      nsubj   7:ref   _
-9       has     have    AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   10      aux     10:aux  _
-10      found   find    VERB    VBN     Tense=Past|VerbForm=Part        7       acl:relcl       7:acl:relcl     _
-11      a       a       DET     DT      Definite=Ind|PronType=Art       13      det     13:det  _
-12      great   great   ADJ     JJ      Degree=Pos      13      amod    13:amod _
-13      spot    spot    NOUN    NN      Number=Sing     10      obj     10:obj  SpaceAfter=No
-14      .       .       PUNCT   .       _       7       punct   7:punct _
+1       Overall overall ADV     RB      _       7       advmod  _        SpaceAfter=No
+2       ,       ,       PUNCT   ,       _       7       punct   _ _
+3       Joe     Joe     PROPN   NNP     Number=Sing     7       nsubj   _ _
+4       is      be      AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   7       cop     _   _
+5       a       a       DET     DT      Definite=Ind|PronType=Art       7       det     _   _
+6       happy   happy   ADJ     JJ      Degree=Pos      7       amod    _  _
+7       camper  camper  NOUN    NN      Number=Sing     0       root    1_        _
+8       who     who     PRON    WP      PronType=Rel    10      nsubj   _   _
+9       has     have    AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   10      aux     1_  _
+10      found   find    VERB    VBN     Tense=Past|VerbForm=Part        7       acl:relcl       _:relcl     _
+11      a       a       DET     DT      Definite=Ind|PronType=Art       13      det     1_  _
+12      great   great   ADJ     JJ      Degree=Pos      13      amod    1_ _
+13      spot    spot    NOUN    NN      Number=Sing     10      obj     1_  SpaceAfter=No
+14      .       .       PUNCT   .       _       7       punct   _ _
 </div>
 </td><td width="600">
 Overall , Joe is a happy camper who has found a great spot .
@@ -113,6 +113,39 @@ T17	Process 17 18;25 31	a camper
 T18	Adverbial 19 24	happy
 T19	Function 17 18	a
 T20	Center 25 31	camper
+</div>
+</td></tr></tbody>
+</table>
+
+### Adverbial amod:
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-305187-0007
+# text = A perfect place for a romantic dinner.
+1       A       a       DET     DT      Definite=Ind|PronType=Art       3       det     _   _
+2       perfect perfect ADJ     JJ      Degree=Pos      3       amod    _  _
+3       place   place   NOUN    NN      Number=Sing     0       root    _  _
+4       for     for     ADP     IN      _       7       case    _  _
+5       a       a       DET     DT      Definite=Ind|PronType=Art       7       det     _   _
+6       romantic        romantic        ADJ     JJ      Degree=Pos      7       amod    _  _
+7       dinner  dinner  NOUN    NN      Number=Sing     3       nmod    _:for      SpaceAfter=No
+8       .       .       PUNCT   .       _       3       punct   _ _
+</div>
+</td><td width="600">
+A perfect place for a romantic dinner .
+T2	ParallelScene 0 15	A perfect place
+T3	Linker 16 19	for
+T4	ParallelScene 20 39	a romantic dinner .
+T6	Process 20 21;31 39	a dinner .
+T7	Adverbial 22 30	romantic
+T8	Function 20 21	a
+T9	Center 31 37	dinner
+T10	Participant 0 1;10 15	A place
+T11	State 2 9	perfect
+T12	Function 0 1	A
+T13	Center 10 15	place
 </div>
 </td></tr></tbody>
 </table>
