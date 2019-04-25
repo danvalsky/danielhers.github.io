@@ -999,6 +999,84 @@ T8	Center 15 20	stock
 </td></tr></tbody>
 </table>
 
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-243799-0002
+# text = went in there and got my dog groomed came home to an uneven dog then took him back to get evened up what a mistake!
+1       went    go      VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        25      parataxis       _    _
+2       in      in      ADP     IN      _       3       case    _  _
+3       there   there   ADV     RB      PronType=Dem    1       obl     _        _
+4       and     and     CCONJ   CC      _       5       cc      _    _
+5       got     get     VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        1       conj    _      _
+6       my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      7       nmod:poss       _     _
+7       dog     dog     NOUN    NN      Number=Sing     5       obj     _     _
+8       groomed groom   VERB    VBN     Tense=Past|VerbForm=Part        5       xcomp   _ _
+9       came    come    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        1       conj    _      _
+10      home    home    ADV     RB      _       9       advmod  _        _
+11      to      to      ADP     IN      _       14      case    _ _
+12      an      a       DET     DT      Definite=Ind|PronType=Art       14      det     _  _
+13      uneven  uneven  ADJ     JJ      Degree=Pos      14      amod    _ _
+14      dog     dog     NOUN    NN      Number=Sing     9       obl     _        _
+15      then    then    ADV     RB      PronType=Dem    16      advmod  _       _
+16      took    take    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        1       conj    _      _
+17      him     he      PRON    PRP     Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs  16      obj     _  _
+18      back    back    ADV     RB      _       16      advmod  _       _
+19      to      to      PART    TO      _       21      mark    _ _
+20      get     get     AUX     VB      VerbForm=Inf    21      aux:pass        _     _
+21      evened  even    VERB    VBN     Tense=Past|VerbForm=Part        16      advcl   _     _
+22      up      up      ADP     RP      _       21      compound:prt    _ _
+23      what    what    PRON    WP      PronType=Int    25      det:predet      _   _
+24      a       a       DET     DT      Definite=Ind|PronType=Art       25      det     _  _
+25      mistake mistake NOUN    NN      Number=Sing     0       root    _  SpaceAfter=No
+26      !       !       PUNCT   .       _       25      punct   _        _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+went in there and got my dog groomed came home to an uneven dog then took him back to get evened up what a mistake !
+T2	ParallelScene 0 13	went in there
+T3	Linker 14 17	and
+T4	ParallelScene 18 36	got my dog groomed
+T5	ParallelScene 37 46	came home
+T6	Linker 47 49	to
+T7	ParallelScene 50 63	an uneven dog
+T8	Linker 64 68	then
+T9	ParallelScene 69 82	took him back
+T10	Linker 83 85	to
+T11	ParallelScene 86 99	get evened up
+T12	ParallelScene 100 116	what a mistake !
+T14	Adverbial 100 104	what
+T15	State 105 116	a mistake !
+T16	Function 105 106	a
+T17	Center 107 114	mistake
+T18	Adverbial 86 89	get
+T19	Process 90 99	evened up
+T21	Process 69 73	took
+T22	Participant 74 77	him
+R1	Participant parent:T11 child:T22
+T23	Adverbial 78 82	back
+T24	Participant 50 52;60 63	an dog
+T25	State 53 59	uneven
+T26	Function 50 52	an
+T27	Center 60 63	dog
+T29	Process 37 41	came
+T30	Participant 42 46	home
+T32	Adverbial 18 21	got
+T33	Participant 22 28	my dog
+T34	Process 29 36	groomed
+T35	Elaborator 22 24	my
+T36	Center 25 28	dog
+R2	Participant parent:T35 child:T36
+T37	State 22 24	my
+T39	Process 0 4	went
+T40	Participant 5 13	in there
+T41	Relator 5 7	in
+T42	Center 8 13	there
+</div>
+</td></tr></tbody>
+</table>
 
 
 
