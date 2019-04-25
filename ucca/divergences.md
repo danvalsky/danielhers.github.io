@@ -2793,16 +2793,25 @@ T22	State 13 15	my
 </table>
 
 
+### Ground + Participant vocative
+
 <table>
 <tbody><tr><td width="600">
 UD:
 <div class="conllu-parse">
-
+# sent_id = reviews-024132-0004
+# text = Thanks Mark.
+1       Thanks  thanks  NOUN    NN      Number=Sing     0       root    _  _
+2       Mark    Mark    PROPN   NNP     Number=Sing     1       vocative        _      SpaceAfter=No
+3       .       .       PUNCT   .       _       1       punct   _ _
 </div>
 </td><td width="600">
 UCCA:
 <div class="ann-annotation">
-
+Thanks Mark .
+T2	ParallelScene 0 13	Thanks Mark .
+T3	Process 0 6	Thanks
+T4	Participant 7 11	Mark
 </div>
 </td></tr></tbody>
 </table>
