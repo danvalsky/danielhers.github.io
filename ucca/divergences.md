@@ -2354,6 +2354,118 @@ T14	Center 14 27	Willow Lounge
 </td></tr></tbody>
 </table>
 
+### Linker wh-pronoun
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-083454-0001
+# text = I didn't end up buying my car here, but I did think the guy who worked with me was pretty cool - he was willing to budge a little on the price which means a lot to me.
+1       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      4       nsubj   _   _
+2       did     do      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        4       aux     _   SpaceAfter=No
+3       n't     not     PART    RB      _       4       advmod  _        _
+4       end     end     VERB    VB      VerbForm=Inf    0       root    _  _
+5       up      up      ADP     RP      _       4       compound:prt    _  _
+6       buying  buy     VERB    VBG     VerbForm=Ger    4       xcomp   _ _
+7       my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      8       nmod:poss       _     _
+8       car     car     NOUN    NN      Number=Sing     6       obj     _   _
+9       here    here    ADV     RB      PronType=Dem    6       advmod  _        SpaceAfter=No
+10      ,       ,       PUNCT   ,       _       14      punct   _        _
+11      but     but     CCONJ   CC      _       14      cc      _   _
+12      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      14      nsubj   _        _
+13      did     do      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        14      aux     _  _
+14      think   think   VERB    VB      VerbForm=Inf    4       conj    _      _
+15      the     the     DET     DT      Definite=Def|PronType=Art       16      det     _  _
+16      guy     guy     NOUN    NN      Number=Sing     23      nsubj   _       _
+17      who     who     PRON    WP      PronType=Rel    18      nsubj   _  _
+18      worked  work    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        16      acl:relcl       _    _
+19      with    with    ADP     IN      _       20      case    _ _
+20      me      I       PRON    PRP     Case=Acc|Number=Sing|Person=1|PronType=Prs      18      obl     _     _
+21      was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin   23      cop     _  _
+22      pretty  pretty  ADV     RB      _       23      advmod  _       _
+23      cool    cool    ADJ     JJ      Degree=Pos      14      ccomp   _        _
+24      -       -       PUNCT   ,       _       4       punct   _ _
+25      he      he      PRON    PRP     Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs  27      nsubj   _ _
+26      was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin   27      cop     _  _
+27      willing willing ADJ     JJ      Degree=Pos      14      parataxis       _    _
+28      to      to      PART    TO      _       29      mark    _ _
+29      budge   budge   VERB    VB      VerbForm=Inf    27      xcomp   _        _
+30      a       a       DET     DT      Definite=Ind|PronType=Art       31      det     _  _
+31      little  little  NOUN    NN      Number=Sing     29      obl:npmod       _    _
+32      on      on      ADP     IN      _       34      case    _ _
+33      the     the     DET     DT      Definite=Def|PronType=Art       34      det     _  _
+34      price   price   NOUN    NN      Number=Sing     29      obl     _       _
+35      which   which   PRON    WDT     PronType=Int    36      nsubj   _        _
+36      means   mean    VERB    VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   27      parataxis       _    _
+37      a       a       DET     DT      Definite=Ind|PronType=Art       38      det     _  _
+38      lot     lot     NOUN    NN      Number=Sing     36      obj     _  _
+39      to      to      ADP     IN      _       40      case    _ _
+40      me      I       PRON    PRP     Case=Acc|Number=Sing|Person=1|PronType=Prs      36      obl     _       SpaceAfter=No
+41      .       .       PUNCT   .       _       4       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+I did n't end up buying my car here , but I did think the guy who worked with me was pretty cool - he was willing to budge a little on the price which means a lot to me .
+T2	ParallelScene 0 35	I did n't end up buying my car here
+T3	Linker 38 41	but
+T4	ParallelScene 42 96	I did think the guy who worked with me was pretty cool
+T5	ParallelScene 99 144	he was willing to budge a little on the price
+T6	Linker 145 150	which
+T7	ParallelScene 151 170	means a lot to me .
+T11	State 151 156	means
+T12	Adverbial 157 162	a lot
+T13	Participant 163 170	to me .
+T14	Relator 163 165	to
+T15	Center 166 168	me
+T16	Function 157 158	a
+T17	Center 159 162	lot
+T18	Participant 99 101	he
+T19	Function 102 105	was
+T20	Adverbial 106 113	willing
+T21	Function 114 116	to
+T22	Process 117 122	budge
+R1	Participant parent:T7 child:T22
+T23	Adverbial 123 131	a little
+T24	Participant 132 144	on the price
+T25	Relator 132 134	on
+T26	Function 135 138	the
+T27	Center 139 144	price
+T28	Function 123 124	a
+T29	Center 125 131	little
+T30	Participant 42 43	I
+T31	Function 44 47	did
+T32	Process 48 53	think
+T33	Participant 54 96	the guy who worked with me was pretty cool
+T34	Participant 54 80	the guy who worked with me
+T35	Function 81 84	was
+T36	Adverbial 85 91	pretty
+T37	State 92 96	cool
+T38	Function 54 57	the
+T39	Center 58 61	guy
+R2	Participant parent:T40 child:T39
+T40	Elaborator 62 80	who worked with me
+T41	Relator 62 65	who
+T42	Process 66 72	worked
+T43	Participant 73 80	with me
+T44	Relator 73 77	with
+T45	Center 78 80	me
+T46	Participant 0 1	I
+T47	Function 2 5	did
+T48	Adverbial 6 9	n't
+T49	Adverbial 10 16	end up
+T50	Process 17 23	buying
+T51	Participant 24 30	my car
+T52	Participant 31 35	here
+T53	Elaborator 24 26	my
+T54	Center 27 30	car
+R3	Participant parent:T53 child:T54
+T55	State 24 26	my
+</div>
+</td></tr></tbody>
+</table>
+
 
 
 <table>
