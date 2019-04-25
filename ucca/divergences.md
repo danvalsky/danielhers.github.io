@@ -2024,6 +2024,68 @@ T26	Process 7 16	treatment
 </td></tr></tbody>
 </table>
 
+### Adverbial compound
+
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-095040-0002
+# text = As first-time home buyers, my husband and I found Stephanie Fairchild at Prudential Steamboat Realty, extremely helpful.
+1       As      as      ADP     IN      _       6       case    _  _
+2       first   first   ADJ     JJ      Degree=Pos|NumType=Ord  4       amod    _  SpaceAfter=No
+3       -       -       PUNCT   HYPH    _       4       punct   _ SpaceAfter=No
+4       time    time    NOUN    NN      Number=Sing     6       compound        _      _
+5       home    home    NOUN    NN      Number=Sing     6       compound        _      _
+6       buyers  buyer   NOUN    NNS     Number=Plur     12      obl     _       SpaceAfter=No
+7       ,       ,       PUNCT   ,       _       12      punct   _        _
+8       my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      9       nmod:poss       _     _
+9       husband husband NOUN    NN      Number=Sing     12      nsubj   _        _
+10      and     and     CCONJ   CC      _       11      cc      _   _
+11      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      9       conj    _     _
+12      found   find    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    _  _
+13      Stephanie       Stephanie       PROPN   NNP     Number=Sing     12      obj     _   _
+14      Fairchild       Fairchild       PROPN   NNP     Number=Sing     13      flat    _ _
+15      at      at      ADP     IN      _       18      case    _ _
+16      Prudential      Prudential      PROPN   NNP     Number=Sing     18      compound        _     _
+17      Steamboat       Steamboat       PROPN   NNP     Number=Sing     18      compound        _     _
+18      Realty  Realty  PROPN   NNP     Number=Sing     13      nmod    _      SpaceAfter=No
+19      ,       ,       PUNCT   ,       _       21      punct   _        _
+20      extremely       extremely       ADV     RB      _       21      advmod  _       _
+21      helpful helpful ADJ     JJ      Degree=Pos      12      xcomp   _        SpaceAfter=No
+22      .       .       PUNCT   .       _       12      punct   _        _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+As first - time home buyers , my husband and I found Stephanie Fairchild at Prudential Steamboat Realty , extremely helpful .
+T2	Linker 0 2	As
+T3	ParallelScene 3 27	first - time home buyers
+T4	ParallelScene 30 125	my husband and I found Stephanie Fairchild at Prudential Steamboat Realty , extremely helpful .
+T7	Participant 30 46	my husband and I
+T8	Adverbial 47 52	found
+T9	Participant 53 103	Stephanie Fairchild at Prudential Steamboat Realty
+T10	Adverbial 106 115	extremely
+T11	State 116 123	helpful
+T13	Center 53 72	Stephanie Fairchild
+T14	Elaborator 73 103	at Prudential Steamboat Realty
+T15	Relator 73 75	at
+T16	Center 76 103	Prudential Steamboat Realty
+T17	Center 30 40	my husband
+T18	Connector 41 44	and
+T19	Center 45 46	I
+T20	Participant 30 32	my
+T21	Participant|State 33 40	husband
+T23	Adverbial 3 15	first - time
+T24	Participant 16 20	home
+T25	Process 21 27	buyers
+T26	Quantifier 3 8	first
+T27	Center 11 15	time
+</div>
+</td></tr></tbody>
+</table>
+
 
 
 <table>
