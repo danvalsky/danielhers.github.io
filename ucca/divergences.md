@@ -1243,7 +1243,66 @@ T7	Adverbial 20 26	by far
 </td></tr></tbody>
 </table>
 
+### Participant csubj
 
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-071518-0008
+# text = And it was great that they did not charge a service fee to diagnose the problem - an added bonus!!
+1       And     and     CCONJ   CC      _       4       cc      _    _
+2       it      it      PRON    PRP     Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs  4       expl    _  _
+3       was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin   4       cop     _   _
+4       great   great   ADJ     JJ      Degree=Pos      0       root    _  _
+5       that    that    SCONJ   IN      _       9       mark    _  _
+6       they    they    PRON    PRP     Case=Nom|Number=Plur|Person=3|PronType=Prs      9       nsubj   _ _
+7       did     do      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        9       aux     _   _
+8       not     not     PART    RB      _       9       advmod  _        _
+9       charge  charge  VERB    VB      VerbForm=Inf    4       csubj   _ _
+10      a       a       DET     DT      Definite=Ind|PronType=Art       12      det     _  _
+11      service service NOUN    NN      Number=Sing     12      compound        _     _
+12      fee     fee     NOUN    NN      Number=Sing     9       obj     _    _
+13      to      to      PART    TO      _       14      mark    _ _
+14      diagnose        diagnose        VERB    VB      VerbForm=Inf    9       xcomp   _ _
+15      the     the     DET     DT      Definite=Def|PronType=Art       16      det     _  _
+16      problem problem NOUN    NN      Number=Sing     14      obj     _  _
+17      -       -       PUNCT   ,       _       20      punct   _        _
+18      an      a       DET     DT      Definite=Ind|PronType=Art       20      det     _  _
+19      added   add     VERB    VBN     Tense=Past|VerbForm=Part        20      amod    _ _
+20      bonus   bonus   NOUN    NN      Number=Sing     9       parataxis       _     SpaceAfter=No
+21      !!      !!      PUNCT   .       _       20      punct   _        _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+And it was great that they did not charge a service fee to diagnose the problem - an added bonus !!
+T2	Linker 0 3	And
+T3	ParallelScene 4 99	it was great that they did not charge a service fee to diagnose the problem - an added bonus !!
+T4	Function 4 6	it
+T5	Function 7 10	was
+T6	Adverbial 11 16	great
+T7	Function 17 21	that
+T8	Participant 22 26	they
+R1	Participant parent:T13 child:T8
+T9	Function 27 30	did
+T10	Adverbial 31 34	not
+T11	Process 35 41	charge
+T12	Participant 42 55	a service fee
+T13	Participant 56 79	to diagnose the problem
+T14	Ground 82 96	an added bonus
+T17	Relator 56 58	to
+T18	Process 59 67	diagnose
+T19	Participant 68 79	the problem
+T20	Function 68 71	the
+T21	Center 72 79	problem
+T22	Function 42 43	a
+T23	Elaborator 44 51	service
+T24	Center 52 55	fee
+T25	Process 44 51	service
+</div>
+</td></tr></tbody>
+</table>
 
 
 <table>
