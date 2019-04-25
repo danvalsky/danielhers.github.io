@@ -236,38 +236,38 @@ UD:
 <div class="conllu-parse">
 # sent_id = reviews-071650-0007
 # text = Back to my poor rating - I was excepted to medical school and went in to cancel my membership as I was told I could do since I was moving away.
-1       Back    back    ADV     RB      _       0       root    0:root  _
-2       to      to      ADP     IN      _       5       case    5:case  _
-3       my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      5       nmod:poss       5:nmod:poss     _
-4       poor    poor    ADJ     JJ      Degree=Pos      5       amod    5:amod  _
-5       rating  rating  NOUN    NN      Number=Sing     1       obl     1:obl:to        _
-6       -       -       PUNCT   ,       _       1       punct   1:punct _
-7       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      9       nsubj:pass      9:nsubj:pass|14:nsubj:pass      _
-8       was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin   9       aux:pass        9:aux:pass      _
-9       excepted        accept  VERB    VBN     Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass    1       parataxis       1:parataxis     _
-10      to      to      ADP     IN      _       12      case    12:case _
-11      medical medical ADJ     JJ      Degree=Pos      12      amod    12:amod _
-12      school  school  NOUN    NN      Number=Sing     9       obl     9:obl:to        _
-13      and     and     CCONJ   CC      _       14      cc      14:cc   _
-14      went    go      VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        9       conj    9:conj:and      _
-15      in      in      ADV     RB      _       14      advmod  14:advmod       _
-16      to      to      PART    TO      _       17      mark    17:mark _
-17      cancel  cancel  VERB    VB      VerbForm=Inf    14      advcl   14:advcl:to     _
-18      my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      19      nmod:poss       19:nmod:poss    _
-19      membership      membership      NOUN    NN      Number=Sing     17      obj     17:obj  _
-20      as      as      SCONJ   IN      _       23      mark    23:mark _
-21      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      23      nsubj:pass      23:nsubj:pass   _
-22      was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin   23      aux:pass        23:aux:pass     _
-23      told    tell    VERB    VBN     Tense=Past|VerbForm=Part|Voice=Pass     17      advcl   17:advcl:as     _
-24      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      26      nsubj   26:nsubj        _
-25      could   could   AUX     MD      VerbForm=Fin    26      aux     26:aux  _
-26      do      do      VERB    VB      VerbForm=Inf    23      ccomp   23:ccomp        _
-27      since   since   SCONJ   IN      _       30      mark    30:mark _
-28      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      30      nsubj   30:nsubj        _
-29      was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin   30      aux     30:aux  _
-30      moving  move    VERB    VBG     Tense=Pres|VerbForm=Part        23      ccomp   23:ccomp        _
-31      away    away    ADV     RB      _       30      advmod  30:advmod       SpaceAfter=No
-32      .       .       PUNCT   .       _       1       punct   1:punct _
+1       Back    back    ADV     RB      _       0       root    _  _
+2       to      to      ADP     IN      _       5       case    _  _
+3       my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      5       nmod:poss       _:poss     _
+4       poor    poor    ADJ     JJ      Degree=Pos      5       amod    _  _
+5       rating  rating  NOUN    NN      Number=Sing     1       obl     _:to        _
+6       -       -       PUNCT   ,       _       1       punct   _ _
+7       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      9       nsubj:pass      _:pass|1_:pass      _
+8       was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin   9       aux:pass        _:pass      _
+9       excepted        accept  VERB    VBN     Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass    1       parataxis       _     _
+10      to      to      ADP     IN      _       12      case    1_ _
+11      medical medical ADJ     JJ      Degree=Pos      12      amod    1_ _
+12      school  school  NOUN    NN      Number=Sing     9       obl     _:to        _
+13      and     and     CCONJ   CC      _       14      cc      1_   _
+14      went    go      VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        9       conj    _:and      _
+15      in      in      ADV     RB      _       14      advmod  1_       _
+16      to      to      PART    TO      _       17      mark    1_ _
+17      cancel  cancel  VERB    VB      VerbForm=Inf    14      advcl   1_:to     _
+18      my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      19      nmod:poss       1_:poss    _
+19      membership      membership      NOUN    NN      Number=Sing     17      obj     1_  _
+20      as      as      SCONJ   IN      _       23      mark    2_ _
+21      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      23      nsubj:pass      2_:pass   _
+22      was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin   23      aux:pass        2_:pass     _
+23      told    tell    VERB    VBN     Tense=Past|VerbForm=Part|Voice=Pass     17      advcl   1_:as     _
+24      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      26      nsubj   2_        _
+25      could   could   AUX     MD      VerbForm=Fin    26      aux     2_  _
+26      do      do      VERB    VB      VerbForm=Inf    23      ccomp   2_        _
+27      since   since   SCONJ   IN      _       30      mark    3_ _
+28      I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      30      nsubj   3_        _
+29      was     be      AUX     VBD     Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin   30      aux     3_  _
+30      moving  move    VERB    VBG     Tense=Pres|VerbForm=Part        23      ccomp   2_        _
+31      away    away    ADV     RB      _       30      advmod  3_       SpaceAfter=No
+32      .       .       PUNCT   .       _       1       punct   _ _
 </div>
 </td><td width="600">
 UCCA:
@@ -326,24 +326,24 @@ UD:
 <div class="conllu-parse">
 # sent_id = reviews-247226-0005
 # text = Going back after graduating your told you get a discount on services nope you dont.
-1       Going   go      VERB    VBG     VerbForm=Ger    7       advcl   7:advcl _
-2       back    back    ADV     RB      _       1       advmod  1:advmod        _
-3       after   after   SCONJ   IN      _       4       mark    4:mark  _
-4       graduating      graduate        VERB    VBG     VerbForm=Ger    1       advcl   1:advcl:after   _
-5       you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  7       nsubj:pass      7:nsubj:pass    SpaceAfter=No
-6       r       be      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        7       aux:pass        7:aux:pass      _
-7       told    tell    VERB    VBN     Tense=Past|VerbForm=Part|Voice=Pass     0       root    0:root  _
-8       you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  9       nsubj   9:nsubj _
-9       get     get     VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        7       ccomp   7:ccomp _
-10      a       a       DET     DT      Definite=Ind|PronType=Art       11      det     11:det  _
-11      discount        discount        NOUN    NN      Number=Sing     9       obj     9:obj   _
-12      on      on      ADP     IN      _       13      case    13:case _
-13      services        service NOUN    NNS     Number=Plur     11      nmod    11:nmod:on      _
-14      nope    nope    INTJ    UH      _       16      discourse       16:discourse    _
-15      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  16      nsubj   16:nsubj        _
-16      do      do      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        7       parataxis       7:parataxis     SpaceAfter=No
-17      nt      not     PART    RB      _       16      advmod  16:advmod       SpaceAfter=No
-18      .       .       PUNCT   .       _       7       punct   7:punct _
+1       Going   go      VERB    VBG     VerbForm=Ger    7       advcl   _ _
+2       back    back    ADV     RB      _       1       advmod  _        _
+3       after   after   SCONJ   IN      _       4       mark    _  _
+4       graduating      graduate        VERB    VBG     VerbForm=Ger    1       advcl   _:after   _
+5       you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  7       nsubj:pass      _:pass    SpaceAfter=No
+6       r       be      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        7       aux:pass        _:pass      _
+7       told    tell    VERB    VBN     Tense=Past|VerbForm=Part|Voice=Pass     0       root    _  _
+8       you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  9       nsubj   _ _
+9       get     get     VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        7       ccomp   _ _
+10      a       a       DET     DT      Definite=Ind|PronType=Art       11      det     1_  _
+11      discount        discount        NOUN    NN      Number=Sing     9       obj     _   _
+12      on      on      ADP     IN      _       13      case    1_ _
+13      services        service NOUN    NNS     Number=Plur     11      nmod    1_:on      _
+14      nope    nope    INTJ    UH      _       16      discourse       1_    _
+15      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  16      nsubj   1_        _
+16      do      do      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        7       parataxis       _     SpaceAfter=No
+17      nt      not     PART    RB      _       16      advmod  1_       SpaceAfter=No
+18      .       .       PUNCT   .       _       7       punct   _ _
 </div>
 </td><td width="600">
 UCCA:
@@ -374,6 +374,81 @@ T25	Relator 11 16	after
 T26	Process 17 27	graduating
 T29	Process 0 5	Going
 T30	Adverbial 6 10	back
+</div>
+</td></tr></tbody>
+</table>
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-095040-0004
+# text = Stephanie's knowledge of the market and properties in our price range, made us feel secure in our decision to buy when we did.
+1       Stephanie       Stephanie       PROPN   NNP     Number=Sing     3       nmod:poss       3:nmod:poss     SpaceAfter=No
+2       's      's      PART    POS     _       1       case    1:case  _
+3       knowledge       knowledge       NOUN    NN      Number=Sing     14      nsubj   14:nsubj        _
+4       of      of      ADP     IN      _       6       case    6:case  _
+5       the     the     DET     DT      Definite=Def|PronType=Art       6       det     6:det   _
+6       market  market  NOUN    NN      Number=Sing     3       nmod    3:nmod:of       _
+7       and     and     CCONJ   CC      _       8       cc      8:cc    _
+8       properties      property        NOUN    NNS     Number=Plur     6       conj    3:nmod:of|6:conj:and    _
+9       in      in      ADP     IN      _       12      case    12:case _
+10      our     we      PRON    PRP$    Number=Plur|Person=1|Poss=Yes|PronType=Prs      12      nmod:poss       12:nmod:poss    _
+11      price   price   NOUN    NN      Number=Sing     12      compound        12:compound     _
+12      range   range   NOUN    NN      Number=Sing     8       nmod    8:nmod:in       SpaceAfter=No
+13      ,       ,       PUNCT   ,       _       14      punct   14:punct        _
+14      made    make    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    0:root  _
+15      us      we      PRON    PRP     Case=Acc|Number=Plur|Person=1|PronType=Prs      14      obj     14:obj  _
+16      feel    feel    VERB    VB      VerbForm=Inf    15      xcomp   15:xcomp        _
+17      secure  secure  ADJ     JJ      Degree=Pos      16      xcomp   16:xcomp        _
+18      in      in      ADP     IN      _       20      case    20:case _
+19      our     we      PRON    PRP$    Number=Plur|Person=1|Poss=Yes|PronType=Prs      20      nmod:poss       20:nmod:poss    _
+20      decision        decision        NOUN    NN      Number=Sing     17      obl     17:obl:in       _
+21      to      to      PART    TO      _       22      mark    22:mark _
+22      buy     buy     VERB    VB      VerbForm=Inf    20      acl     20:acl:to       _
+23      when    when    ADV     WRB     PronType=Int    25      mark    25:mark _
+24      we      we      PRON    PRP     Case=Nom|Number=Plur|Person=1|PronType=Prs      25      nsubj   25:nsubj        _
+25      did     do      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        22      advcl   22:advcl:when   SpaceAfter=No
+26      .       .       PUNCT   .       _       14      punct   14:punct        _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Stephanie 's knowledge of the market and properties in our price range , made us feel secure in our decision to buy when we did .
+T2	ParallelScene 0 115	Stephanie 's knowledge of the market and properties in our price range , made us feel secure in our decision to buy
+T3	Linker 116 120	when
+T4	ParallelScene 121 129	we did .
+T6	Participant 121 123	we
+T7	Function 124 127	did
+T8	Participant 0 70	Stephanie 's knowledge of the market and properties in our price range
+T9	Adverbial 73 77	made
+T10	Participant 78 80	us
+T11	State 81 85	feel
+T12	Adverbial 86 92	secure
+T13	Participant 93 115	in our decision to buy
+T15	Relator 93 95	in
+T16	Participant 96 99	our
+T17	Adverbial 100 108	decision
+T18	Function 109 111	to
+T19	Process 112 115	buy
+R1	Process parent:T4 child:T19
+T20	Participant 0 12	Stephanie 's
+T21	State 13 22	knowledge
+T22	Participant 23 70	of the market and properties in our price range
+T23	Relator 23 25	of
+T24	Center 26 36	the market
+T25	Connector 37 40	and
+T26	Center 41 70	properties in our price range
+T27	Center 41 51	properties
+T28	Elaborator 52 70	in our price range
+T29	Relator 52 54	in
+T30	Elaborator 55 58	our
+T31	Elaborator 59 64	price
+T32	Center 65 70	range
+T33	Function 26 29	the
+T34	Center 30 36	market
+T35	Center 0 9	Stephanie
+T36	Relator 10 12	's
 </div>
 </td></tr></tbody>
 </table>
