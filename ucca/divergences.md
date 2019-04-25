@@ -35,3 +35,16 @@ Content will be available soon.
 5       poor    poor    ADJ     JJ      Degree=Pos      0       root    0:root  SpaceAfter=No
 6       .       .       PUNCT   .       _       5       punct   5:punct _
 ~~~
+
+~~~ ann
+After graduation , Mary moved to New York City .
+T2	L 0 5	After
+T3	H 6 16	graduation
+T4	P 6 16	graduation
+T6	H 19 46	Mary moved to New York City
+T7	A 19 23	Mary
+T8	P 24 29	moved
+T9	A 30 46	to New York City
+T10	R 30 32	to
+T11	C 33 46	New York City
+~~~
