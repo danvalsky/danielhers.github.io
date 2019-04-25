@@ -1835,6 +1835,76 @@ T41	Center 20 28	reviewer
 </td></tr></tbody>
 </table>
 
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-070730-0006
+# text = The service is solicitous, the atmosphere is nice and mod except the out-of-place flat-screen TV playing football.
+1       The     the     DET     DT      Definite=Def|PronType=Art       2       det     _   _
+2       service service NOUN    NN      Number=Sing     4       nsubj   _ _
+3       is      be      AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   4       cop     _   _
+4       solicitous      solicitous      ADJ     JJ      Degree=Pos      0       root    _  SpaceAfter=No
+5       ,       ,       PUNCT   ,       _       4       punct   _ _
+6       the     the     DET     DT      Definite=Def|PronType=Art       7       det     _   _
+7       atmosphere      atmosphere      NOUN    NN      Number=Sing     9       nsubj   _        _
+8       is      be      AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   9       cop     _   _
+9       nice    nice    ADJ     JJ      Degree=Pos      4       list    _  _
+10      and     and     CCONJ   CC      _       11      cc      _   _
+11      mod     mod     ADJ     JJ      Degree=Pos      9       conj    _      _
+12      except  except  ADP     IN      _       22      case    _ _
+13      the     the     DET     DT      Definite=Def|PronType=Art       22      det     _  _
+14      out     out     ADP     IN      _       22      compound        _     SpaceAfter=No
+15      -       -       PUNCT   HYPH    _       14      punct   _        SpaceAfter=No
+16      of      of      ADP     IN      _       18      case    _ SpaceAfter=No
+17      -       -       PUNCT   HYPH    _       18      punct   _        SpaceAfter=No
+18      place   place   NOUN    NN      Number=Sing     14      nmod    _      _
+19      flat    flat    ADJ     JJ      Degree=Pos      21      amod    _ SpaceAfter=No
+20      -       -       PUNCT   HYPH    _       21      punct   _        SpaceAfter=No
+21      screen  screen  NOUN    NN      Number=Sing     22      compound        _     _
+22      TV      tv      NOUN    NN      Number=Sing     9       obl     _    _
+23      playing play    VERB    VBG     VerbForm=Ger    22      acl     _  _
+24      football        football        NOUN    NN      Number=Sing     23      obj     _  SpaceAfter=No
+25      .       .       PUNCT   .       _       4       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+The service is solicitous , the atmosphere is nice and mod except the out - of - place flat - screen TV playing football .
+T2	ParallelScene 0 25	The service is solicitous
+T3	ParallelScene 28 58	the atmosphere is nice and mod
+T4	Linker 59 65	except
+T5	ParallelScene 66 122	the out - of - place flat - screen TV playing football .
+T8	Participant 66 103	the out - of - place flat - screen TV
+T9	Process 104 111	playing
+T10	Participant 112 120	football
+T11	Function 66 69	the
+T12	Elaborator 70 86	out - of - place
+T13	Elaborator 87 100	flat - screen
+T14	Center 101 103	TV
+R1	Participant parent:T12 child:T14
+T15	Elaborator 87 91	flat
+T16	Center 94 100	screen
+T18	State 70 86	out - of - place
+T19	Relator 70 73	out
+T20	Function 76 78	of
+T21	Center 81 86	place
+T24	Process 28 42	the atmosphere
+T25	Function 43 45	is
+T26	Adverbial 46 58	nice and mod
+T27	Center 46 50	nice
+T28	Connector 51 54	and
+T29	Center 55 58	mod
+T30	Function 28 31	the
+T31	Center 32 42	atmosphere
+T32	Process 0 11	The service
+T33	Function 12 14	is
+T34	Adverbial 15 25	solicitous
+T35	Function 0 3	The
+T36	Center 4 11	service
+</div>
+</td></tr></tbody>
+</table>
 
 
 
