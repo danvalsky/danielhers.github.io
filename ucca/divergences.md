@@ -18,6 +18,8 @@ Content will be available soon.
 
 ## Scene/Non-Scene
 ### Participant nsubj:
+<table>
+<tbody><tr><td width="600">
 UD:
 ~~~ conllu
 # sent_id = reviews-305187-0005
@@ -27,7 +29,7 @@ UD:
 3       excellent       excellent       ADJ     JJ      Degree=Pos      0       root    _  SpaceAfter=No
 4       .       .       PUNCT   .       _       3       punct   _ _
 ~~~
-
+</td><td width="600">
 UCCA:
 ~~~ ann
 Wine was excellent .
@@ -36,8 +38,12 @@ T4	Participant 0 4	Wine
 T5	Function 5 8	was
 T6	State 9 18	excellent
 ~~~
+</td></tr></tbody>
+</table>
 
 ### Process nsubj:
+<table>
+<tbody><tr><td width="600">
 UD:
 ~~~ conllu
 # sent_id = reviews-079007-0002
@@ -49,7 +55,7 @@ UD:
 5       poor    poor    ADJ     JJ      Degree=Pos      0       root    _  SpaceAfter=No
 6       .       .       PUNCT   .       _       5       punct   _ _
 ~~~
-
+</td><td width="600">
 UCCA:
 ~~~ ann
 But service is very poor .
@@ -61,10 +67,14 @@ T8	Adverbial 15 26	very poor .
 T9	Elaborator 15 19	very
 T10	Center 20 24	poor
 ~~~
-
+</td></tr></tbody>
+</table>
 
 ## General
 
+<table>
+<tbody><tr><td width="600">
+</td><td width="600">
 UCCA:
 ~~~ ann
 After graduation , Mary moved to New York City .
@@ -79,3 +89,5 @@ T9	Participant 30 46	to New York City
 T10	Relator 30 32	to
 T11	Center 33 46	New York City
 ~~~
+</td></tr></tbody>
+</table>
