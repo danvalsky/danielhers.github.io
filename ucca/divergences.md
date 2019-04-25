@@ -2614,7 +2614,7 @@ T34	Center 12 20	original
 </td></tr></tbody>
 </table>
 
-### Function copula (expressing _tion/location)
+### Function copula (expressing attribution/location)
 <table id="063347-0003">
 <tbody><tr><td width="1200">
 UD:
