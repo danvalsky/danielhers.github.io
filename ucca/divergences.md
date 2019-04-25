@@ -70,7 +70,7 @@ T10	Center 20 24	poor
 
 ### Linker nsubj:
 <table>
-<tbody><tr><td width="600">
+<tbody><tr><td width="1200">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-295491-0007
@@ -90,7 +90,7 @@ UD:
 13      spot    spot    NOUN    NN      Number=Sing     10      obj     _  SpaceAfter=No
 14      .       .       PUNCT   .       _       7       punct   _ _
 </div>
-</td><td width="600">
+</td><td width="1200">
 UCCA:
 <div class="ann-annotation">
 Overall , Joe is a happy camper who has found a great spot .
