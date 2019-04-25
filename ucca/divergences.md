@@ -94,6 +94,7 @@ UD:
 </div>
 </td><td width="600">
 UCCA:
+<div class="ann-annotation">
 Overall , Joe is a happy camper who has found a great spot .
 T2	Linker 0 7	Overall
 T3	ParallelScene 10 31	Joe is a happy camper
@@ -136,6 +137,7 @@ UD:
 </div>
 </td><td width="600">
 UCCA:
+<div class="ann-annotation">
 A perfect place for a romantic dinner .
 T2	ParallelScene 0 15	A perfect place
 T3	Linker 16 19	for
@@ -165,6 +167,7 @@ UD:
 </div>
 </td><td width="600">
 UCCA:
+<div class="ann-annotation">
 Beautiful hotel !
 T2	ParallelScene 0 17	Beautiful hotel !
 T4	State 0 9	Beautiful
@@ -201,6 +204,7 @@ UD:
 </div>
 </td><td width="600">
 UCCA:
+<div class="ann-annotation">
 Such a convenient location as well with coffee shop and bradley food and beverage right around corner .
 T2	ParallelScene 0 34	Such a convenient location as well
 T3	Linker 35 39	with
@@ -267,6 +271,7 @@ UD:
 </div>
 </td><td width="600">
 UCCA:
+<div class="ann-annotation">
 Back to my poor rating - I was excepted to medical school and went in to cancel my membership as I was told I could do since I was moving away .
 T2	ParallelScene 0 22	Back to my poor rating
 T3	ParallelScene 25 57	I was excepted to medical school
