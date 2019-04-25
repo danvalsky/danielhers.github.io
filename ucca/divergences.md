@@ -90,7 +90,7 @@ UD:
 13      spot    spot    NOUN    NN      Number=Sing     10      obj     _  SpaceAfter=No
 14      .       .       PUNCT   .       _       7       punct   _ _
 </div>
-</td><td width="1200">
+</td></tr><tr><td width="1200">
 UCCA:
 <div class="ann-annotation">
 Overall , Joe is a happy camper who has found a great spot .
@@ -200,7 +200,7 @@ UD:
 17      corner  corner  NOUN    NN      Number=Sing     9       nmod    _   SpaceAfter=No
 18      .       .       PUNCT   .       _       4       punct   _ _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 Such a convenient location as well with coffee shop and bradley food and beverage right around corner .
@@ -267,7 +267,7 @@ UD:
 31      away    away    ADV     RB      _       30      advmod  _       SpaceAfter=No
 32      .       .       PUNCT   .       _       1       punct   _ _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 Back to my poor rating - I was excepted to medical school and went in to cancel my membership as I was told I could do since I was moving away .
@@ -343,7 +343,7 @@ UD:
 17      nt      not     PART    RB      _       16      advmod  _       SpaceAfter=No
 18      .       .       PUNCT   .       _       7       punct   _ _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 Going back after graduating you r told you get a discount on services nope you do nt .
@@ -409,7 +409,7 @@ UD:
 25      did     do      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        22      advcl   _   SpaceAfter=No
 26      .       .       PUNCT   .       _       14      punct   _        _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 Stephanie 's knowledge of the market and properties in our price range , made us feel secure in our decision to buy when we did .
@@ -481,7 +481,7 @@ UD:
 21      car     car     NOUN    NN      Number=Sing     18      obj     _  SpaceAfter=No
 22      .       .       PUNCT   .       _       10      punct   _        _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 Now my car s gears and brakes have never run so well ... ever it s like driving a new car .
@@ -554,7 +554,7 @@ UD:
 25      good    good    ADJ     JJ      Degree=Pos      13      conj    _     SpaceAfter=No
 26      .       .       PUNCT   .       _       13      punct   _        _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 Some of the younger kids that work there are a bit sub par , but if you wait for Nick ... you 'll be good .
@@ -812,7 +812,7 @@ UD:
 27      's      's      PART    POS     _       26      case    _ SpaceAfter=No
 28      .       .       PUNCT   .       _       6       punct   _ _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 It is right on the hustle and bustle of Wisconsin Ave but some might miss it as it is nestled in between Subway Sandwiches and Modell 's .
@@ -1021,7 +1021,7 @@ UD:
 25      mistake mistake NOUN    NN      Number=Sing     0       root    _  SpaceAfter=No
 26      !       !       PUNCT   .       _       25      punct   _        _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 went in there and got my dog groomed came home to an uneven dog then took him back to get evened up what a mistake !
@@ -1257,7 +1257,7 @@ UD:
 20      bonus   bonus   NOUN    NN      Number=Sing     9       parataxis       _     SpaceAfter=No
 21      !!      !!      PUNCT   .       _       20      punct   _        _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 And it was great that they did not charge a service fee to diagnose the problem - an added bonus !!
@@ -1337,7 +1337,7 @@ UD:
 40      needs   need    NOUN    NNS     Number=Plur     38      obj     _  SpaceAfter=No
 41      .       .       PUNCT   .       _       3       punct   _ _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 i was looking for a car but did not really know what i wanted and they were very helpful and took the time to first figure out what my needs were and showing me various options to meet those needs .
@@ -1487,7 +1487,7 @@ UD:
 26      graduate        graduate        VERB    VB      VerbForm=Inf    2       parataxis       _     SpaceAfter=No
 27      !       !       PUNCT   .       _       2       punct   _ _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 You have to bring in your own models and they have to pay for you to use them if you do nt then you can graduate !
@@ -1611,7 +1611,7 @@ UD:
 19      shelters        shelter NOUN    NNS     Number=Plur     16      obj     _  SpaceAfter=No
 20      !       !       PUNCT   .       _       14      punct   _        _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 If you are on the lookout for a pure breed pup do n't forget to check out the shelters !
@@ -1676,7 +1676,7 @@ UD:
 26      graduate        graduate        VERB    VB      VerbForm=Inf    2       parataxis       _     SpaceAfter=No
 27      !       !       PUNCT   .       _       2       punct   _ _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 You have to bring in your own models and they have to pay for you to use them if you do nt then you can graduate !
@@ -1764,7 +1764,7 @@ UD:
 32      standard        standard        NOUN    NN      Number=Sing     21      parataxis       _    SpaceAfter=No
 33      .       .       PUNCT   .       _       11      punct   _        _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 Firstly , the other reviewer clearly has never been to Nick 's , or he would know that Nick only charges $ 13 for a haircut which is pretty much industry standard .
@@ -1842,7 +1842,7 @@ UD:
 24      football        football        NOUN    NN      Number=Sing     23      obj     _  SpaceAfter=No
 25      .       .       PUNCT   .       _       4       punct   _ _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 The service is solicitous , the atmosphere is nice and mod except the out - of - place flat - screen TV playing football .
@@ -1908,7 +1908,7 @@ UD:
 18      Europe  Europe  PROPN   NNP     Number=Sing     16      obl     _      SpaceAfter=No
 19      .       .       PUNCT   .       _       5       punct   _ _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 The mark up is minimal considering that the clothing is hard to find and often shipped for Europe .
@@ -2003,7 +2003,7 @@ UD:
 19      out     out     ADP     RP      _       18      compound:prt    _ SpaceAfter=No
 20      .       .       PUNCT   .       _       11      punct   _        _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 Before treatment , my food cravings were " out of control " which caused me to be stressed out .
@@ -2063,7 +2063,7 @@ UD:
 21      helpful helpful ADJ     JJ      Degree=Pos      12      xcomp   _        SpaceAfter=No
 22      .       .       PUNCT   .       _       12      punct   _        _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 As first - time home buyers , my husband and I found Stephanie Fairchild at Prudential Steamboat Realty , extremely helpful .
@@ -2180,7 +2180,7 @@ UD:
 20      dancewear       dancewear       NOUN    NN      Number=Sing     18      obl     _       SpaceAfter=No
 21      .       .       PUNCT   .       _       5       punct   _ _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 I 'm a soccer mom so I was n't sure what I was looking for when it comes to dancewear .
@@ -2366,7 +2366,7 @@ UD:
 40      me      I       PRON    PRP     Case=Acc|Number=Sing|Person=1|PronType=Prs      36      obl     _       SpaceAfter=No
 41      .       .       PUNCT   .       _       4       punct   _ _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 I did n't end up buying my car here , but I did think the guy who worked with me was pretty cool - he was willing to budge a little on the price which means a lot to me .
@@ -2574,7 +2574,7 @@ UD:
 24      more    more    ADV     RBR     _       7       conj    _      SpaceAfter=No
 25      .       .       PUNCT   .       _       7       punct   _ _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 This is the original Ham 's restaurant , expanded into a regional chain in the late 80's -- but this one is no more .
@@ -2798,7 +2798,7 @@ UD:
 21      car     car     NOUN    NN      Number=Sing     18      obj     _  SpaceAfter=No
 22      .       .       PUNCT   .       _       10      punct   _        _
 </div>
-</td><td width="600">
+</td></tr><tr><td width="600">
 UCCA:
 <div class="ann-annotation">
 Now my car s gears and brakes have never run so well ... ever it s like driving a new car .
