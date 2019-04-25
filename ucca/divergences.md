@@ -3,6 +3,8 @@ layout: base
 title:  'Content Differences in Syntactic and Semantic Representations'
 ---
 
+# Content Differences in Syntactic and Semantic Representations
+
 This page provides detailed examples to accompany the following <a href="../divergences.pdf">paper</a>:
 
     @InProceedings{hershcovich2019content,
