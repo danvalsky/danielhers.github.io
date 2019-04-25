@@ -1470,6 +1470,88 @@ T20	Participant 23 25	it
 </td></tr></tbody>
 </table>
 
+### Unmatched xcomp
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-247226-0004
+# text = You have to bring in your own models and they have to pay for you to use them if you dont then you can graduate!
+1       You     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  2       nsubj   _   _
+2       have    have    VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        0       root    _  _
+3       to      to      PART    TO      _       4       mark    _  _
+4       bring   bring   VERB    VB      VerbForm=Inf    2       xcomp   _ _
+5       in      in      ADV     RB      _       4       advmod  _        _
+6       your    you     PRON    PRP$    Person=2|Poss=Yes|PronType=Prs  8       nmod:poss       _     _
+7       own     own     ADJ     JJ      Degree=Pos      8       amod    _  _
+8       models  model   NOUN    NNS     Number=Plur     4       obj     _   _
+9       and     and     CCONJ   CC      _       11      cc      _   _
+10      they    they    PRON    PRP     Case=Nom|Number=Plur|Person=3|PronType=Prs      11      nsubj   _ _
+11      have    have    VERB    VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        2       conj    _      _
+12      to      to      PART    TO      _       13      mark    _ _
+13      pay     pay     VERB    VB      VerbForm=Inf    11      xcomp   _        _
+14      for     for     SCONJ   IN      _       17      mark    _ _
+15      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  17      nsubj   _        _
+16      to      to      PART    TO      _       17      mark    _ _
+17      use     use     VERB    VB      VerbForm=Inf    13      advcl   _    _
+18      them    they    PRON    PRP     Case=Acc|Number=Plur|Person=3|PronType=Prs      17      obj     _  _
+19      if      if      SCONJ   IN      _       21      mark    _ _
+20      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  21      nsubj   _        _
+21      do      do      AUX     VBP     Mood=Ind|Tense=Pres|VerbForm=Fin        26      advcl   _     SpaceAfter=No
+22      nt      not     PART    RB      _       21      advmod  _       _
+23      then    then    ADV     RB      PronType=Dem    26      advmod  _       _
+24      you     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  26      nsubj   _        _
+25      can     can     AUX     MD      VerbForm=Fin    26      aux     _  _
+26      graduate        graduate        VERB    VB      VerbForm=Inf    2       parataxis       _     SpaceAfter=No
+27      !       !       PUNCT   .       _       2       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+You have to bring in your own models and they have to pay for you to use them if you do nt then you can graduate !
+T2	ParallelScene 0 36	You have to bring in your own models
+T3	Linker 37 40	and
+T4	ParallelScene 41 77	they have to pay for you to use them
+T5	Linker 78 80	if
+T6	ParallelScene 81 90	you do nt
+T7	Linker 91 95	then
+T8	ParallelScene 96 114	you can graduate !
+T10	Participant 96 99	you
+T11	Adverbial 100 103	can
+T12	Process 104 112	graduate
+T13	Participant 81 84	you
+T14	Function 85 87	do
+T15	Adverbial 88 90	nt
+R1	Adverbial parent:T8 child:T15
+T16	Participant 41 45	they
+T17	Adverbial 46 53	have to
+T18	Process 54 57	pay
+R2	Process parent:T6 child:T18
+T19	Participant 58 77	for you to use them
+T20	Relator 58 61	for
+T21	Participant 62 65	you
+T22	Function 66 68	to
+T23	Process 69 72	use
+T24	Participant 73 77	them
+T25	Center 46 50	have
+T26	Function 51 53	to
+T27	Participant 0 3	You
+T28	Adverbial 4 11	have to
+T29	Process 12 17	bring
+T30	Adverbial 18 20	in
+T31	Participant 21 36	your own models
+T32	Elaborator 21 29	your own
+T33	Center 30 36	models
+R3	Participant parent:T32 child:T33
+T34	State 21 25	your
+T35	Adverbial 26 29	own
+T36	Center 4 8	have
+T37	Function 9 11	to
+</div>
+</td></tr></tbody>
+</table>
+
 
 
 <table>
