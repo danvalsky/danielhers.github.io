@@ -151,6 +151,27 @@ T13	Center 10 15	place
 </table>
 
 
+### State amod:
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-073356-0001
+# text = Beautiful hotel!
+1       Beautiful       beautiful       ADJ     JJ      Degree=Pos      2       amod    _  _
+2       hotel   hotel   NOUN    NN      Number=Sing     0       root    _  SpaceAfter=No
+3       !       !       PUNCT   .       _       2       punct   _ _
+</div>
+</td><td width="600">
+Beautiful hotel !
+T2	ParallelScene 0 17	Beautiful hotel !
+T4	State 0 9	Beautiful
+T5	Participant 10 15	hotel
+</div>
+</td></tr></tbody>
+</table>
+
+
 ## General
 
 <table>
