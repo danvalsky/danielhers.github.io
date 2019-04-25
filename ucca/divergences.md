@@ -1215,6 +1215,34 @@ T8	Adverbial 23 28	again
 </td></tr></tbody>
 </table>
 
+### Adverbial obl
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-307250-0002
+# text = Worst buffet period by far.
+1       Worst   worst   ADJ     JJS     Degree=Sup      3       amod    _  _
+2       buffet  buffet  NOUN    NN      Number=Sing     3       compound        _      _
+3       period  period  NOUN    NN      Number=Sing     0       root    _  _
+4       by      by      ADP     IN      _       5       case    _  _
+5       far     far     ADV     RB      Degree=Pos      3       nmod    _       SpaceAfter=No
+6       .       .       PUNCT   .       _       3       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+Worst buffet period by far .
+T2	ParallelScene 0 28	Worst buffet period by far .
+T4	Adverbial 0 5	Worst
+T5	Process 6 12	buffet
+T6	Ground 13 19	period
+T7	Adverbial 20 26	by far
+</div>
+</td></tr></tbody>
+</table>
+
 
 
 
