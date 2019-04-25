@@ -2583,7 +2583,80 @@ T26	Center 5 10	place
 </td></tr></tbody>
 </table>
 
+### Copula expressing identity
 
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-291046-0002
+# text = This is the original Ham's restaurant, expanded into a regional chain in the late 80's -- but this one is no more.
+1       This    this    PRON    DT      Number=Sing|PronType=Dem        7       nsubj   _ _
+2       is      be      AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   7       cop     _   _
+3       the     the     DET     DT      Definite=Def|PronType=Art       5       det     _   _
+4       original        original        ADJ     JJ      Degree=Pos      5       amod    _  _
+5       Ham     Ham     PROPN   NNP     Number=Sing     7       nmod:poss       _     SpaceAfter=No
+6       's      's      PART    POS     _       5       case    _  _
+7       restaurant      restaurant      NOUN    NN      Number=Sing     0       root    _  SpaceAfter=No
+8       ,       ,       PUNCT   ,       _       7       punct   _ _
+9       expanded        expand  VERB    VBN     Tense=Past|VerbForm=Part        7       acl     _   _
+10      into    into    ADP     IN      _       13      case    _ _
+11      a       a       DET     DT      Definite=Ind|PronType=Art       13      det     _  _
+12      regional        regional        ADJ     JJ      Degree=Pos      13      amod    _ _
+13      chain   chain   NOUN    NN      Number=Sing     9       obl     _      _
+14      in      in      ADP     IN      _       17      case    _ _
+15      the     the     DET     DT      Definite=Def|PronType=Art       17      det     _  _
+16      late    late    ADJ     JJ      Degree=Pos      17      amod    _ _
+17      80's    80'     NOUN    NNS     Number=Plur     9       obl     _        _
+18      --      --      PUNCT   ,       _       7       punct   _ _
+19      but     but     CCONJ   CC      _       24      cc      _   _
+20      this    this    DET     DT      Number=Sing|PronType=Dem        21      det     _  _
+21      one     one     NOUN    NN      Number=Sing     24      nsubj   _        _
+22      is      be      AUX     VBZ     Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   24      cop     _  _
+23      no      no      ADV     RB      _       24      advmod  _       _
+24      more    more    ADV     RBR     _       7       conj    _      SpaceAfter=No
+25      .       .       PUNCT   .       _       7       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+This is the original Ham 's restaurant , expanded into a regional chain in the late 80's -- but this one is no more .
+T2	ParallelScene 0 88	This is the original Ham 's restaurant , expanded into a regional chain in the late 80's
+T3	Linker 92 95	but
+T4	ParallelScene 96 117	this one is no more .
+T7	Participant 96 104	this one
+T8	Function 105 107	is
+T9	Adverbial 108 110	no
+T10	State 111 115	more
+T11	Elaborator 96 100	this
+T12	Center 101 104	one
+T13	Participant 0 4	This
+T14	State 5 7	is
+T15	Participant 8 88	the original Ham 's restaurant , expanded into a regional chain in the late 80's
+T16	Elaborator 8 20	the original
+T17	Elaborator 21 27	Ham 's
+R1	Participant parent:T19 child:T17
+T18	Center 28 38	restaurant
+R2	Participant parent:T16 child:T18
+T19	Elaborator 41 88	expanded into a regional chain in the late 80's
+T21	Process 41 49	expanded
+T22	Participant 50 71	into a regional chain
+T23	Time 72 88	in the late 80's
+T24	Relator 72 74	in
+T25	Function 75 78	the
+T26	Elaborator 79 83	late
+T27	Center 84 88	80's
+T28	Relator 50 54	into
+T29	Function 55 56	a
+T30	Elaborator 57 65	regional
+T31	Center 66 71	chain
+T32	State|Adverbial 8 20	the original
+T33	Function 8 11	the
+T34	Center 12 20	original
+</div>
+</td></tr></tbody>
+</table>
 
 
 <table>
