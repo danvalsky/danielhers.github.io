@@ -43,6 +43,7 @@ T3	ParallelScene 6 16	graduation
 T4	Process 6 16	graduation
 T6	ParallelScene 19 46	Mary moved to New York City
 T7	Participant 19 23	Mary
+R1	A parent:T3 child:T7
 T8	Process 24 29	moved
 T9	Participant 30 46	to New York City
 T10	Relator 30 32	to
