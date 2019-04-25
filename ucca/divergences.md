@@ -631,6 +631,60 @@ T12	Center 4 10	prices
 </td></tr></tbody>
 </table>
 
+### Relator case
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-303922-0003
+# text = The team at Bradley Chevron kept my car running for well past its expected death!
+1       The     the     DET     DT      Definite=Def|PronType=Art       2       det     _   _
+2       team    team    NOUN    NN      Number=Sing     6       nsubj   _ _
+3       at      at      ADP     IN      _       5       case    _  _
+4       Bradley Bradley PROPN   NNP     Number=Sing     5       compound        _      _
+5       Chevron Chevron PROPN   NNP     Number=Sing     2       nmod    _       _
+6       kept    keep    VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        0       root    _  _
+7       my      my      PRON    PRP$    Number=Sing|Person=1|Poss=Yes|PronType=Prs      8       nmod:poss       _     _
+8       car     car     NOUN    NN      Number=Sing     6       obj     _   _
+9       running run     VERB    VBG     VerbForm=Ger    6       advcl   _ _
+10      for     for     ADP     IN      _       15      case    _ _
+11      well    well    ADV     RB      Degree=Pos      15      advmod  _       _
+12      past    past    ADP     IN      _       15      case    _ _
+13      its     its     PRON    PRP$    Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs  15      nmod:poss       _    _
+14      expected        expect  VERB    VBN     Tense=Past|VerbForm=Part        15      amod    _ _
+15      death   death   NOUN    NN      Number=Sing     9       obl     _      SpaceAfter=No
+16      !       !       PUNCT   .       _       6       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+The team at Bradley Chevron kept my car running for well past its expected death !
+T2	ParallelScene 0 47	The team at Bradley Chevron kept my car running
+T3	Linker 48 51	for
+T4	ParallelScene 52 82	well past its expected death !
+T6	Time 52 61	well past
+T7	Participant 62 65	its
+T8	Adverbial 66 74	expected
+T9	Process 75 80	death
+T10	Elaborator 52 56	well
+T11	Center 57 61	past
+T12	Participant 0 27	The team at Bradley Chevron
+T13	Adverbial 28 32	kept
+T14	Participant 33 39	my car
+T15	Process 40 47	running
+T16	Elaborator 33 35	my
+T17	Center 36 39	car
+R1	Participant parent:T16 child:T17
+T18	State 33 35	my
+T19	Function 0 3	The
+T20	Center 4 8	team
+T21	Elaborator 9 27	at Bradley Chevron
+T22	Relator 9 11	at
+T23	Center 12 27	Bradley Chevron
+</div>
+</td></tr></tbody>
+</table>
 
 
 
