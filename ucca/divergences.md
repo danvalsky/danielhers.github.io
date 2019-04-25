@@ -16,6 +16,9 @@ This page provides detailed examples to accompany the following <a href="../dive
 
 Content will be available soon.
 
+## Scene/Non-Scene
+### Participant nsubj:
+UD:
 ~~~ conllu
 # sent_id = reviews-305187-0005
 # text = Wine was excellent.
@@ -25,6 +28,17 @@ Content will be available soon.
 4       .       .       PUNCT   .       _       3       punct   3:punct _
 ~~~
 
+UCCA:
+~~~ ann
+Wine was excellent .
+T2	ParallelScene 0 20	Wine was excellent .
+T4	Participant 0 4	Wine
+T5	Function 5 8	was
+T6	State 9 18	excellent
+~~~
+
+### Process nsubj:
+UD:
 ~~~ conllu
 # sent_id = reviews-079007-0002
 # text = But service is very poor.
@@ -36,6 +50,22 @@ Content will be available soon.
 6       .       .       PUNCT   .       _       5       punct   5:punct _
 ~~~
 
+UCCA:
+~~~ ann
+But service is very poor .
+T2	Linker 0 3	But
+T3	ParallelScene 4 26	service is very poor .
+T6	Process 4 11	service
+T7	Function 12 14	is
+T8	Adverbial 15 26	very poor .
+T9	Elaborator 15 19	very
+T10	Center 20 24	poor
+~~~
+
+
+## General
+
+UCCA:
 ~~~ ann
 After graduation , Mary moved to New York City .
 T2	Linker 0 5	After
