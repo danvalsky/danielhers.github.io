@@ -596,6 +596,42 @@ T34	Relator 5 7	of
 </table>
 
 
+### Unmatched acl
+
+<table>
+<tbody><tr><td width="600">
+UD:
+<div class="conllu-parse">
+# sent_id = reviews-024385-0004
+# text = The prices were worth what I got.
+1       The     the     DET     DT      Definite=Def|PronType=Art       2       det     _   _
+2       prices  price   NOUN    NNS     Number=Plur     4       nsubj   _ _
+3       were    be      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        4       cop     _   _
+4       worth   worth   ADJ     JJ      Degree=Pos      0       root    _  _
+5       what    what    PRON    WP      PronType=Int    4       obj     _   _
+6       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      7       nsubj   _ _
+7       got     get     VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        4       acl:relcl       _:relcl     SpaceAfter=No
+8       .       .       PUNCT   .       _       4       punct   _ _
+</div>
+</td><td width="600">
+UCCA:
+<div class="ann-annotation">
+The prices were worth what I got .
+T2	ParallelScene 0 34	The prices were worth what I got .
+T4	Participant 0 10	The prices
+T5	Function 11 15	were
+T6	State 16 21	worth
+T7	Participant 22 34	what I got .
+T8	Participant 22 26	what
+T9	Participant 27 28	I
+T10	Process 29 32	got
+T11	Function 0 3	The
+T12	Center 4 10	prices
+</div>
+</td></tr></tbody>
+</table>
+
+
 
 
 
