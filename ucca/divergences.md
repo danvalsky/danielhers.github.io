@@ -98,24 +98,24 @@ UCCA:
 <div class="ann-annotation">
 Overall , Joe is a happy camper who has found a great spot .
 T2	Linker 0 7	Overall
-T3	ParallelScene 10 31	Joe is a happy camper
-T4	Linker 32 35	who
-T5	ParallelScene 36 60	has found a great spot .
-T7	Function 36 39	has
-T8	Process 40 45	found
-T9	Participant 46 60	a great spot .
-T10	Function 46 47	a
-T11	Elaborator 48 53	great
-T12	Center 54 58	spot
-R1	Participant parent:T11 child:T12
-T14	State 48 53	great
 T15	Participant 10 13	Joe
-R2	Participant parent:T5 child:T15
+R1	Participant parent:T5 child:T15
+T3	ParallelScene 10 31	Joe is a happy camper
 T16	Function 14 16	is
+T19	Function 17 18	a
 T17	Process 17 18;25 31	a camper
 T18	Adverbial 19 24	happy
-T19	Function 17 18	a
 T20	Center 25 31	camper
+T4	Linker 32 35	who
+T7	Function 36 39	has
+T5	ParallelScene 36 60	has found a great spot .
+T8	Process 40 45	found
+T10	Function 46 47	a
+T9	Participant 46 60	a great spot .
+T11	Elaborator 48 53	great
+T14	State 48 53	great
+T12	Center 54 58	spot
+R2	Participant parent:T11 child:T12
 </div>
 </td></tr></tbody>
 </table>
