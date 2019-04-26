@@ -17,7 +17,7 @@ This page provides detailed examples to accompany the following <a href="../dive
 ## Scene/Non-Scene
 ### Participant nsubj
 <table id="305187-0005">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-305187-0005
@@ -27,7 +27,7 @@ UD:
 3       excellent       excellent       ADJ     JJ      Degree=Pos      0       root    _  SpaceAfter=No
 4       .       .       PUNCT   .       _       3       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Wine was excellent .
@@ -41,7 +41,7 @@ T6	State 9 18	excellent
 
 ### Process nsubj
 <table id="079007-0002">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-079007-0002
@@ -53,7 +53,7 @@ UD:
 5       poor    poor    ADJ     JJ      Degree=Pos      0       root    _  SpaceAfter=No
 6       .       .       PUNCT   .       _       5       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 But service is very poor .
@@ -70,7 +70,7 @@ T10	Center 20 24	poor
 
 ### Linker nsubj
 <table id="295491-0007">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-295491-0007
@@ -90,7 +90,7 @@ UD:
 13      spot    spot    NOUN    NN      Number=Sing     10      obj     _  SpaceAfter=No
 14      .       .       PUNCT   .       _       7       punct   _ _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Overall , Joe is a happy camper who has found a great spot .
@@ -119,7 +119,7 @@ T20	Center 25 31	camper
 
 ### Adverbial amod
 <table id="305187-0007">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-305187-0007
@@ -133,7 +133,7 @@ UD:
 7       dinner  dinner  NOUN    NN      Number=Sing     3       nmod    _      SpaceAfter=No
 8       .       .       PUNCT   .       _       3       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 A perfect place for a romantic dinner .
@@ -154,7 +154,7 @@ T13	Center 10 15	place
 
 ### State amod
 <table id="073356-0001">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-073356-0001
@@ -163,7 +163,7 @@ UD:
 2       hotel   hotel   NOUN    NN      Number=Sing     0       root    _  SpaceAfter=No
 3       !       !       PUNCT   .       _       2       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Beautiful hotel !
@@ -176,7 +176,7 @@ T5	Participant 10 15	hotel
 
 
 <table id="303922-0005">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-303922-0005
@@ -200,7 +200,7 @@ UD:
 17      corner  corner  NOUN    NN      Number=Sing     9       nmod    _   SpaceAfter=No
 18      .       .       PUNCT   .       _       4       punct   _ _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Such a convenient location as well with coffee shop and bradley food and beverage right around corner .
@@ -229,7 +229,7 @@ T20	Center 18 26	location
 
 ### Elaborator amod
 <table id="071650-0007">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-071650-0007
@@ -267,7 +267,7 @@ UD:
 31      away    away    ADV     RB      _       30      advmod  _       SpaceAfter=No
 32      .       .       PUNCT   .       _       1       punct   _ _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Back to my poor rating - I was excepted to medical school and went in to cancel my membership as I was told I could do since I was moving away .
@@ -319,7 +319,7 @@ T45	Process 16 22	rating
 
 ### Participant nmod
 <table id="247226-0005">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-247226-0005
@@ -343,7 +343,7 @@ UD:
 17      nt      not     PART    RB      _       16      advmod  _       SpaceAfter=No
 18      .       .       PUNCT   .       _       7       punct   _ _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Going back after graduating you r told you get a discount on services nope you do nt .
@@ -377,7 +377,7 @@ T30	Adverbial 6 10	back
 </table>
 
 <table id="095040-0004">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-095040-0004
@@ -409,7 +409,7 @@ UD:
 25      did     do      AUX     VBD     Mood=Ind|Tense=Past|VerbForm=Fin        22      advcl   _   SpaceAfter=No
 26      .       .       PUNCT   .       _       14      punct   _        _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Stephanie 's knowledge of the market and properties in our price range , made us feel secure in our decision to buy when we did .
@@ -453,7 +453,7 @@ T36	Relator 10 12	's
 
 ### Elaborator nmod/acl
 <table id="295288-0006">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-295288-0006
@@ -481,7 +481,7 @@ UD:
 21      car     car     NOUN    NN      Number=Sing     18      obj     _  SpaceAfter=No
 22      .       .       PUNCT   .       _       10      punct   _        _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Now my car s gears and brakes have never run so well ... ever it s like driving a new car .
@@ -522,7 +522,7 @@ T32	State 4 6	my
 
 
 <table id="241739-0005">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-241739-0005
@@ -554,7 +554,7 @@ UD:
 25      good    good    ADJ     JJ      Degree=Pos      13      conj    _     SpaceAfter=No
 26      .       .       PUNCT   .       _       13      punct   _        _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Some of the younger kids that work there are a bit sub par , but if you wait for Nick ... you 'll be good .
@@ -596,7 +596,7 @@ T34	Relator 5 7	of
 
 ### Unmatched acl
 <table id="024385-0004">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-024385-0004
@@ -610,7 +610,7 @@ UD:
 7       got     get     VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        4       acl:relcl       _     SpaceAfter=No
 8       .       .       PUNCT   .       _       4       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 The prices were worth what I got .
@@ -630,7 +630,7 @@ T12	Center 4 10	prices
 
 ### Relator case
 <table id="303922-0003">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-303922-0003
@@ -652,7 +652,7 @@ UD:
 15      death   death   NOUN    NN      Number=Sing     9       obl     _      SpaceAfter=No
 16      !       !       PUNCT   .       _       6       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 The team at Bradley Chevron kept my car running for well past its expected death !
@@ -684,7 +684,7 @@ T23	Center 12 27	Bradley Chevron
 
 ### Linker case
 <table id="295935-0001">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-295935-0001
@@ -699,7 +699,7 @@ UD:
 8       good    good    ADJ     JJ      Degree=Pos      9       amod    _  _
 9       work    work    NOUN    NN      Number=Sing     6       nmod    _       _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Very Informative website with a lot of good work
@@ -721,7 +721,7 @@ T13	Center 44 48	work
 
 ### Elaborator case
 <table id="095040-0003">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-095040-0003
@@ -743,7 +743,7 @@ UD:
 15      home    home    NOUN    NN      Number=Sing     12      obj     _  SpaceAfter=No
 16      .       .       PUNCT   .       _       2       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 She worked with us for over a year , helping us find our perfect home .
@@ -778,7 +778,7 @@ T25	Center 16 18	us
 
 ### State case
 <table id="034501-0003">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-034501-0003
@@ -812,7 +812,7 @@ UD:
 27      's      's      PART    POS     _       26      case    _ SpaceAfter=No
 28      .       .       PUNCT   .       _       6       punct   _ _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 It is right on the hustle and bustle of Wisconsin Ave but some might miss it as it is nestled in between Subway Sandwiches and Modell 's .
@@ -854,7 +854,7 @@ T34	Center 30 36	bustle
 
 ### Connector cc
 <table id="023926-0002">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-023926-0002
@@ -872,7 +872,7 @@ UD:
 11      everything      everything      PRON    NN      Number=Sing     9       nmod    _       SpaceAfter=No
 12      !       !       PUNCT   .       _       6       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Mercedes and Dan are very thorough and on top of everything !
@@ -897,7 +897,7 @@ T16	Center 13 16	Dan
 
 ### Linker cc
 <table id="299148-0001">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-299148-0001
@@ -907,7 +907,7 @@ UD:
 3       not     not     ADV     RB      _       4       advmod  _        _
 4       bad     bad     ADJ     JJ      Degree=Pos      1       conj    _      _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Outdated but not bad
@@ -923,7 +923,7 @@ T9	State 0 8	Outdated
 
 ### Elaborator det
 <table id="071650-0013">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-071650-0013
@@ -939,7 +939,7 @@ UD:
 9       woman   woman   NOUN    NN      Number=Sing     4       obl     _        SpaceAfter=No
 10      .       .       PUNCT   .       _       4       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 I will never recommend this gym to any woman .
@@ -962,7 +962,7 @@ T14	Center 28 31	gym
 
 ### Adverbial det
 <table id="252791-0001">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # newdoc id = reviews-252791
@@ -974,7 +974,7 @@ UD:
 4       stock   stock   NOUN    NN      Number=Sing     2       nmod    _       SpaceAfter=No
 5       !!!!    !!!!    PUNCT   .       _       2       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 no feathers in stock !!!!
@@ -989,7 +989,7 @@ T8	Center 15 20	stock
 </table>
 
 <table id="243799-0002">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-243799-0002
@@ -1021,7 +1021,7 @@ UD:
 25      mistake mistake NOUN    NN      Number=Sing     0       root    _  SpaceAfter=No
 26      !       !       PUNCT   .       _       25      punct   _        _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 went in there and got my dog groomed came home to an uneven dog then took him back to get evened up what a mistake !
@@ -1068,7 +1068,7 @@ T42	Center 8 13	there
 </table>
 
 <table id="349020-0002">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-349020-0002
@@ -1091,7 +1091,7 @@ UD:
 16      leakage leakage NOUN    NN      Number=Sing     14      obj     _  SpaceAfter=No
 17      .       .       PUNCT   .       _       9       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 The night I drove back home , I found that the rear window has some leakage .
@@ -1122,7 +1122,7 @@ T23	Center 4 9	night
 ## Primary/Secondary Relations
 ### Adverbial advmod
 <table id="241855-0002">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-241855-0002
@@ -1144,7 +1144,7 @@ UD:
 15      afternoon       afternoon       NOUN    NN      Number=Sing     11      obl     _       SpaceAfter=No
 16      .       .       PUNCT   .       _       3       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 I sometimes go into this store just for something to do on a sunday afternoon .
@@ -1173,7 +1173,7 @@ T21	Center 25 30	store
 
 ### Participant advmod
 <table id="047007-0002">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-047007-0002
@@ -1186,7 +1186,7 @@ UD:
 6       again   again   ADV     RB      _       4       advmod  _        SpaceAfter=No
 7       .       .       PUNCT   .       _       4       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 I will never come here again .
@@ -1203,7 +1203,7 @@ T8	Adverbial 23 28	again
 
 ### Adverbial obl
 <table id="307250-0002">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-307250-0002
@@ -1215,7 +1215,7 @@ UD:
 5       far     far     ADV     RB      Degree=Pos      3       nmod    _       SpaceAfter=No
 6       .       .       PUNCT   .       _       3       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Worst buffet period by far .
@@ -1230,7 +1230,7 @@ T7	Adverbial 20 26	by far
 
 ### Participant csubj
 <table id="071518-0008">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-071518-0008
@@ -1257,7 +1257,7 @@ UD:
 20      bonus   bonus   NOUN    NN      Number=Sing     9       parataxis       _     SpaceAfter=No
 21      !!      !!      PUNCT   .       _       20      punct   _        _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 And it was great that they did not charge a service fee to diagnose the problem - an added bonus !!
@@ -1290,7 +1290,7 @@ T25	Process 44 51	service
 
 ### Participant ccomp
 <table id="245160-0003">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-245160-0003
@@ -1337,7 +1337,7 @@ UD:
 40      needs   need    NOUN    NNS     Number=Plur     38      obj     _  SpaceAfter=No
 41      .       .       PUNCT   .       _       3       punct   _ _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 i was looking for a car but did not really know what i wanted and they were very helpful and took the time to first figure out what my needs were and showing me various options to meet those needs .
@@ -1404,7 +1404,7 @@ T56	Center 20 23	car
 
 ### Participant xcomp
 <table id="068436-0005">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-068436-0005
@@ -1425,7 +1425,7 @@ UD:
 14      okay    okay    ADJ     JJ      Degree=Pos      10      ccomp   _        SpaceAfter=No
 15      .       .       PUNCT   .       _       2       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 I asked them to change it but they rudely said that it was okay .
@@ -1454,7 +1454,7 @@ T20	Participant 23 25	it
 
 ### Unmatched xcomp
 <table id="247226-0004">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-247226-0004
@@ -1487,7 +1487,7 @@ UD:
 26      graduate        graduate        VERB    VB      VerbForm=Inf    2       parataxis       _     SpaceAfter=No
 27      !       !       PUNCT   .       _       2       punct   _ _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 You have to bring in your own models and they have to pay for you to use them if you do nt then you can graduate !
@@ -1536,7 +1536,7 @@ T37	Function 9 11	to
 
 ### State xcomp
 <table id="254908-0002">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-254908-0002
@@ -1556,7 +1556,7 @@ UD:
 13      great   great   ADJ     JJ      Degree=Pos      12      xcomp   _        SpaceAfter=No
 14      .       .       PUNCT   .       _       6       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 The price they gave was good so I said hey this seems great .
@@ -1585,7 +1585,7 @@ T20	Process 15 19	gave
 
 ### Function aux
 <table id="105518-0004">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-105518-0004
@@ -1611,7 +1611,7 @@ UD:
 19      shelters        shelter NOUN    NNS     Number=Plur     16      obj     _  SpaceAfter=No
 20      !       !       PUNCT   .       _       14      punct   _        _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 If you are on the lookout for a pure breed pup do n't forget to check out the shelters !
@@ -1643,7 +1643,7 @@ T23	Center 37 42	breed
 
 ### Adverbial aux
 <table id="247226-0004">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-247226-0004
@@ -1676,7 +1676,7 @@ UD:
 26      graduate        graduate        VERB    VB      VerbForm=Inf    2       parataxis       _     SpaceAfter=No
 27      !       !       PUNCT   .       _       2       punct   _ _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 You have to bring in your own models and they have to pay for you to use them if you do nt then you can graduate !
@@ -1725,7 +1725,7 @@ T37	Function 9 11	to
 ## Multi-Word Expressions
 ### Elaborator compound
 <table id="241739-0002">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-241739-0002
@@ -1764,7 +1764,7 @@ UD:
 32      standard        standard        NOUN    NN      Number=Sing     21      parataxis       _    SpaceAfter=No
 33      .       .       PUNCT   .       _       11      punct   _        _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Firstly , the other reviewer clearly has never been to Nick 's , or he would know that Nick only charges $ 13 for a haircut which is pretty much industry standard .
@@ -1811,7 +1811,7 @@ T41	Center 20 28	reviewer
 </table>
 
 <table id="070730-0006">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-070730-0006
@@ -1842,7 +1842,7 @@ UD:
 24      football        football        NOUN    NN      Number=Sing     23      obj     _  SpaceAfter=No
 25      .       .       PUNCT   .       _       4       punct   _ _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 The service is solicitous , the atmosphere is nice and mod except the out - of - place flat - screen TV playing football .
@@ -1883,7 +1883,7 @@ T36	Center 4 11	service
 
 ### Unmatched compound
 <table id="081796-0005">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-081796-0005
@@ -1908,7 +1908,7 @@ UD:
 18      Europe  Europe  PROPN   NNP     Number=Sing     16      obl     _      SpaceAfter=No
 19      .       .       PUNCT   .       _       5       punct   _ _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 The mark up is minimal considering that the clothing is hard to find and often shipped for Europe .
@@ -1940,7 +1940,7 @@ T24	Center 4 11	mark up
 </table>
 
 <table id="363685-0020">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-363685-0020
@@ -1957,7 +1957,7 @@ UD:
 10      up      up      ADP     RP      _       9       compound:prt    _  SpaceAfter=No
 11      .       .       PUNCT   .       _       9       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 If you go later , it 's all cleaned up .
@@ -1977,7 +1977,7 @@ T12	Time 10 15	later
 
 ### Participant compound
 <table id="247097-0003">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-247097-0003
@@ -2003,7 +2003,7 @@ UD:
 19      out     out     ADP     RP      _       18      compound:prt    _ SpaceAfter=No
 20      .       .       PUNCT   .       _       11      punct   _        _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Before treatment , my food cravings were " out of control " which caused me to be stressed out .
@@ -2035,7 +2035,7 @@ T26	Process 7 16	treatment
 
 ### Adverbial compound
 <table id="095040-0002">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-095040-0002
@@ -2063,7 +2063,7 @@ UD:
 21      helpful helpful ADJ     JJ      Degree=Pos      12      xcomp   _        SpaceAfter=No
 22      .       .       PUNCT   .       _       12      punct   _        _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 As first - time home buyers , my husband and I found Stephanie Fairchild at Prudential Steamboat Realty , extremely helpful .
@@ -2096,7 +2096,7 @@ T27	Center 11 15	time
 
 ### Unmatched obj
 <table id="114941-0001">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-114941-0001
@@ -2107,7 +2107,7 @@ UD:
 4       try     try     NOUN    NN      Number=Sing     1       obj     _   SpaceAfter=No
 5       !       !       PUNCT   .       _       1       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Give them a try !
@@ -2122,7 +2122,7 @@ T9	Center 12 15	try
 </table>
 
 <table id="024385-0001">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-024385-0001
@@ -2135,7 +2135,7 @@ UD:
 6       dust    dust    NOUN    NN      Number=Sing     4       obj     _   SpaceAfter=No
 7       !       !       PUNCT   .       _       4       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Another great business bites the dust !
@@ -2153,7 +2153,7 @@ T9	State 8 13	great
 
 ### Unmatched advcl
 <table id="345455-0003">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-345455-0003
@@ -2180,7 +2180,7 @@ UD:
 20      dancewear       dancewear       NOUN    NN      Number=Sing     18      obl     _       SpaceAfter=No
 21      .       .       PUNCT   .       _       5       punct   _ _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 I 'm a soccer mom so I was n't sure what I was looking for when it comes to dancewear .
@@ -2214,7 +2214,7 @@ T25	Center 14 17	mom
 ## Linkage
 ### Head selection
 <table id="052884-0001">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-052884-0001
@@ -2224,7 +2224,7 @@ UD:
 3       and     and     CCONJ   CC      _       4       cc      _    _
 4       cards   card    NOUN    NNS     Number=Plur     2       conj    _      _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 unique gifts and cards
@@ -2240,7 +2240,7 @@ T7	Center 17 22	cards
 
 ### Parallel Scene advcl
 <table id="084373-0003">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-084373-0003
@@ -2257,7 +2257,7 @@ UD:
 10      them    they    PRON    PRP     Case=Acc|Number=Plur|Person=3|PronType=Prs      9       obj     _   SpaceAfter=No
 11      .       .       PUNCT   .       _       2       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 We called few companies before we decide to hire them .
@@ -2282,7 +2282,7 @@ T16	Center 14 23	companies
 
 ### Parallel Scene parataxis
 <table id="069995-0007">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-069995-0007
@@ -2299,7 +2299,7 @@ UD:
 10      happy   happy   ADJ     JJ      Degree=Pos      1       parataxis       _     SpaceAfter=No
 11      !       !       PUNCT   .       _       1       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Check out The Willow Lounge , you ll be happy !
@@ -2319,7 +2319,7 @@ T14	Center 14 27	Willow Lounge
 
 ### Linker wh-pronoun
 <table id="083454-0001">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-083454-0001
@@ -2366,7 +2366,7 @@ UD:
 40      me      I       PRON    PRP     Case=Acc|Number=Sing|Person=1|PronType=Prs      36      obl     _       SpaceAfter=No
 41      .       .       PUNCT   .       _       4       punct   _ _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 I did n't end up buying my car here , but I did think the guy who worked with me was pretty cool - he was willing to budge a little on the price which means a lot to me .
@@ -2430,7 +2430,7 @@ T55	State 24 26	my
 
 ### Linker oblique
 <table id="292997-0002">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-292997-0002
@@ -2452,7 +2452,7 @@ UD:
 15      special special ADJ     JJ      Degree=Pos      14      amod    _ SpaceAfter=No
 16      .       .       PUNCT   .       _       10      punct   _        _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 From the moment you enter the restaurant , you know you are some place special .
@@ -2485,7 +2485,7 @@ T25	Center 9 15	moment
 ## Other
 ### Apposition
 <table id="351058-0002">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-351058-0002
@@ -2507,7 +2507,7 @@ UD:
 15      from    from    ADP     IN      _       14      obl     _  SpaceAfter=No
 16      .       .       PUNCT   .       _       12      punct   _        _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 This place and its sister store Peking Garden are the worst places to order from .
@@ -2543,7 +2543,7 @@ T26	Center 5 10	place
 
 ### State copula (expressing identity)
 <table id="291046-0002">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-291046-0002
@@ -2574,7 +2574,7 @@ UD:
 24      more    more    ADV     RBR     _       7       conj    _      SpaceAfter=No
 25      .       .       PUNCT   .       _       7       punct   _ _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 This is the original Ham 's restaurant , expanded into a regional chain in the late 80's -- but this one is no more .
@@ -2616,7 +2616,7 @@ T34	Center 12 20	original
 
 ### Function copula (expressing attribution/location)
 <table id="063347-0003">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-063347-0003
@@ -2632,7 +2632,7 @@ UD:
 9       breakfasts      breakfast       NOUN    NNS     Number=Plur     7       obj     _   SpaceAfter=No
 10      .       .       PUNCT   .       _       6       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Excellent chefs are in the kitchen preparing memorable breakfasts .
@@ -2657,7 +2657,7 @@ T15	Center 27 34	kitchen
 
 ### Ground discourse
 <table id="351561-0004">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-351561-0004
@@ -2676,7 +2676,7 @@ UD:
 12      Jersey  Jersey  PROPN   NNP     Number=Sing     10      obj     _  SpaceAfter=No
 13      .       .       PUNCT   .       _       2       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 They say no , Warwick in New Jersey , Call New Jersey .
@@ -2698,7 +2698,7 @@ T17	Participant 25 35	New Jersey
 
 
 <table id="007403-0006">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-007403-0006
@@ -2717,7 +2717,7 @@ UD:
 12      www.veraakulov.com      www.veraakulov.com      X       ADD     _       2       obl     _        SpaceAfter=No
 13      .       .       PUNCT   .       _       2       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Please visit my website to learn more about my practice at www.veraakulov.com .
@@ -2747,7 +2747,7 @@ T22	State 13 15	my
 
 ### Ground + Participant vocative
 <table id="024132-0004">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-024132-0004
@@ -2756,7 +2756,7 @@ UD:
 2       Mark    Mark    PROPN   NNP     Number=Sing     1       vocative        _      SpaceAfter=No
 3       .       .       PUNCT   .       _       1       punct   _ _
 </div>
-</td><td width="1200">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Thanks Mark .
@@ -2770,7 +2770,7 @@ T4	Participant 7 11	Mark
 
 ### Function nsubj (expletive)
 <table id="295288-0006">
-<tbody><tr><td width="1200">
+<tbody><tr><td width="100%">
 UD:
 <div class="conllu-parse">
 # sent_id = reviews-295288-0006
@@ -2798,7 +2798,7 @@ UD:
 21      car     car     NOUN    NN      Number=Sing     18      obj     _  SpaceAfter=No
 22      .       .       PUNCT   .       _       10      punct   _        _
 </div>
-</td></tr><tr><td width="1200">
+</td></tr><tr><td width="100%">
 UCCA:
 <div class="ann-annotation">
 Now my car s gears and brakes have never run so well ... ever it s like driving a new car .
@@ -2844,8 +2844,8 @@ T32	State 4 6	my
 
 ## Toy example
 <table id="toy">
-<tbody><tr><td width="1200">
-</td><td width="1200">
+<tbody><tr><td width="100%">
+</td><td width="100%">
 UCCA:
 <div class="ann-annotation">
 After graduation , Mary moved to New York City .
