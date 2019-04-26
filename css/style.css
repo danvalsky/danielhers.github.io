@@ -420,8 +420,10 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-table td {
+table tr {
     height: 125px;
+}
+table td {
     padding: 3px;
 }
 table .absorbing-column {
