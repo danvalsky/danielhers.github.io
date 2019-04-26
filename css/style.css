@@ -415,6 +415,15 @@ div.example {
   border-bottom: 1px solid lightgray;
 }
 
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+table .absorbing-column {
+    width: 100%;
+}
+
 table.typeindex {
   vertical-align: top;
   border-collapse:collapse;
