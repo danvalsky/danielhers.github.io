@@ -419,6 +419,8 @@ table {
     table-layout: fixed;
     border-collapse: collapse;
     width: 100%;
+}
+table td {
     height: 125px;
     padding: 3px;
 }
