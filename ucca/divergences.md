@@ -20,6 +20,7 @@ This page provides detailed examples to accompany the following <a href="../dive
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-305187-0005
 # text = Wine was excellent.
 1       Wine    wine    NOUN    NN      Number=Sing     3       nsubj   _ _
@@ -44,6 +45,7 @@ T6	State 9 18	excellent
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-079007-0002
 # text = But service is very poor.
 1       But     but     CCONJ   CC      _       5       cc      _    _
@@ -73,6 +75,7 @@ T10	Center 20 24	poor
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-295491-0007
 # text = Overall, Joe is a happy camper who has found a great spot.
 1       Overall overall ADV     RB      _       7       advmod  _        SpaceAfter=No
@@ -122,6 +125,7 @@ T20	Center 25 31	camper
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-305187-0007
 # text = A perfect place for a romantic dinner.
 1       A       a       DET     DT      Definite=Ind|PronType=Art       3       det     _   _
@@ -157,6 +161,7 @@ T13	Center 10 15	place
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-073356-0001
 # text = Beautiful hotel!
 1       Beautiful       beautiful       ADJ     JJ      Degree=Pos      2       amod    _  _
@@ -179,6 +184,7 @@ T5	Participant 10 15	hotel
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-303922-0005
 # text = Such a convenient location as well with coffee shop and bradley food and beverage right around corner.
 1       Such    such    DET     PDT     _       4       det:predet      _    _
@@ -232,6 +238,7 @@ T20	Center 18 26	location
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-071650-0007
 # text = Back to my poor rating - I was excepted to medical school and went in to cancel my membership as I was told I could do since I was moving away.
 1       Back    back    ADV     RB      _       0       root    _  _
@@ -322,6 +329,7 @@ T45	Process 16 22	rating
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-247226-0005
 # text = Going back after graduating your told you get a discount on services nope you dont.
 1       Going   go      VERB    VBG     VerbForm=Ger    7       advcl   _ _
@@ -380,6 +388,7 @@ T30	Adverbial 6 10	back
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-095040-0004
 # text = Stephanie's knowledge of the market and properties in our price range, made us feel secure in our decision to buy when we did.
 1       Stephanie       Stephanie       PROPN   NNP     Number=Sing     3       nmod:poss       _     SpaceAfter=No
@@ -456,6 +465,7 @@ T36	Relator 10 12	's
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-295288-0006
 # text = Now my cars gears and brakes have never run so well... ever its like driving a new car.
 1       Now     now     ADV     RB      _       10      advmod  _       _
@@ -525,6 +535,7 @@ T32	State 4 6	my
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-241739-0005
 # text = Some of the younger kids that work there are a bit sub par, but if you wait for Nick... you'll be good.
 1       Some    some    DET     DT      _       13      nsubj   _        _
@@ -599,6 +610,7 @@ T34	Relator 5 7	of
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-024385-0004
 # text = The prices were worth what I got.
 1       The     the     DET     DT      Definite=Def|PronType=Art       2       det     _   _
@@ -633,6 +645,7 @@ T12	Center 4 10	prices
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-303922-0003
 # text = The team at Bradley Chevron kept my car running for well past its expected death!
 1       The     the     DET     DT      Definite=Def|PronType=Art       2       det     _   _
@@ -687,6 +700,7 @@ T23	Center 12 27	Bradley Chevron
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-295935-0001
 # text = Very Informative website with alot of good work
 1       Very    very    ADV     RB      _       2       advmod  _        _
@@ -724,6 +738,7 @@ T13	Center 44 48	work
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-095040-0003
 # text = She worked with us for over a year, helping us find our perfect home.
 1       She     she     PRON    PRP     Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs   2       nsubj   _ _
@@ -781,6 +796,7 @@ T25	Center 16 18	us
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-034501-0003
 # text = It is right on the hustle and bustle of Wisconsin Ave but some might miss it as it is nestled in between Subway Sandwiches and Modell's.
 1       It      it      PRON    PRP     Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs  6       nsubj   _ _
@@ -857,6 +873,7 @@ T34	Center 30 36	bustle
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-023926-0002
 # text = Mercedes and Dan are very thorough and on top of everything!
 1       Mercedes        Mercedes        PROPN   NNP     Number=Sing     6       nsubj   _ _
@@ -900,6 +917,7 @@ T16	Center 13 16	Dan
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-299148-0001
 # text = Outdated but not bad
 1       Outdated        outdated        ADJ     JJ      Degree=Pos      0       root    _  _
@@ -926,6 +944,7 @@ T9	State 0 8	Outdated
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-071650-0013
 # text = I will never recommend this gym to any woman.
 1       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      4       nsubj   _ _
@@ -965,6 +984,7 @@ T14	Center 28 31	gym
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # newdoc id = reviews-252791
 # sent_id = reviews-252791-0001
 # text = no feathers in stock!!!!
@@ -992,6 +1012,7 @@ T8	Center 15 20	stock
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-243799-0002
 # text = went in there and got my dog groomed came home to an uneven dog then took him back to get evened up what a mistake!
 1       went    go      VERB    VBD     Mood=Ind|Tense=Past|VerbForm=Fin        25      parataxis       _    _
@@ -1071,6 +1092,7 @@ T42	Center 8 13	there
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-349020-0002
 # text = The night I drove back home, I found that the rear window has some leakage.
 1       The     the     DET     DT      Definite=Def|PronType=Art       2       det     _   _
@@ -1125,6 +1147,7 @@ T23	Center 4 9	night
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-241855-0002
 # text = I sometimes go into this store just for something to do on a sunday afternoon.
 1       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      3       nsubj   _ _
@@ -1176,6 +1199,7 @@ T21	Center 25 30	store
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-047007-0002
 # text = I will never come here again.
 1       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      4       nsubj   _ _
@@ -1206,6 +1230,7 @@ T8	Adverbial 23 28	again
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-307250-0002
 # text = Worst buffet period by far.
 1       Worst   worst   ADJ     JJS     Degree=Sup      3       amod    _  _
@@ -1233,6 +1258,7 @@ T7	Adverbial 20 26	by far
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-071518-0008
 # text = And it was great that they did not charge a service fee to diagnose the problem - an added bonus!!
 1       And     and     CCONJ   CC      _       4       cc      _    _
@@ -1293,6 +1319,7 @@ T25	Process 44 51	service
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-245160-0003
 # text = i was looking for a car but did not really know what i wanted and they were very helpful and took the time to first figure out what my needs were and showing me various options to meet those needs.
 1       i       i       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      3       nsubj   _        _
@@ -1407,6 +1434,7 @@ T56	Center 20 23	car
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-068436-0005
 # text = I asked them to change it but they rudely said that it was okay.
 1       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      2       nsubj   _ _
@@ -1457,6 +1485,7 @@ T20	Participant 23 25	it
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-247226-0004
 # text = You have to bring in your own models and they have to pay for you to use them if you dont then you can graduate!
 1       You     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  2       nsubj   _   _
@@ -1539,6 +1568,7 @@ T37	Function 9 11	to
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-254908-0002
 # text = The price they gave was good so I said hey this seems great.
 1       The     the     DET     DT      Definite=Def|PronType=Art       2       det     _   _
@@ -1588,6 +1618,7 @@ T20	Process 15 19	gave
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-105518-0004
 # text = If you are on the lookout for a pure breed pup don't forget to check out the shelters!
 1       If      if      SCONJ   IN      _       6       mark    _  _
@@ -1646,6 +1677,7 @@ T23	Center 37 42	breed
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-247226-0004
 # text = You have to bring in your own models and they have to pay for you to use them if you dont then you can graduate!
 1       You     you     PRON    PRP     Case=Nom|Person=2|PronType=Prs  2       nsubj   _   _
@@ -1728,6 +1760,7 @@ T37	Function 9 11	to
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-241739-0002
 # text = Firstly, the other reviewer clearly has never been to Nick's, or he would know that Nick only charges $13 for a haircut which is pretty much industry standard.
 1       Firstly firstly ADV     RB      _       11      advmod  _       SpaceAfter=No
@@ -1814,6 +1847,7 @@ T41	Center 20 28	reviewer
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-070730-0006
 # text = The service is solicitous, the atmosphere is nice and mod except the out-of-place flat-screen TV playing football.
 1       The     the     DET     DT      Definite=Def|PronType=Art       2       det     _   _
@@ -1886,6 +1920,7 @@ T36	Center 4 11	service
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-081796-0005
 # text = The mark up is minimal considering that the clothing is hard to find and often shipped for Europe.
 1       The     the     DET     DT      Definite=Def|PronType=Art       3       det     _   _
@@ -1943,6 +1978,7 @@ T24	Center 4 11	mark up
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-363685-0020
 # text = If you go later, it's all cleaned up.
 1       If      if      SCONJ   IN      _       3       mark    _  _
@@ -1980,6 +2016,7 @@ T12	Time 10 15	later
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-247097-0003
 # text = Before treatment, my food cravings were "out of control" which caused me to be stressed out.
 1       Before  before  ADP     IN      _       2       case    _  _
@@ -2038,6 +2075,7 @@ T26	Process 7 16	treatment
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-095040-0002
 # text = As first-time home buyers, my husband and I found Stephanie Fairchild at Prudential Steamboat Realty, extremely helpful.
 1       As      as      ADP     IN      _       6       case    _  _
@@ -2099,6 +2137,7 @@ T27	Center 11 15	time
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-114941-0001
 # text = Give them a try!
 1       Give    give    VERB    VB      Mood=Imp|VerbForm=Fin   0       root    _  _
@@ -2125,6 +2164,7 @@ T9	Center 12 15	try
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-024385-0001
 # text = Another great business bites the dust!
 1       Another another DET     DT      _       3       det     _   _
@@ -2156,6 +2196,7 @@ T9	State 8 13	great
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-345455-0003
 # text = I'ma soccer mom so I wasn't sure what I was looking for when it comes to dancewear.
 1       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      5       nsubj   _ SpaceAfter=No
@@ -2217,6 +2258,7 @@ T25	Center 14 17	mom
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-052884-0001
 # text = unique gifts and cards
 1       unique  unique  ADJ     JJ      Degree=Pos      2       amod    _  _
@@ -2243,6 +2285,7 @@ T7	Center 17 22	cards
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-084373-0003
 # text = We called few companies before we decide to hire them.
 1       We      we      PRON    PRP     Case=Nom|Number=Plur|Person=1|PronType=Prs      2       nsubj   _ _
@@ -2285,6 +2328,7 @@ T16	Center 14 23	companies
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-069995-0007
 # text = Check out The Willow Lounge, youll be happy!
 1       Check   check   VERB    VB      Mood=Imp|VerbForm=Fin   0       root    _  _
@@ -2322,6 +2366,7 @@ T14	Center 14 27	Willow Lounge
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-083454-0001
 # text = I didn't end up buying my car here, but I did think the guy who worked with me was pretty cool - he was willing to budge a little on the price which means a lot to me.
 1       I       I       PRON    PRP     Case=Nom|Number=Sing|Person=1|PronType=Prs      4       nsubj   _   _
@@ -2433,6 +2478,7 @@ T55	State 24 26	my
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-292997-0002
 # text = From the moment you enter the restaurant, you know you are some place special.
 1       From    from    ADP     IN      _       3       case    _  _
@@ -2488,6 +2534,7 @@ T25	Center 9 15	moment
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-351058-0002
 # text = This place and its sister store Peking Garden are the worst places to order from.
 1       This    this    DET     DT      Number=Sing|PronType=Dem        2       det     _   _
@@ -2546,6 +2593,7 @@ T26	Center 5 10	place
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-291046-0002
 # text = This is the original Ham's restaurant, expanded into a regional chain in the late 80's -- but this one is no more.
 1       This    this    PRON    DT      Number=Sing|PronType=Dem        7       nsubj   _ _
@@ -2619,6 +2667,7 @@ T34	Center 12 20	original
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-063347-0003
 # text = Excellent chefs are in the kitchen preparing memorable breakfasts.
 1       Excellent       excellent       ADJ     JJ      Degree=Pos      2       amod    _  _
@@ -2660,6 +2709,7 @@ T15	Center 27 34	kitchen
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-351561-0004
 # text = They say no, Warwick in New Jersey, Call New Jersey.
 1       They    they    PRON    PRP     Case=Nom|Number=Plur|Person=3|PronType=Prs      2       nsubj   _ _
@@ -2701,6 +2751,7 @@ T17	Participant 25 35	New Jersey
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-007403-0006
 # text = Please visit my website to learn more about my practice at www.veraakulov.com.
 1       Please  please  INTJ    UH      _       2       discourse       _     _
@@ -2750,6 +2801,7 @@ T22	State 13 15	my
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-024132-0004
 # text = Thanks Mark.
 1       Thanks  thanks  NOUN    NN      Number=Sing     0       root    _  _
@@ -2773,6 +2825,7 @@ T4	Participant 7 11	Mark
 <tbody><tr><td>
 UD:
 <div class="conllu-parse">
+# visual-style nodes red
 # sent_id = reviews-295288-0006
 # text = Now my cars gears and brakes have never run so well... ever its like driving a new car.
 1       Now     now     ADV     RB      _       10      advmod  _       _
