@@ -120,6 +120,51 @@
     <div class="publications">
         <ul>
 
+            <li><a id="cyber"></a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>The Language of Legal and Illegal Activity on the Darknet</i></b>.
+                        <br>
+                        Leshem Choshen, Dan Eldad, <b>Daniel Hershcovich</b>, Elior Sulem and Omri Abend.<br>
+                        <a href='http://www.acl2019.org' target="_blank">ACL 2019</a>.
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                            <a href="#" class="btn btn-outline-primary btn-sm"
+                               onclick="$('#cyber_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="cyber.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                    </div>
+                    <div id="cyber_abstract" class="abstract row" style="display:none;">
+                        <i>The non-indexed parts of the Internet (the Darknet) have become a haven for both legal and
+                            illegal anonymous activity. Given the magnitude of these networks, scalably monitoring their
+                            activity necessarily relies on automated tools, and notably on NLP tools. However, little is
+                            known about what characteristics texts communicated through the Darknet have, and how well
+                            off-the-shelf NLP tools do on this domain. This paper tackles this gap and performs an
+                            in-depth investigation of the characteristics of legal and illegal text in the Darknet,
+                            comparing it to a clear net website with similar content as a control condition. Taking
+                            drug-related websites as a test case, we find that texts for selling legal and illegal drugs
+                            have several linguistic characteristics that distinguish them from one another, as well as
+                            from the control condition, among them the distribution of POS tags, and the coverage of
+                            their named entities in Wikipedia.
+                        </i>
+                    </div>
+                </div>
+            </li>
+
+            <li><a id="gco"></a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>Argument Invention from First Principles</i></b>.
+                        <br>
+                        Yonatan Bilu, Ariel Gera, <b>Daniel Hershcovich</b>, Benjamin Sznajder, Dan Lahav, Guy
+                        Moshkowich, Anael Malet, Assaf Gavron and Noam Slonim.<br>
+                        <a href='http://www.acl2019.org' target="_blank">ACL 2019</a>.
+                    </div>
+                        <a href="gco.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                    </div>
+                </div>
+            </li>
+
             <li><a id="semeval2019"></a>
                 <div class="row">
                     <div class="col-md-4">
@@ -606,6 +651,7 @@
     $(function () {
         $(".menu").load("menu.html");
     });
+
     function showEmail() {
         $("#email").html("hershcovich");
     }
