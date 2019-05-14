@@ -161,480 +161,479 @@
                     </div>
                     <a href="gco.bib" class="btn btn-outline-primary btn-sm">bib</a>
                 </div>
+            </li>
+
+            <li><a id="semeval2019"></a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>SemEval 2019 Task 1: Cross-lingual Semantic Parsing with UCCA</i></b>.
+                        <br>
+                        <b>Daniel Hershcovich</b>, Zohar Aizenbud, Leshem Choshen, Elior Sulem, Ari Rappoport and Omri
+                        Abend.<br>
+                        <a href='http://alt.qcri.org/semeval2019' target="_blank">SemEval 2019</a>.
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="semeval2019.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#semeval2019_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="semeval2019.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                        <a href="https://competitions.codalab.org/competitions/19160"
+                           class="btn btn-outline-primary btn-sm">website</a>
+                    </div>
+                    <div id="semeval2019_abstract" class="abstract row" style="display:none;">
+                        <i>We present the SemEval 2019 shared task on Universal Conceptual Cognitive Annotation (UCCA)
+                            parsing in English, German and French, and discuss the participating systems and results.
+                            UCCA is a cross-linguistically applicable framework for semantic representation, which
+                            builds on extensive typological work and supports rapid annotation. UCCA poses a challenge
+                            for existing parsing techniques, as it exhibits reentrancy (resulting in DAG structures),
+                            discontinuous structures and non-terminal nodes corresponding to complex semantic units. The
+                            shared task has yielded improvements over the state-of-the-art baseline in all languages and
+                            settings. Full results can be found in the task's website.
+                        </i>
+                    </div>
+                </div>
+            </li>
+
+            <li><a id="repeval2019"></a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>Syntactic Interchangeability in Word Embedding Models</i></b>.
+                        <br>
+                        <b>Daniel Hershcovich</b>, Assaf Toledo, Alon Halfon and Noam Slonim.<br>
+                        <a href='https://repeval2019.github.io' target="_blank">RepEval 2019</a>.
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="interchangeability.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#repeval2019_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="interchangeability.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                        <a href="https://github.com/danielhers/interchangeability"
+                           class="btn btn-outline-primary btn-sm">code</a>
+                    </div>
+                    <div id="repeval2019_abstract" class="abstract row" style="display:none;">
+                        <i>Nearest neighbors in word embedding models are commonly observed to be semantically similar,
+                            but the relations between them can vary greatly. We investigate the extent to which word
+                            embedding models preserve syntactic interchangeability, as reflected by distances between
+                            word vectors, and the effect of hyper-parameters---context window size in particular. We use
+                            part of speech (POS) as a proxy for syntactic interchangeability, as generally speaking,
+                            words with the same POS are syntactically valid in the same contexts. We also investigate
+                            the relationship between interchangeability and similarity as judged by commonly-used word
+                            similarity benchmarks, and correlate the result with the performance of word embedding
+                            models on these benchmarks. Our results will inform future research and applications in the
+                            selection of word embedding model, suggesting a principle for an appropriate selection of
+                            the context window size parameter depending on the use-case.
+                        </i>
+                    </div>
+                </div>
+            </li>
+
+            <li><a id="naacl2019"></a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>Content Differences in Syntactic and Semantic Representations</i></b>.
+                        <br>
+                        <b>Daniel Hershcovich</b>, Omri Abend and Ari Rappoport.<br>
+                        <a href='https://naacl2019.org' target="_blank">NAACL 2019</a> (long paper).
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="divergences.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#naacl2019_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="divergences.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                        <a href="divergences_supp.pdf" class="btn btn-outline-primary btn-sm">supplementary material</a>
+                        <a href="https://github.com/danielhers/synsem" class="btn btn-outline-primary btn-sm">code</a>
+                        <a href="https://github.com/UniversalConceptualCognitiveAnnotation/UCCA_English-EWT"
+                           class="btn btn-outline-primary btn-sm">data</a>
+                        <a href="ucca/divergences.html" class="btn btn-outline-primary btn-sm">examples</a>
+                    </div>
+                    <div id="naacl2019_abstract" class="abstract row" style="display:none;">
+                        <i>Syntactic analysis plays an important role in semantic parsing, but this role remains a topic
+                            of ongoing debate. The debate has been constrained by the scarcity of empirical comparative
+                            studies between syntactic and semantic schemes, which hinders the development of parsing
+                            methods informed by the details of target schemes and constructions. We target this gap, and
+                            take Universal Dependencies (UD) and UCCA as a test case. After abstracting away from
+                            differences of convention or formalism, we find that most content divergences can be
+                            ascribed to: (1) UCCA's distinction between a Scene and a non-Scene; (2) UCCA's distinction
+                            between primary relations, secondary ones and participants; (3) different treatment of
+                            multi-word expressions, and (4) different treatment of inter-clause linkage. We further
+                            discuss the long tail of cases where the two schemes take markedly different approaches.
+                            Finally, we show that the proposed comparison methodology can be used for fine-grained
+                            evaluation of UCCA parsing, highlighting both challenges and potential sources for
+                            improvement. The substantial differences between the schemes suggest that semantic parsers
+                            are likely to benefit downstream text understanding applications beyond their syntactic
+                            counterparts.
+                        </i>
+                    </div>
+                </div>
+            </li>
+
+            <li><a id="udst2018"></a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>Universal Dependency Parsing with a General Transition-Based DAG Parser</i></b>.
+                        <br>
+                        <b>Daniel Hershcovich</b>, Omri Abend and Ari Rappoport.<br>
+                        <a href='http://universaldependencies.org/conll18' target="_blank">CoNLL 2018 UD Shared Task</a>.
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="K18-2010.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#udst2018_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="k18-2010.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                        <a href="udst2018_poster.pdf" class="btn btn-outline-primary btn-sm">poster</a>
+                        <a href="https://github.com/CoNLL-UD-2018/HUJI" class="btn btn-outline-primary btn-sm">code</a>
+                    </div>
+                    <div id="udst2018_abstract" class="abstract row" style="display:none;">
+                        <i>This paper presents our experiments with applying TUPA to the CoNLL 2018 UD shared task. TUPA
+                            is a general neural transition-based DAG parser, which we use to present the first
+                            experiments on recovering enhanced dependencies as part of the general parsing task. TUPA
+                            was designed for parsing UCCA, a cross-linguistic semantic annotation scheme, exhibiting
+                            reentrancy, discontinuity and non-terminal nodes. By converting UD trees and graphs to a
+                            UCCA-like DAG format, we train TUPA almost without modification on the UD parsing task. The
+                            generic nature of our approach lends itself naturally to multitask learning.</i>
+                    </div>
+                </div>
+            </li>
+
+            <li><a id="acl2018"></a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>Multitask Parsing Across Semantic Representations</i></b>.
+                        <br>
+                        <b>Daniel Hershcovich</b>, Omri Abend and Ari Rappoport.<br>
+                        <a href='http://acl2018.org' target="_blank">ACL 2018</a> (long paper).
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="P18-1035.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#acl2018_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="p18-1035.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                        <a href="P18-1035.Notes.pdf" class="btn btn-outline-primary btn-sm">supplementary material</a>
+                        <a href="acl2018_poster.pdf" class="btn btn-outline-primary btn-sm">poster</a>
+                        <a href="https://github.com/danielhers/tupa" class="btn btn-outline-primary btn-sm">code</a>
+                        <a href="https://github.com/UniversalConceptualCognitiveAnnotation/UCCA_English-WSJ"
+                           class="btn btn-outline-primary btn-sm">data</a>
+                    </div>
+                    <div id="acl2018_abstract" class="abstract row" style="display:none;">
+                        <i>The ability to consolidate information of different types is at the core of intelligence, and
+                            has tremendous practical value in allowing learning for one task to benefit from
+                            generalizations learned for others. In this paper we tackle the challenging task of
+                            improving semantic parsing performance, taking UCCA parsing as a test case, and AMR, SDP and
+                            Universal Dependencies (UD) parsing as auxiliary tasks. We experiment on three languages,
+                            using a uniform transition-based system and learning architecture for all parsing tasks.
+                            Despite notable conceptual, formal and domain differences, we show that multitask learning
+                            significantly improves UCCA parsing in both in-domain and out-of-domain settings.</i>
+                    </div>
+                </div>
+            </li>
+
+            <li><a id="acl2017"></a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>A Transition-Based Directed Acyclic Graph Parser for UCCA</i></b>.
+                        <br>
+                        <b>Daniel Hershcovich</b>, Omri Abend and Ari Rappoport.<br>
+                        <a href='http://acl2017.org' target="_blank">ACL 2017</a> (long paper),
+                        <a href='https://acl2017.wordpress.com/2017/08/03/outstanding-and-best-papers-and-the-decision-process/'
+                           target="_blank"><span style="color:red">Outstanding Paper Award</span></a>.
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="P17-1104.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#P17-1104_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="P17-1104.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                        <a href="P17-1104_supp.pdf" class="btn btn-outline-primary btn-sm">supplementary material</a>
+                        <a href="acl2017_slides.pdf" class="btn btn-outline-primary btn-sm">slides</a>
+                        <a href="iscol2017_poster.pdf" class="btn btn-outline-primary btn-sm">poster</a>
+                        <a href="https://github.com/danielhers/tupa" class="btn btn-outline-primary btn-sm">code</a>
+                        <a href="http://cs.huji.ac.il/~danielh/ucca" class="btn btn-outline-primary btn-sm">demo</a>
+                        <a href="https://github.com/UniversalConceptualCognitiveAnnotation"
+                           class="btn btn-outline-primary btn-sm">data</a>
+                    </div>
+                    <div id="P17-1104_abstract" class="abstract row" style="display:none;">
+                        <i>We present the first parser for UCCA, a cross-linguistically applicable framework for
+                            semantic
+                            representation, which builds on extensive typological work and supports rapid annotation.
+                            UCCA
+                            poses a challenge for existing parsing techniques, as it exhibits reentrancy (resulting in
+                            DAG
+                            structures), discontinuous structures and non-terminal nodes corresponding to complex
+                            semantic
+                            units. To our knowledge, the conjunction of these formal properties is not supported by any
+                            existing parser. Our transition-based parser, which uses a novel transition set and features
+                            based on bidirectional LSTMs, has value not just for UCCA parsing: its ability to handle
+                            more
+                            general graph structures can inform the development of parsers for other semantic DAG
+                            structures, and in languages that frequently use discontinuous structures.</i>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>Automatic Claim Negation: Why, How and When</i></b>.
+                        <br>
+                        Yonatan Bilu, <b>Daniel Hershcovich</b>, Noam Slonim.<br>
+                        <a href='http://naacl.org/naacl-hlt-2015/' target="_blank">NAACL HLT 2015</a> (long paper).
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="https://aclweb.org/anthology/W15-0511" class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#negation_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="https://aclweb.org/anthology/W15-0511.bib"
+                           class="btn btn-outline-primary btn-sm">bib</a>
+                    </div>
+                    <div id="negation_abstract" class="abstract" style="display:none;">
+                        <i>The main goal of argumentation mining is to analyze argumentative structures within an
+                            argument-rich document, and reason about their composition. Recently, there is also interest
+                            in
+                            the task of simply detecting claims (sometimes called conclusion) in general documents. In
+                            this
+                            work we ask how this set of detected claims can be augmented further, by adding to it the
+                            negation of each detected claim. This presents two NLP problems: how to automatically negate
+                            a
+                            claim, and when such a negated claim can plausibly be used. We present first steps into
+                            solving
+                            both these problems, using a rule-based approach for the former and a statistical one
+                            towards
+                            the latter.</i>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>Context Dependent Claim Detection</i></b>.
+                        <br>
+                        Noam Slonim, Ran Levy, Yonatan Bilu, <b>Daniel Hershcovich</b> and Ehud Aharoni.<br>
+                        <a href='http://www.coling-2014.org/' target="_blank">COLING 2014</a> (long paper).
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="http://www.aclweb.org/anthology/C14-1141"
+                           class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#cdcd_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="http://www.aclweb.org/anthology/C14-1141.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                    </div>
+                    <div id="cdcd_abstract" class="abstract" style="display:none;">
+                        <i>While discussing a concrete controversial topic, most humans will find it challenging to
+                            swiftly
+                            raise a diverse set of convincing and relevant claims that should set the basis of their
+                            arguments. Here, we formally define the challenging task of automatic claim detection in a
+                            given
+                            context and discuss its associated unique difficulties. Further, we outline a preliminary
+                            solution to this task, and assess its performance over annotated real world data, collected
+                            specifically for that purpose over hundreds of Wikipedia articles. We report promising
+                            results
+                            of a supervised learning approach, which is based on a cascade of classifiers designed to
+                            properly handle the skewed data which is inherent to the defined task. These results
+                            demonstrate
+                            the viability of the introduced task.</i>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>Claims on Demand–an Initial Demonstration of a System for Automatic Detection and
+                            Polarity Identification of Context Dependent Claims in Massive Corpora</i></b>.
+                        <br>
+                        Ehud Aharoni, Carlos Alzate, Roy Bar-Haim, Yonatan Bilu, Lena Dankin, Iris Eiron, <b>Daniel
+                        Hershcovich</b>, Shay Hummel.<br>
+                        <a href='http://www.coling-2014.org/' target="_blank">COLING 2014</a> (system demonstration).
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="http://www.aclweb.org/anthology/C14-2002"
+                           class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#acedemo_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="http://www.aclweb.org/anthology/C14-2002.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                    </div>
+                    <div id="acedemo_abstract" class="abstract" style="display:none;">
+                        <i>While discussing a concrete controversial topic, most humans will find it challenging to
+                            swiftly
+                            raise a diverse set of convincing and relevant claims that should set the basis of their
+                            arguments. Here, we demonstrate the initial capabilities of a system that, given a
+                            controversial
+                            topic, can automatically pinpoint relevant claims in Wikipedia, determine their polarity
+                            with
+                            respect to the given topic, and articulate them per the user's request.</i>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>A Benchmark Dataset for Automatic Detection of Claims and Evidence in the Context of
+                            Controversial Topics</i></b>.
+                        <br>
+                        Ehud Aharoni, Anatoly Polnarov, Tamar Lavee, <b>Daniel Hershcovich</b>, Ran Levy, Ruty Rinott,
+                        Dan Gutfreund, Noam Slonim.<br>
+                        <a href='https://www.uncg.edu/cmp/ArgMining2014/' target="_blank">Workshop on Argumentation
+                            Mining</a> at <a href='http://acl2014.org/' target="_blank">ACL 2014</a>.
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="http://anthology.aclweb.org/W14-2109" class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#acelab_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="http://anthology.aclweb.org/W14-2109.bib"
+                           class="btn btn-outline-primary btn-sm">bib</a>
+                    </div>
+                    <div id="acelab_abstract" class="abstract" style="display:none;">
+                        <i>We describe a novel and unique argumentative structure dataset. This corpus consists of data
+                            extracted fro m hundreds of Wikipedia articles using a meticulously monitored manual
+                            annotation
+                            process. The result is 2,683 argument elements, collected in the context of 33 controversial
+                            topics, organized under a simple claim-evidence structure. The obtained data are publicly
+                            available for academic research.</i>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>Verification of Transactional Memory in POWER8</i></b>.
+                        <br>
+                        Alon Adir, Dave Goodman, <b>Daniel Hershcovich</b>, Oz Hershkovitz, Bryan Hickerson, Karen
+                        Holtz, Wisam Kadry, Anatoly Koyfman, John Ludden, Charles Meissner, Amir Nahir, Randall R Pratt,
+                        Mike Schiffli, Brett St Onge, Brian Thompto, Elena Tsanko, Avi Ziv.<br>
+                        <a href='https://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=18068'
+                           target="_blank">DAC 2014</a>.
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6881385"
+                           class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#power8tx_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="2593241.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                    </div>
+                    <div id="power8tx_abstract" class="abstract" style="display:none;">
+                        <i>Transactional memory is a promising mechanism for synchronizing concurrent programs that
+                            eliminates locks at the expense of hardware complexity. Transactional memory is a hard
+                            feature
+                            to verify. First, transactions comprise several instructions that must be observed as a
+                            single
+                            global atomic operation. In addition, there are many reasons a transaction can fail. This
+                            results in a high level of non-determinism which must be tamed by the verification
+                            methodology.
+                            This paper describes the innovation that was applied to tools and methodology in pre-silicon
+                            simulation, acceleration and post-silicon in order to verify transactional memory in the IBM
+                            POWER8 processor core.</i>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </div>
-    </li>
 
-    <li><a id="semeval2019"></a>
-        <div class="row">
-            <div class="col-md-4">
-                <b><i>SemEval 2019 Task 1: Cross-lingual Semantic Parsing with UCCA</i></b>.
-                <br>
-                <b>Daniel Hershcovich</b>, Zohar Aizenbud, Leshem Choshen, Elior Sulem, Ari Rappoport and Omri
-                Abend.<br>
-                <a href='http://alt.qcri.org/semeval2019' target="_blank">SemEval 2019</a>.
-            </div>
-            <div class="row col-md-3 btn-group mr-2 v-center" role="group">
-                <a href="semeval2019.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
-                <a href="#" class="btn btn-outline-primary btn-sm"
-                   onclick="$('#semeval2019_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
-                <a href="semeval2019.bib" class="btn btn-outline-primary btn-sm">bib</a>
-                <a href="https://competitions.codalab.org/competitions/19160"
-                   class="btn btn-outline-primary btn-sm">website</a>
-            </div>
-            <div id="semeval2019_abstract" class="abstract row" style="display:none;">
-                <i>We present the SemEval 2019 shared task on Universal Conceptual Cognitive Annotation (UCCA)
-                    parsing in English, German and French, and discuss the participating systems and results.
-                    UCCA is a cross-linguistically applicable framework for semantic representation, which
-                    builds on extensive typological work and supports rapid annotation. UCCA poses a challenge
-                    for existing parsing techniques, as it exhibits reentrancy (resulting in DAG structures),
-                    discontinuous structures and non-terminal nodes corresponding to complex semantic units. The
-                    shared task has yielded improvements over the state-of-the-art baseline in all languages and
-                    settings. Full results can be found in the task's website.
-                </i>
-            </div>
-        </div>
-    </li>
+    <div class="menu"></div>
 
-    <li><a id="repeval2019"></a>
-        <div class="row">
-            <div class="col-md-4">
-                <b><i>Syntactic Interchangeability in Word Embedding Models</i></b>.
-                <br>
-                <b>Daniel Hershcovich</b>, Assaf Toledo, Alon Halfon and Noam Slonim.<br>
-                <a href='https://repeval2019.github.io' target="_blank">RepEval 2019</a>.
-            </div>
-            <div class="row col-md-3 btn-group mr-2 v-center" role="group">
-                <a href="interchangeability.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
-                <a href="#" class="btn btn-outline-primary btn-sm"
-                   onclick="$('#repeval2019_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
-                <a href="interchangeability.bib" class="btn btn-outline-primary btn-sm">bib</a>
-                <a href="https://github.com/danielhers/interchangeability"
-                   class="btn btn-outline-primary btn-sm">code</a>
-            </div>
-            <div id="repeval2019_abstract" class="abstract row" style="display:none;">
-                <i>Nearest neighbors in word embedding models are commonly observed to be semantically similar,
-                    but the relations between them can vary greatly. We investigate the extent to which word
-                    embedding models preserve syntactic interchangeability, as reflected by distances between
-                    word vectors, and the effect of hyper-parameters---context window size in particular. We use
-                    part of speech (POS) as a proxy for syntactic interchangeability, as generally speaking,
-                    words with the same POS are syntactically valid in the same contexts. We also investigate
-                    the relationship between interchangeability and similarity as judged by commonly-used word
-                    similarity benchmarks, and correlate the result with the performance of word embedding
-                    models on these benchmarks. Our results will inform future research and applications in the
-                    selection of word embedding model, suggesting a principle for an appropriate selection of
-                    the context window size parameter depending on the use-case.
-                </i>
-            </div>
-        </div>
-    </li>
+    <h2 class="header"><a id="talks"></a>Talks</h2>
+    <ul>
+        <li>
+            <a href="iscol2016_slides.pdf">
+                <i>Broad-Coverage Semantic Parsing: A Transition-Based Approach</i>
+            </a>
+            <br>
+            The Israeli Seminar on Computational Linguistics, <a
+                href='https://tce.technion.ac.il/events/iscol-2016/' target="_blank">ISCOL 2016</a> (05/2016)
+        </li>
 
-    <li><a id="naacl2019"></a>
-        <div class="row">
-            <div class="col-md-4">
-                <b><i>Content Differences in Syntactic and Semantic Representations</i></b>.
-                <br>
-                <b>Daniel Hershcovich</b>, Omri Abend and Ari Rappoport.<br>
-                <a href='https://naacl2019.org' target="_blank">NAACL 2019</a> (long paper).
-            </div>
-            <div class="row col-md-3 btn-group mr-2 v-center" role="group">
-                <a href="divergences.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
-                <a href="#" class="btn btn-outline-primary btn-sm"
-                   onclick="$('#naacl2019_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
-                <a href="divergences.bib" class="btn btn-outline-primary btn-sm">bib</a>
-                <a href="divergences_supp.pdf" class="btn btn-outline-primary btn-sm">supplementary material</a>
-                <a href="https://github.com/danielhers/synsem" class="btn btn-outline-primary btn-sm">code</a>
-                <a href="https://github.com/UniversalConceptualCognitiveAnnotation/UCCA_English-EWT"
-                   class="btn btn-outline-primary btn-sm">data</a>
-                <a href="ucca/divergences.html" class="btn btn-outline-primary btn-sm">examples</a>
-            </div>
-            <div id="naacl2019_abstract" class="abstract row" style="display:none;">
-                <i>Syntactic analysis plays an important role in semantic parsing, but this role remains a topic
-                    of ongoing debate. The debate has been constrained by the scarcity of empirical comparative
-                    studies between syntactic and semantic schemes, which hinders the development of parsing
-                    methods informed by the details of target schemes and constructions. We target this gap, and
-                    take Universal Dependencies (UD) and UCCA as a test case. After abstracting away from
-                    differences of convention or formalism, we find that most content divergences can be
-                    ascribed to: (1) UCCA's distinction between a Scene and a non-Scene; (2) UCCA's distinction
-                    between primary relations, secondary ones and participants; (3) different treatment of
-                    multi-word expressions, and (4) different treatment of inter-clause linkage. We further
-                    discuss the long tail of cases where the two schemes take markedly different approaches.
-                    Finally, we show that the proposed comparison methodology can be used for fine-grained
-                    evaluation of UCCA parsing, highlighting both challenges and potential sources for
-                    improvement. The substantial differences between the schemes suggest that semantic parsers
-                    are likely to benefit downstream text understanding applications beyond their syntactic
-                    counterparts.
-                </i>
-            </div>
-        </div>
-    </li>
+        <li>
+            <a href="learningclub2016_slides.pdf">
+                <i>Broad-Coverage Transition-Based UCCA Parsing</i>
+            </a>
+            <br>
+            Hebrew University, <a href='http://www.cs.huji.ac.il/news-and-events/seminars/learning-club'
+                                  target="_blank">Computer Science Learning Club</a> (11/2016)
+        </li>
 
-    <li><a id="udst2018"></a>
-        <div class="row">
-            <div class="col-md-4">
-                <b><i>Universal Dependency Parsing with a General Transition-Based DAG Parser</i></b>.
-                <br>
-                <b>Daniel Hershcovich</b>, Omri Abend and Ari Rappoport.<br>
-                <a href='http://universaldependencies.org/conll18' target="_blank">CoNLL 2018 UD Shared Task</a>.
-            </div>
-            <div class="row col-md-3 btn-group mr-2 v-center" role="group">
-                <a href="K18-2010.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
-                <a href="#" class="btn btn-outline-primary btn-sm"
-                   onclick="$('#udst2018_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
-                <a href="k18-2010.bib" class="btn btn-outline-primary btn-sm">bib</a>
-                <a href="udst2018_poster.pdf" class="btn btn-outline-primary btn-sm">poster</a>
-                <a href="https://github.com/CoNLL-UD-2018/HUJI" class="btn btn-outline-primary btn-sm">code</a>
-            </div>
-            <div id="udst2018_abstract" class="abstract row" style="display:none;">
-                <i>This paper presents our experiments with applying TUPA to the CoNLL 2018 UD shared task. TUPA
-                    is a general neural transition-based DAG parser, which we use to present the first
-                    experiments on recovering enhanced dependencies as part of the general parsing task. TUPA
-                    was designed for parsing UCCA, a cross-linguistic semantic annotation scheme, exhibiting
-                    reentrancy, discontinuity and non-terminal nodes. By converting UD trees and graphs to a
-                    UCCA-like DAG format, we train TUPA almost without modification on the UD parsing task. The
-                    generic nature of our approach lends itself naturally to multitask learning.</i>
-            </div>
-        </div>
-    </li>
+        <li>
+            <a href="technion2017_slides.pdf">
+                <i>A Transition-Based Directed Acyclic Graph Parser
+                    for Universal Conceptual Cognitive Annotation</i>
+            </a>
+            <br>
+            Technion, Computational Data Science Seminar (06/2017)
+        </li>
 
-    <li><a id="acl2018"></a>
-        <div class="row">
-            <div class="col-md-4">
-                <b><i>Multitask Parsing Across Semantic Representations</i></b>.
-                <br>
-                <b>Daniel Hershcovich</b>, Omri Abend and Ari Rappoport.<br>
-                <a href='http://acl2018.org' target="_blank">ACL 2018</a> (long paper).
-            </div>
-            <div class="row col-md-3 btn-group mr-2 v-center" role="group">
-                <a href="P18-1035.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
-                <a href="#" class="btn btn-outline-primary btn-sm"
-                   onclick="$('#acl2018_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
-                <a href="p18-1035.bib" class="btn btn-outline-primary btn-sm">bib</a>
-                <a href="P18-1035.Notes.pdf" class="btn btn-outline-primary btn-sm">supplementary material</a>
-                <a href="acl2018_poster.pdf" class="btn btn-outline-primary btn-sm">poster</a>
-                <a href="https://github.com/danielhers/tupa" class="btn btn-outline-primary btn-sm">code</a>
-                <a href="https://github.com/UniversalConceptualCognitiveAnnotation/UCCA_English-WSJ"
-                   class="btn btn-outline-primary btn-sm">data</a>
-            </div>
-            <div id="acl2018_abstract" class="abstract row" style="display:none;">
-                <i>The ability to consolidate information of different types is at the core of intelligence, and
-                    has tremendous practical value in allowing learning for one task to benefit from
-                    generalizations learned for others. In this paper we tackle the challenging task of
-                    improving semantic parsing performance, taking UCCA parsing as a test case, and AMR, SDP and
-                    Universal Dependencies (UD) parsing as auxiliary tasks. We experiment on three languages,
-                    using a uniform transition-based system and learning architecture for all parsing tasks.
-                    Despite notable conceptual, formal and domain differences, we show that multitask learning
-                    significantly improves UCCA parsing in both in-domain and out-of-domain settings.</i>
-            </div>
-        </div>
-    </li>
+        <li>
+            <a href="uw2017_slides.pdf">
+                <i>A Transition-Based Directed Acyclic Graph Parser
+                    for Universal Conceptual Cognitive Annotation</i>
+            </a>
+            <br>
+            University of Washington, The Paul G. Allen Center for Computer Science &amp; Engineering (07/2017)
+        </li>
 
-    <li><a id="acl2017"></a>
-        <div class="row">
-            <div class="col-md-4">
-                <b><i>A Transition-Based Directed Acyclic Graph Parser for UCCA</i></b>.
-                <br>
-                <b>Daniel Hershcovich</b>, Omri Abend and Ari Rappoport.<br>
-                <a href='http://acl2017.org' target="_blank">ACL 2017</a> (long paper),
-                <a href='https://acl2017.wordpress.com/2017/08/03/outstanding-and-best-papers-and-the-decision-process/'
-                   target="_blank"><span style="color:red">Outstanding Paper Award</span></a>.
-            </div>
-            <div class="row col-md-3 btn-group mr-2 v-center" role="group">
-                <a href="P17-1104.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
-                <a href="#" class="btn btn-outline-primary btn-sm"
-                   onclick="$('#P17-1104_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
-                <a href="P17-1104.bib" class="btn btn-outline-primary btn-sm">bib</a>
-                <a href="P17-1104_supp.pdf" class="btn btn-outline-primary btn-sm">supplementary material</a>
-                <a href="acl2017_slides.pdf" class="btn btn-outline-primary btn-sm">slides</a>
-                <a href="iscol2017_poster.pdf" class="btn btn-outline-primary btn-sm">poster</a>
-                <a href="https://github.com/danielhers/tupa" class="btn btn-outline-primary btn-sm">code</a>
-                <a href="http://cs.huji.ac.il/~danielh/ucca" class="btn btn-outline-primary btn-sm">demo</a>
-                <a href="https://github.com/UniversalConceptualCognitiveAnnotation"
-                   class="btn btn-outline-primary btn-sm">data</a>
-            </div>
-            <div id="P17-1104_abstract" class="abstract row" style="display:none;">
-                <i>We present the first parser for UCCA, a cross-linguistically applicable framework for
-                    semantic
-                    representation, which builds on extensive typological work and supports rapid annotation.
-                    UCCA
-                    poses a challenge for existing parsing techniques, as it exhibits reentrancy (resulting in
-                    DAG
-                    structures), discontinuous structures and non-terminal nodes corresponding to complex
-                    semantic
-                    units. To our knowledge, the conjunction of these formal properties is not supported by any
-                    existing parser. Our transition-based parser, which uses a novel transition set and features
-                    based on bidirectional LSTMs, has value not just for UCCA parsing: its ability to handle
-                    more
-                    general graph structures can inform the development of parsers for other semantic DAG
-                    structures, and in languages that frequently use discontinuous structures.</i>
-            </div>
-        </div>
-    </li>
-
-    <li>
-        <div class="row">
-            <div class="col-md-4">
-                <b><i>Automatic Claim Negation: Why, How and When</i></b>.
-                <br>
-                Yonatan Bilu, <b>Daniel Hershcovich</b>, Noam Slonim.<br>
-                <a href='http://naacl.org/naacl-hlt-2015/' target="_blank">NAACL HLT 2015</a> (long paper).
-            </div>
-            <div class="row col-md-3 btn-group mr-2 v-center" role="group">
-                <a href="https://aclweb.org/anthology/W15-0511" class="btn btn-outline-primary btn-sm">pdf</a>
-                <a href="#" class="btn btn-outline-primary btn-sm"
-                   onclick="$('#negation_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
-                <a href="https://aclweb.org/anthology/W15-0511.bib"
-                   class="btn btn-outline-primary btn-sm">bib</a>
-            </div>
-            <div id="negation_abstract" class="abstract" style="display:none;">
-                <i>The main goal of argumentation mining is to analyze argumentative structures within an
-                    argument-rich document, and reason about their composition. Recently, there is also interest
-                    in
-                    the task of simply detecting claims (sometimes called conclusion) in general documents. In
-                    this
-                    work we ask how this set of detected claims can be augmented further, by adding to it the
-                    negation of each detected claim. This presents two NLP problems: how to automatically negate
-                    a
-                    claim, and when such a negated claim can plausibly be used. We present first steps into
-                    solving
-                    both these problems, using a rule-based approach for the former and a statistical one
-                    towards
-                    the latter.</i>
-            </div>
-        </div>
-    </li>
-
-    <li>
-        <div class="row">
-            <div class="col-md-4">
-                <b><i>Context Dependent Claim Detection</i></b>.
-                <br>
-                Noam Slonim, Ran Levy, Yonatan Bilu, <b>Daniel Hershcovich</b> and Ehud Aharoni.<br>
-                <a href='http://www.coling-2014.org/' target="_blank">COLING 2014</a> (long paper).
-            </div>
-            <div class="row col-md-3 btn-group mr-2 v-center" role="group">
-                <a href="http://www.aclweb.org/anthology/C14-1141"
-                   class="btn btn-outline-primary btn-sm">pdf</a>
-                <a href="#" class="btn btn-outline-primary btn-sm"
-                   onclick="$('#cdcd_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
-                <a href="http://www.aclweb.org/anthology/C14-1141.bib" class="btn btn-outline-primary btn-sm">bib</a>
-            </div>
-            <div id="cdcd_abstract" class="abstract" style="display:none;">
-                <i>While discussing a concrete controversial topic, most humans will find it challenging to
-                    swiftly
-                    raise a diverse set of convincing and relevant claims that should set the basis of their
-                    arguments. Here, we formally define the challenging task of automatic claim detection in a
-                    given
-                    context and discuss its associated unique difficulties. Further, we outline a preliminary
-                    solution to this task, and assess its performance over annotated real world data, collected
-                    specifically for that purpose over hundreds of Wikipedia articles. We report promising
-                    results
-                    of a supervised learning approach, which is based on a cascade of classifiers designed to
-                    properly handle the skewed data which is inherent to the defined task. These results
-                    demonstrate
-                    the viability of the introduced task.</i>
-            </div>
-        </div>
-    </li>
-
-    <li>
-        <div class="row">
-            <div class="col-md-4">
-                <b><i>Claims on Demand–an Initial Demonstration of a System for Automatic Detection and
-                    Polarity Identification of Context Dependent Claims in Massive Corpora</i></b>.
-                <br>
-                Ehud Aharoni, Carlos Alzate, Roy Bar-Haim, Yonatan Bilu, Lena Dankin, Iris Eiron, <b>Daniel
-                Hershcovich</b>, Shay Hummel.<br>
-                <a href='http://www.coling-2014.org/' target="_blank">COLING 2014</a> (system demonstration).
-            </div>
-            <div class="row col-md-3 btn-group mr-2 v-center" role="group">
-                <a href="http://www.aclweb.org/anthology/C14-2002"
-                   class="btn btn-outline-primary btn-sm">pdf</a>
-                <a href="#" class="btn btn-outline-primary btn-sm"
-                   onclick="$('#acedemo_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
-                <a href="http://www.aclweb.org/anthology/C14-2002.bib" class="btn btn-outline-primary btn-sm">bib</a>
-            </div>
-            <div id="acedemo_abstract" class="abstract" style="display:none;">
-                <i>While discussing a concrete controversial topic, most humans will find it challenging to
-                    swiftly
-                    raise a diverse set of convincing and relevant claims that should set the basis of their
-                    arguments. Here, we demonstrate the initial capabilities of a system that, given a
-                    controversial
-                    topic, can automatically pinpoint relevant claims in Wikipedia, determine their polarity
-                    with
-                    respect to the given topic, and articulate them per the user's request.</i>
-            </div>
-        </div>
-    </li>
-
-    <li>
-        <div class="row">
-            <div class="col-md-4">
-                <b><i>A Benchmark Dataset for Automatic Detection of Claims and Evidence in the Context of
-                    Controversial Topics</i></b>.
-                <br>
-                Ehud Aharoni, Anatoly Polnarov, Tamar Lavee, <b>Daniel Hershcovich</b>, Ran Levy, Ruty Rinott,
-                Dan Gutfreund, Noam Slonim.<br>
-                <a href='https://www.uncg.edu/cmp/ArgMining2014/' target="_blank">Workshop on Argumentation
-                    Mining</a> at <a href='http://acl2014.org/' target="_blank">ACL 2014</a>.
-            </div>
-            <div class="row col-md-3 btn-group mr-2 v-center" role="group">
-                <a href="http://anthology.aclweb.org/W14-2109" class="btn btn-outline-primary btn-sm">pdf</a>
-                <a href="#" class="btn btn-outline-primary btn-sm"
-                   onclick="$('#acelab_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
-                <a href="http://anthology.aclweb.org/W14-2109.bib"
-                   class="btn btn-outline-primary btn-sm">bib</a>
-            </div>
-            <div id="acelab_abstract" class="abstract" style="display:none;">
-                <i>We describe a novel and unique argumentative structure dataset. This corpus consists of data
-                    extracted fro m hundreds of Wikipedia articles using a meticulously monitored manual
-                    annotation
-                    process. The result is 2,683 argument elements, collected in the context of 33 controversial
-                    topics, organized under a simple claim-evidence structure. The obtained data are publicly
-                    available for academic research.</i>
-            </div>
-        </div>
-    </li>
-
-    <li>
-        <div class="row">
-            <div class="col-md-4">
-                <b><i>Verification of Transactional Memory in POWER8</i></b>.
-                <br>
-                Alon Adir, Dave Goodman, <b>Daniel Hershcovich</b>, Oz Hershkovitz, Bryan Hickerson, Karen
-                Holtz, Wisam Kadry, Anatoly Koyfman, John Ludden, Charles Meissner, Amir Nahir, Randall R Pratt,
-                Mike Schiffli, Brett St Onge, Brian Thompto, Elena Tsanko, Avi Ziv.<br>
-                <a href='https://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=18068'
-                   target="_blank">DAC 2014</a>.
-            </div>
-            <div class="row col-md-3 btn-group mr-2 v-center" role="group">
-                <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6881385"
-                   class="btn btn-outline-primary btn-sm">pdf</a>
-                <a href="#" class="btn btn-outline-primary btn-sm"
-                   onclick="$('#power8tx_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
-                <a href="2593241.bib" class="btn btn-outline-primary btn-sm">bib</a>
-            </div>
-            <div id="power8tx_abstract" class="abstract" style="display:none;">
-                <i>Transactional memory is a promising mechanism for synchronizing concurrent programs that
-                    eliminates locks at the expense of hardware complexity. Transactional memory is a hard
-                    feature
-                    to verify. First, transactions comprise several instructions that must be observed as a
-                    single
-                    global atomic operation. In addition, there are many reasons a transaction can fail. This
-                    results in a high level of non-determinism which must be tamed by the verification
-                    methodology.
-                    This paper describes the innovation that was applied to tools and methodology in pre-silicon
-                    simulation, acceleration and post-silicon in order to verify transactional memory in the IBM
-                    POWER8 processor core.</i>
-            </div>
-        </div>
-    </li>
+        <li>
+            <a href="tau2018_slides.pdf">
+                <i>A Transition-Based Directed Acyclic Graph Parser
+                    for Universal Conceptual Cognitive Annotation</i>
+            </a>
+            <br>
+            Tel Aviv University, NLP Seminar (01/2018)
+        </li>
     </ul>
-</div>
 
-<div class="menu"></div>
+    <!--<div class="menu"></div>-->
 
-<h2 class="header"><a id="talks"></a>Talks</h2>
-<ul>
-    <li>
-        <a href="iscol2016_slides.pdf">
-            <i>Broad-Coverage Semantic Parsing: A Transition-Based Approach</i>
-        </a>
-        <br>
-        The Israeli Seminar on Computational Linguistics, <a
-            href='https://tce.technion.ac.il/events/iscol-2016/' target="_blank">ISCOL 2016</a> (05/2016)
-    </li>
+    <!--<h2 class="header"><a id="teaching"></a>Teaching</h2>-->
+    <!--<ul>-->
+    <!--<li>Human Language from a Computational Perspective (TA):-->
+    <!--<a href="http://moodle.huji.ac.il/hu14/course/view.php?id=67127">2014</a>,-->
+    <!--<a href="http://moodle.huji.ac.il/hu15/course/view.php?id=67127">2015</a>,-->
+    <!--<a href="http://moodle2.cs.huji.ac.il/nu16/course/view.php?id=67127">2016</a>,-->
+    <!--<a href="https://moodle2.cs.huji.ac.il/nu17/course/view.php?id=67127">2017</a>-->
+    <!--</li>-->
+    <!--</ul>-->
 
-    <li>
-        <a href="learningclub2016_slides.pdf">
-            <i>Broad-Coverage Transition-Based UCCA Parsing</i>
-        </a>
-        <br>
-        Hebrew University, <a href='http://www.cs.huji.ac.il/news-and-events/seminars/learning-club'
-                              target="_blank">Computer Science Learning Club</a> (11/2016)
-    </li>
+    <!--<hr>-->
 
-    <li>
-        <a href="technion2017_slides.pdf">
-            <i>A Transition-Based Directed Acyclic Graph Parser
-                for Universal Conceptual Cognitive Annotation</i>
-        </a>
-        <br>
-        Technion, Computational Data Science Seminar (06/2017)
-    </li>
+    <h2 class="header"><a id="community"></a>Community</h2>
+    <ul>
+        <li>I co-organized <a href="http://www.cs.huji.ac.il/~danielh/iscol2017">ISCOL 2017</a>
+            (with Omri Abend, Elior Sulem and Leshem Choshen),
+            the annual meeting of the Israeli seminar on computational linguistics.
+        </li>
+        <li>I served as a reviewer for ACL (2015-2017, 2019), EMNLP (2017-2018), IJCNLP 2017, COLING 2018,
+            NAACL-HLT 2019 and *SEM 2019.
+        </li>
+    </ul>
 
-    <li>
-        <a href="uw2017_slides.pdf">
-            <i>A Transition-Based Directed Acyclic Graph Parser
-                for Universal Conceptual Cognitive Annotation</i>
-        </a>
-        <br>
-        University of Washington, The Paul G. Allen Center for Computer Science &amp; Engineering (07/2017)
-    </li>
+    <hr>
 
-    <li>
-        <a href="tau2018_slides.pdf">
-            <i>A Transition-Based Directed Acyclic Graph Parser
-                for Universal Conceptual Cognitive Annotation</i>
-        </a>
-        <br>
-        Tel Aviv University, NLP Seminar (01/2018)
-    </li>
-</ul>
+    <h2 class="header"><a id="misc"></a>Miscellaneous</h2>
+    <ul>
+        <li>I practice Kendo (Japanese fencing).
+            <a href="#"
+               onclick="var i = $('#wkc2015'); i.slideToggle(); i.find('img').attr('src', 'index_files/wkc17_1.JPG'); return false;">
+                Here I am at the World Championships in Korea (2018)</a>.
+            <div id="wkc2015" style="display: none"><img src="" style="width: 60%" alt="WKC17"/></div>
+        </li>
+    </ul>
 
-<!--<div class="menu"></div>-->
+    <hr>
 
-<!--<h2 class="header"><a id="teaching"></a>Teaching</h2>-->
-<!--<ul>-->
-<!--<li>Human Language from a Computational Perspective (TA):-->
-<!--<a href="http://moodle.huji.ac.il/hu14/course/view.php?id=67127">2014</a>,-->
-<!--<a href="http://moodle.huji.ac.il/hu15/course/view.php?id=67127">2015</a>,-->
-<!--<a href="http://moodle2.cs.huji.ac.il/nu16/course/view.php?id=67127">2016</a>,-->
-<!--<a href="https://moodle2.cs.huji.ac.il/nu17/course/view.php?id=67127">2017</a>-->
-<!--</li>-->
-<!--</ul>-->
+    <h2 class="header"><a id="contact_info"></a>Contact Info</h2>
 
-<!--<hr>-->
+    <p>Daniel Hershcovich<br>
+        <a href="https://di.ku.dk/english" target="_blank">Department of Computer Science</a><br>
+        <a href="https://www.ku.dk/english" target="_blank">University of Copenhagen</a> <br>
+        Universitetsparken 1<br>
+        DK-2100 Copenhagen Ø, Denmark<br>
+        <a id="email" onclick="grecaptcha.execute();" class="g-recaptcha"
+           data-sitekey="6Lc3G5UUAAAAAIGbANLYoplrZU9eviZEMrfJsKQ5" data-callback="showEmail">
+            d...
+        </a>@di.ku.dk
+    </p>
 
-<h2 class="header"><a id="community"></a>Community</h2>
-<ul>
-    <li>I co-organized <a href="http://www.cs.huji.ac.il/~danielh/iscol2017">ISCOL 2017</a>
-        (with Omri Abend, Elior Sulem and Leshem Choshen),
-        the annual meeting of the Israeli seminar on computational linguistics.
-    </li>
-    <li>I served as a reviewer for ACL (2015-2017, 2019), EMNLP (2017-2018), IJCNLP 2017, COLING 2018,
-        NAACL-HLT 2019 and *SEM 2019.
-    </li>
-</ul>
-
-<hr>
-
-<h2 class="header"><a id="misc"></a>Miscellaneous</h2>
-<ul>
-    <li>I practice Kendo (Japanese fencing).
-        <a href="#"
-           onclick="var i = $('#wkc2015'); i.slideToggle(); i.find('img').attr('src', 'index_files/wkc17_1.JPG'); return false;">
-            Here I am at the World Championships in Korea (2018)</a>.
-        <div id="wkc2015" style="display: none"><img src="" style="width: 60%" alt="WKC17"/></div>
-    </li>
-</ul>
-
-<hr>
-
-<h2 class="header"><a id="contact_info"></a>Contact Info</h2>
-
-<p>Daniel Hershcovich<br>
-    <a href="https://di.ku.dk/english" target="_blank">Department of Computer Science</a><br>
-    <a href="https://www.ku.dk/english" target="_blank">University of Copenhagen</a> <br>
-    Universitetsparken 1<br>
-    DK-2100 Copenhagen Ø, Denmark<br>
-    <a id="email" onclick="grecaptcha.execute();" class="g-recaptcha"
-       data-sitekey="6Lc3G5UUAAAAAIGbANLYoplrZU9eviZEMrfJsKQ5" data-callback="showEmail">
-        d...
-    </a>@di.ku.dk
-</p>
-
-<div class="menu"></div>
-Last update: 03/2019
+    <div class="menu"></div>
+    Last update: 03/2019
 </div>
 
 
