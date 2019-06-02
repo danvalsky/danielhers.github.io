@@ -1425,6 +1425,10 @@ T14	Center 42 47	Miami
 </table>
 
 ### Participant csubj
+
+Clausal subjects, similarly to noun subjects, are typically participants
+(*they did not charge ...*):
+
 <table id="071518-0008">
 <tbody><tr><td>
 UD:
@@ -1486,6 +1490,10 @@ T25	Process 44 51	service
 </table>
 
 ### Participant ccomp
+
+Clausal complements, too, are core arguments and are typically Participants
+(*what i wanted*):
+
 <table id="245160-0003">
 <tbody><tr><td>
 UD:
@@ -1601,6 +1609,10 @@ T56	Center 20 23	car
 </table>
 
 ### Participant xcomp
+
+The same is true for open clausal complements
+(*to change it*):
+
 <table id="068436-0005">
 <tbody><tr><td>
 UD:
@@ -1652,6 +1664,13 @@ T20	Participant 23 25	it
 </table>
 
 ### Unmatched xcomp
+
+However, many clauses (open clausal complements in particular)
+do not correspond to any UCCA unit, due to markers attaching
+to the clause in UD but annotated as Linkers between scenes in UCCA,
+or due to multiple scenes whose segmentation may be ambiguous,
+as in *to pay for you to use them*:
+
 <table id="247226-0004">
 <tbody><tr><td>
 UD:
