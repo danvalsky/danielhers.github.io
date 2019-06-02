@@ -18,7 +18,17 @@ This page provides detailed examples to accompany the following <a href="../dive
     }
 
 ## Scene/Non-Scene
+
+A major distinction in UCCA is between scene-evoking phrases and non-scene-evoking ones.
+
 ### Participant nsubj
+
+Noun subjects, and core syntactic arguments in general,
+are predominately UCCA Participants.
+in the following, *wine* is both nsubj and Participant,
+as it is not a scene-evoking noun, but participates in the
+*excellent* scene:
+
 <table id="305187-0005">
 <tbody><tr><td>
 UD:
@@ -45,6 +55,10 @@ T6	State 9 18	excellent
 </table>
 
 ### Process nsubj
+
+In contrast, in the following, the noun subject *service* is
+scene-evoking, and corresponds to a UCCA Process:
+
 <table id="079007-0002">
 <tbody><tr><td>
 UD:
@@ -76,6 +90,11 @@ T10	Center 20 24	poor
 </table>
 
 ### Linker nsubj
+
+Non-scene-evoking nouns can also correspond to UCCA Linkers,
+as in the following example, where the relative pronoun *who*
+is a noun subject but serves as a Linker between two Parallel Scenes.
+
 <table id="295491-0007">
 <tbody><tr><td>
 UD:
@@ -127,6 +146,20 @@ R2	Participant parent:T15 child:T17
 </table>
 
 ### Adverbial amod
+
+Adjectives can be scene-evoking or not.
+Different classes of adjectives are handled differently in UCCA:
+e.g., while most adjectives are scene-evoking, pertainyms
+(*academic*), inherent-composition modifiers (*sugary*),
+and quantity modifiers (*many*) are not.
+Some adjectives are ambiguous: a *legal practice* may refer to
+a behavior that is legal as opposed to illegal,
+in which case it should be scene-evoking, or to a law office,
+in which case it should not.
+In the following, *perfect* evokes a scene and is annotated
+as a State, whereas *romantic* does not evoke a scene and is instead
+an Adverbial in the *dinner* scene.
+
 <table id="305187-0007">
 <tbody><tr><td>
 UD:
@@ -164,6 +197,10 @@ T13	Center 10 15	place
 </table>
 
 ### State amod
+
+Another example for a scene-evoking adjective follows,
+where the adjective *beautiful* is annotated as a State.
+
 <table id="073356-0001">
 <tbody><tr><td>
 UD:
@@ -187,6 +224,7 @@ T5	Participant 10 15	hotel
 </td></tr></tbody>
 </table>
 
+Similarly, *convenient* in the following sentence evokes a State:
 
 <table id="303922-0005">
 <tbody><tr><td>
@@ -243,6 +281,11 @@ T20	Center 18 26	location
 
 
 ### Elaborator amod
+
+The most common case of adjectives is as Elaborators of non-scene units.
+In the following, *medical* is al Elaborator of the non-scene *school*
+(whereas *poor* is an Adverbial in the *rating* scene).
+
 <table id="071650-0007">
 <tbody><tr><td>
 UD:
@@ -335,6 +378,13 @@ T45	Process 16 22	rating
 
 
 ### Participant nmod
+
+Noun modifiers can also have various different semantic roles.
+For example, *on services*, modifying *discount* in the following,
+is a Participant in the *discount* scene.
+Note that in this case, *a discount* is also a Participant in the
+scene evoked by the *services* Process.
+
 <table id="247226-0005">
 <tbody><tr><td>
 UD:
@@ -394,6 +444,11 @@ T30	Adverbial 6 10	back
 </div>
 </td></tr></tbody>
 </table>
+
+Possessives, such as *our* in the following, our noun modifiers
+annotated as Participants in the possession scene (*our decision*),
+which is itself an Elaborator of the modified noun.
+This is another example of a complex annotation. 
 
 <table id="095040-0004">
 <tbody><tr><td>
@@ -473,6 +528,10 @@ T36	Relator 10 12	's
 </table>
 
 ### Elaborator nmod/acl
+
+Noun modifiers of non-scenes, on the other hand, are Elaborators,
+such as *my car's* in the following, modifying *gears and brakes*:
+
 <table id="295288-0006">
 <tbody><tr><td>
 UD:
@@ -543,6 +602,8 @@ T32	State 4 6	my
 </td></tr></tbody>
 </table>
 
+Similarly, the scene *that work there*, modifying the non-scene
+*younger kids*, is an Elaborator clausal modifier.
 
 <table id="241739-0005">
 <tbody><tr><td>
@@ -620,6 +681,13 @@ T34	Relator 5 7	of
 
 
 ### Unmatched acl
+
+Some clausal modifiers do not match any UCCA units, such as
+*I got* in the following.
+This is an instance of a free relative clause,
+where *what I got* is a unit in UCCA but *what* is a separate
+obj in UD. 
+
 <table id="024385-0004">
 <tbody><tr><td>
 UD:
@@ -656,6 +724,12 @@ T12	Center 4 10	prices
 </table>
 
 ### Relator case
+
+Prepositions are mostly Relators, modifying non-scenes,
+such as *at* modifying *Bradley Chevron* in the following.
+On the other hand, the preposition *for* is a Linker between
+the Paralell Scenes corresponding to *running* and *death*.
+
 <table id="303922-0003">
 <tbody><tr><td>
 UD:
@@ -712,6 +786,10 @@ T23	Center 12 27	Bradley Chevron
 </table>
 
 ### Linker case
+
+This is another example of a preposition serving as a Linker between
+two scenes: *with* links the *Informative* and *work* scenes.
+
 <table id="295935-0001">
 <tbody><tr><td>
 UD:
@@ -751,6 +829,10 @@ T13	Center 44 48	work
 </table>
 
 ### Elaborator case
+
+A very diverse class, prepositions can also serve as Elaborators,
+which is the case for comparators such as *over* in *over a year*:
+
 <table id="095040-0003">
 <tbody><tr><td>
 UD:
@@ -810,6 +892,9 @@ T25	Center 16 18	us
 </table>
 
 ### State case
+
+Prepositions can even evoke scenes, such as *on* in the following:
+
 <table id="034501-0003">
 <tbody><tr><td>
 UD:
@@ -888,6 +973,13 @@ T34	Center 30 36	bustle
 </table>
 
 ### Connector cc
+
+Coordinating conjunctions are typically connectors, when they
+connect non-scene-evoking units.
+This is the case for *Mercedes and Dan* in the following,
+but not for the other *and*, which is a Linker between the
+*thorough* and *on top* scenes:
+
 <table id="023926-0002">
 <tbody><tr><td>
 UD:
@@ -933,6 +1025,10 @@ T16	Center 13 16	Dan
 </table>
 
 ### Linker cc
+
+Similarly, *but* is a coordinating conjunction Linker between
+two scenes in the following:
+
 <table id="299148-0001">
 <tbody><tr><td>
 UD:
@@ -961,6 +1057,10 @@ T9	State 0 8	Outdated
 </table>
 
 ### Elaborator det
+
+While articles (*a*/*the*) are Functions, determines that are
+demonstratives serve as Elaborators:
+
 <table id="071650-0013">
 <tbody><tr><td>
 UD:
@@ -1002,6 +1102,10 @@ T14	Center 28 31	gym
 
 
 ### Adverbial det
+
+Determiners can also be Adverbials, for example when
+expressing negation:
+
 <table id="252791-0001">
 <tbody><tr><td>
 UD:
@@ -1030,6 +1134,9 @@ T8	Center 15 20	stock
 </div>
 </td></tr></tbody>
 </table>
+
+Other determiners modifying scenes are also Adverbials,
+such as *what* in *what a mistake*:
 
 <table id="243799-0002">
 <tbody><tr><td>
@@ -1112,6 +1219,8 @@ T42	Center 8 13	there
 </td></tr></tbody>
 </table>
 
+This is also the case for *some* in the following, modifying the scene *leakage*:
+
 <table id="349020-0002">
 <tbody><tr><td>
 UD:
@@ -1167,7 +1276,16 @@ T23	Center 4 9	night
 </table>
 
 ## Primary/Secondary Relations
+
+Another major distinction in UCCA is between primary relations
+(Process/State),
+secondary relations (Adverbials) and Participants.
+
 ### Adverbial advmod
+
+Adverbs are typically Adverbials, although not necessarily so.
+In the following, *sometimes* is such as example:
+
 <table id="241855-0002">
 <tbody><tr><td>
 UD:
@@ -1221,6 +1339,9 @@ T21	Center 25 30	store
 </table>
 
 ### Participant advmod
+
+Adverbs can also be Participants if they designate a location:
+
 <table id="047007-0002">
 <tbody><tr><td>
 UD:
@@ -1253,6 +1374,13 @@ T8	Adverbial 23 28	again
 </table>
 
 ### Adverbial obl
+
+On the other hand, oblique modifiers of predicates (introduced
+by prepositions) can also be Adverbials.
+They serve a similar role to adverbs, but are distinguished in UD
+due to the syntactic realization. For example *by far* in the
+following is an Adverbial functioning as an oblique modifier:
+
 <table id="369608-0003">
 <tbody><tr><td>
 UD:
