@@ -3079,29 +3079,3 @@ T32	State 4 6	my
 </div>
 </td></tr></tbody>
 </table>
-
-
-
-<!-- ([\d_]+(:\w+)+\|?)+ -->
-
-
-## Toy example
-<table id="toy">
-<tbody><tr><td>
-</td><td>
-UCCA:
-<div class="ann-annotation">
-After graduation , Mary moved to New York City .
-T2	Linker 0 5	After
-T3	ParallelScene 6 16	graduation
-T4	Process 6 16	graduation
-T6	ParallelScene 19 46	Mary moved to New York City
-T7	Participant 19 23	Mary
-R1	Participant parent:T3 child:T7
-T8	Process 24 29	moved
-T9	Participant 30 46	to New York City
-T10	Relator 30 32	to
-T11	Center 33 46	New York City
-</div>
-</td></tr></tbody>
-</table>
