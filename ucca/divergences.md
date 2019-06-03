@@ -5,7 +5,7 @@ title:  'Content Differences in Syntactic and Semantic Representations'
 
 # Content Differences in Syntactic and Semantic Representations
 
-This page provides detailed examples to accompany the following <a href="../divergences.pdf">paper</a>:
+This page provides detailed examples to accompany the following <a href="../N19-1047.pdf">paper</a>:
 
     @inproceedings{hershcovich2019content,
         title = "Content Differences in Syntactic and Semantic Representation",
