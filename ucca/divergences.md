@@ -17,6 +17,13 @@ This page provides detailed examples to accompany the following <a href="../N19-
         pages = "478--488"
     }
 
+In addition, see the following for the full EWT Reviews data:
+
+- [Gold-standard UCCA visualization](https://github.com/UniversalConceptualCognitiveAnnotation/UCCA_English-EWT/tree/v1.0-images).
+- [Gold-standard UCCA sentences XMLs](https://github.com/UniversalConceptualCognitiveAnnotation/UCCA_English-EWT/tree/v1.0-sentences-xml).
+- [Gold-standard UD](https://github.com/UniversalConceptualCognitiveAnnotation/UCCA_English-EWT/tree/v1.0-ud).
+<!-- - [Rule-based parser output](https://github.com/danielhers/streusle/tree/images)-->
+
 ## Scene/Non-Scene
 
 A major distinction in UCCA is between scene-evoking phrases and non-scene-evoking ones.
