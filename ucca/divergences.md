@@ -24,6 +24,9 @@ In addition, see the following for the full EWT Reviews data:
 - [Gold-standard UD](https://github.com/UniversalConceptualCognitiveAnnotation/UCCA_English-EWT/tree/v1.0-ud).
 <!-- - [Rule-based parser output](https://github.com/danielhers/streusle/tree/images)-->
 
+For a broader perspective on meaning representations, take a look at the
+[CoNLL 2019 shared task on Cross-Framework Meaning Representation Parsing](http://mrp.nlpl.eu).
+
 ## Scene/Non-Scene
 
 A major distinction in UCCA is between scene-evoking phrases and non-scene-evoking ones.
