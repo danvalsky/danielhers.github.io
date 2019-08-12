@@ -626,9 +626,12 @@
 
     <h2 class="header"><a id="community"></a>Community</h2>
     <ul>
-        <li>I co-organized <a href="http://www.cs.huji.ac.il/~danielh/iscol2017">ISCOL 2017</a>
-            (with Omri Abend, Elior Sulem and Leshem Choshen),
-            the annual meeting of the Israeli seminar on computational linguistics.
+        <li>I co-organized <a href="http://www.cs.huji.ac.il/~danielh/iscol2017">ISCOL 2017</a>,
+            the annual meeting of the Israeli seminar on computational linguistics,
+            as well as <a href="https://competitions.codalab.org/competitions/19160">
+                SemEval 2019 Task 1 on Cross-lingual Semantic Parsing with UCCA</a>,
+            and the <a href="http://mrp.nlpl.eu">
+                CoNLL 2019 shared task on Cross-Framework Meaning Representation Parsing</a>.
         </li>
         <li>I served as a reviewer for
             ACL (<a href="http://acl2015.org/">2015</a>,
@@ -650,11 +653,11 @@
 
     <h2 class="header"><a id="misc"></a>Miscellaneous</h2>
     <ul>
-        <li>I practice Kendo (Japanese fencing).
-            <a href="#"
-               onclick="var i = $('#wkc2015'); i.slideToggle(); i.find('img').attr('src', 'index_files/wkc17_1.JPG'); return false;">
-                Here I am at the World Championships in Korea (2018)</a>.
-            <div id="wkc2015" style="display: none"><img src="" style="width: 60%" alt="WKC17"/></div>
+        <li>I practice Kendo (Japanese fencing). I was even at the World Championships in
+            <a href="#" onclick="return showImage('wkc16');">Japan (2015)</a> and
+            <a href="#" onclick="return showImage('wkc17');">Korea (2018)</a>.
+            <div id="wkc16" style="display: none"><img src="" style="width: 60%" alt="WKC16"/></div>
+            <div id="wkc17" style="display: none"><img src="" style="width: 60%" alt="WKC17"/></div>
         </li>
     </ul>
 
@@ -693,6 +696,13 @@
 
     function showEmail() {
         $("#email").html("hershcovich");
+    }
+
+    function showImage(name) {
+        var i = $('#' + name);
+        i.slideToggle();
+        i.find('img').attr('src', 'index_files/' + name + '.jpg');
+        return false;
     }
 </script>
 
