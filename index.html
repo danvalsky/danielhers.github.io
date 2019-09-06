@@ -123,6 +123,27 @@
                         <a href='https://emnlp-ijcnlp2019.org' target="_blank">EMNLP-IJCNLP 2019</a> (short paper).
                     </div>
                     <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="coref-rl.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#coref_rl_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="coref-rl.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                        <a href="https://github.com/rahular/coref-rl"
+                           class="btn btn-outline-primary btn-sm">code</a>
+                    </div>
+                    <div id="coref_rl_abstract" class="abstract row" style="display:none;">
+                        <i>Unresolved coreference is a bottleneck for relation
+                          extraction, and high-quality coreference resolvers
+                          may  produce an output that makes it a lot easier to
+                          extract knowledge triples. We show how to improve
+                          coreference resolvers by forwarding their input to a
+                          relation extraction system and reward the resolvers
+                          for producing triples that are found in knowledge
+                          bases. Since relation extraction systems can rely on
+                          different forms of supervision and be biased in
+                          different ways, we obtain the best performance,
+                          improving over the state of the art, using multi-task
+                          reinforcement learning.
+                        </i>
                     </div>
                 </div>
             </li>
