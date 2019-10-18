@@ -1,0 +1,49 @@
+% -*- coding: utf-8; -*-
+
+%
+% in defining strings, we make use of the following prefixes:
+%
+% + S: --- general strings
+% + O: --- organizations 
+% + C: --- conferences
+% + L: --- addresses
+% + E: --- editors
+% + J: --- journals
+% + P: --- publishers
+%
+% for some conferences, there is variation in the book titles, e.g. for shared
+% tasks, student research workshops, or software demonstration sessions.  use
+% at least a few common suffixes, even though the exact title may vary from
+% year to year:
+%
+% + :S --- student research workshop
+% + :T --- short papers
+% + :P --- poster session (where not part of the main proceedings volume)
+% + :U --- shared task
+% + :D --- software demonstration (aka interactive presentation)
+%
+
+@preamble{"\providecommand{\fromto}[2]{#1$\,$--$\,$#2}"}
+@preamble{"\providecommand{\pages}[3]{#2$\,$--$\,$#3}"}
+@preamble{"\providecommand\Beek[1]{\mbox{#1}}"}
+@preamble{"\providecommand\Noord[1]{\mbox{#1}}"}
+@preamble{"\providecommand\Lohuizen[1]{\mbox{#1}}"}
+
+@string{S:PROCEEDINGS = {Proceedings}}
+
+@string{C:CONLL = {{C}onference on {N}atural {L}anguage {L}earning}}
+
+@string{CONLL:19 = S:PROCEEDINGS # { of the 23nd } # C:CONLL}
+@string{CONLL:19:U = S:PROCEEDINGS # { of the Shared Task on
+                     Cross-Framework Meaning Representation Parsing
+                     at the 2019 } # C:CONLL}
+@string{L:CONLL:19 = {Hong Kong, China}}
+
+@inproceedings{Her:Arv:19,
+  author = {Hershcovich, Daniel and Arviv, Ofir},
+  title = {{TUPA} at {MRP}~2019: {A} Multi-Task Baseline System},
+  booktitle = CONLL:19:U,
+  address = L:CONLL:19,
+  pages = {\pages{--}{28}{39}},
+  year = 2019
+}
