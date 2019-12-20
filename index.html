@@ -132,7 +132,7 @@
 
     <div class="publications">
         <ul>
-            <li><a id="mrp"></a>
+            <li><a id="mrp2019"></a>
                 <div class="row">
                     <div class="col-md-4">
                         <b><i>MRP 2019: Cross-Framework Meaning Representation Parsing</i></b>.
@@ -143,9 +143,32 @@
                     </div>
                     <div class="row col-md-3 btn-group mr-2 v-center" role="group">
                         <a href="http://svn.nlpl.eu/mrp/2019/public/overview.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="https://www.aclweb.org/anthology/K19-2001" class="btn btn-outline-primary btn-sm">Anthology</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#mrp2019_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
                         <a href="mrp.bib" class="btn btn-outline-primary btn-sm">bib</a>
                         <a href="http://svn.nlpl.eu/mrp/2019/public/slides.pdf" class="btn btn-outline-primary btn-sm">slides</a>
                         <a href="http://mrp.nlpl.eu" class="btn btn-outline-primary btn-sm">website</a>
+                    </div>
+                    <div id="mrp2019_abstract" class="abstract row" style="display:none;">
+                        <i>The 2019 Shared Task at the Conference for
+                          Computational Language Learning (CoNLL) was devoted
+                          to Meaning Representation Parsing (MRP) across
+                          frameworks. Five distinct approaches to the
+                          representation of sentence meaning in the form of
+                          directed graph were represented in the training and
+                          evaluation data for the task, packaged in a uniform
+                          abstract graph representation and serialization. The
+                          task received submissions from eighteen teams, of
+                          which five do not participate in the official ranking
+                          because they arrived after the closing deadline, made
+                          use of additional training data, or involved one of
+                          the task co-organizers. All technical information
+                          regarding the task, including system submissions,
+                          official results, and links to supporting resources
+                          and software are available from the task web site at:
+                          http://mrp.nlpl.eu
+                        </i>
                     </div>
                 </div>
             </li>
@@ -160,9 +183,26 @@
                     </div>
                     <div class="row col-md-3 btn-group mr-2 v-center" role="group">
                         <a href="D19-6802.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="https://www.aclweb.org/anthology/K19-2002" class="btn btn-outline-primary btn-sm">Anthology</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#tupa_mrp_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
                         <a href="tupa-mrp.bib" class="btn btn-outline-primary btn-sm">bib</a>
                         <a href="tupa-mrp-poster.pdf" class="btn btn-outline-primary btn-sm">poster</a>
                         <a href="tupa-mrp-slides.pdf" class="btn btn-outline-primary btn-sm">slides</a>
+                    </div>
+                    <div id="tupa_mrp_abstract" class="abstract row" style="display:none;">
+                        <i>This paper describes the TUPA system
+                           submission to the shared task on CrossFramework Meaning Representation Parsing
+                           (MRP) at the 2019 Conference for Computational Language Learning (CoNLL). TUPA
+                           provides a baseline point of comparison and is
+                           not considered in the official ranking of participating systems. While originally developed
+                           for UCCA only, TUPA has been generalized
+                           to support all MRP frameworks included in
+                           the task, and trained using multi-task learning
+                           to parse them all with a shared model. It is
+                           a transition-based parser with a BiLSTM encoder, augmented with BERT contextualized
+                           embeddings.
+                        </i>
                     </div>
                 </div>
             </li>
@@ -179,6 +219,7 @@
                     <div class="row col-md-3 btn-group mr-2 v-center" role="group">
                         <a href="coref-rl.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
                         <a href="https://arxiv.org/abs/1909.02392" class="btn btn-outline-primary btn-sm">arXiv</a>
+                        <a href="https://www.aclweb.org/anthology/D19-1118" class="btn btn-outline-primary btn-sm">Anthology</a>
                         <a href="#" class="btn btn-outline-primary btn-sm"
                            onclick="$('#coref_rl_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
                         <a href="coref-rl.bib" class="btn btn-outline-primary btn-sm">bib</a>
