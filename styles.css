@@ -16,16 +16,16 @@ body .cv .top .avatar img {
 }
 
 body .cv .top .title {
-    font-size:4vw;
-    color:#002266;
+    font-size: 3vw;
+    color: #002266;
     font-weight: 400;
     margin-top: 15px;
 }
 
 body .cv .top .subtitle {
-    font-size:3vw;
+    font-size: 2vw;
     font-family: 'Alef Hebrew', sans-serif;
-    color:#002266;
+    color: #002266;
     font-weight: 400;
     text-align: right;
     margin-top: 15px;
