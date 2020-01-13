@@ -96,9 +96,6 @@
                 for Higher Education Scholarship for Outstanding Postdocoral
                 Fellows in Data Science</a>, a grant of US$ 50,000 for 2019/2020.
             </li>
-            <li>My PhD thesis was approved by the Hebrew University Senate! You can find it here:
-                <a href="thesis.pdf">Universal Semantic Parsing with Neural Networks</a>.
-            </li>
             <li>Our tutorial <i>Cross-lingual Semantic Representation for NLP with UCCA</i>
                 was accepted to be presented at
                 <a href="https://coling2020.org/">COLING 2020</a> in Barcelona, Spain!
@@ -141,6 +138,71 @@
 
     <div class="publications">
         <ul>
+            <li><a id="thesis"></a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>Universal Semantic Parsing with Neural Networks</i></b>.
+                        <br>
+                        <b>Daniel Hershcovich</b>.<br>
+                        <a href="https://huji-primo.hosted.exlibrisgroup.com/permalink/f/att40d/972HUJI_ALMA21257777500003701">PhD
+                            thesis, Hebrew University of Jerusalem</a>.
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="thesis.pdf"
+                           class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#thesis_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="thesis.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                    </div>
+                    <div id="thesis_abstract" class="abstract row" style="display:none;">
+                        <i>A major scientific effort is dedicated to natural language understanding, which aims to be
+                            able to comprehend text, reason about it, and act upon it in an intelligent way. While
+                            specific use-cases or benchmarks can be solved with relatively simple systems, which either
+                            ignore word order ("bag-of-words" models) or treat it as a simple linear structure (such as
+                            the popular sequence-to-sequence framework allowing neural networks to learn tasks in an
+                            end-to-end fashion), understanding human language in general requires a hierarchical
+                            representation of meaning. Constructing this representation from text has been the goal of
+                            an extensive line of work in semantic parsing. While many semantic representation schemes
+                            have been proposed, they share many of their basic distinctions, such as between predicates
+                            (relations, states and events) and arguments (participants). This thesis focuses on a
+                            particular semantic representation scheme called Universal Conceptual Cognitive Annotation
+                            (UCCA), whose main design principles are support for all major linguistic semantic
+                            phenomena, cross-linguistic applicability, stability across translations, ease of annotation
+                            (even by those who are not experts in linguistics), and a modular architecture supporting
+                            multiple layers of semantic annotation. A fully automatic parser is presented, and evaluated
+                            on multiple languages (English, French and German). The parser, titled "TUPA"
+                            (transition-based UCCA parser), is able to learn very general graph structures: directed
+                            acyclic graphs over token sequences with non-terminal nodes for complex units, where these
+                            may cover discontinuous terminal yields. This general class of graphs covers the structures
+                            annotated in UCCA, as well as other representation schemes. TUPA is implemented as a
+                            transition-based parser, whose transition system supports these structural properties. Its
+                            transition classifier is a neural network equipped with a bidirectional long short-term
+                            memory (BiLSTM) module for calculating feature representations for the input. In an
+                            extensive comparison to conversion-based methods, as well as other classifier
+                            implementations, TUPA is shown to outperform all baselines in the task of UCCA parsing in
+                            both in-domain and out-of-domain settings in three languages. The parser is subsequently
+                            applied to two other semantic representation schemes, DM and AMR, and to syntactic
+                            dependencies in the Universal Dependencies (UD) scheme. This demonstrates that the flexible
+                            parser is usable not just for UCCA parsing. Furthermore, training TUPA in a multitask
+                            setting on all of these schemes improves its UCCA parsing accuracy, by effectively learning
+                            generalizations across the different representations: a shared model is thus able to apply
+                            semantic distinctions in one task, which have been learned for another. Finally, in an
+                            empirical comparison of the content of semantic and syntactic representations, we discover
+                            several aspects of divergence, i.e., differences in the content captured by these schemes.
+                            These have profound impact on the potential contribution of syntax to semantic parsing, and
+                            on the usefulness of each of the approaches for semantic tasks in natural language
+                            processing. I see semantic parsing as a means for computers to learn language. While
+                            different representations focus on different distinctions and do so with formally different
+                            structures, they share an overall goal, which is to support natural language processing
+                            applications, such as classifying text into categories, tagging it for linguistic
+                            properties, performing inference and reasoning, and generating new text according to some
+                            constraints (e.g., machine translation). The combined datasets annotated in every
+                            representation are an invaluable resource, which, used effectively, can greatly boost our
+                            achievements in language understanding and processing.
+                        </i>
+                    </div>
+                </div>
+            </li>
             <li><a id="mrp2019"></a>
                 <div class="row">
                     <div class="col-md-4">
