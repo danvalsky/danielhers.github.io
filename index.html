@@ -143,6 +143,38 @@
 
     <div class="publications">
         <ul>
+            <li><a id="iwptst2020"></a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <b><i>Køpsala: Transition-Based Graph Parsing via Efficient Training and Effective Encoding
+                        </i></b>.
+                        <br>
+                        <b>Daniel Hershcovich</b>, Miryam de Lhoneux, Artur Kulmizev, Elham Pejhan and Joakim Nivre.<br>
+                        <a href='https://universaldependencies.org/iwpt20' target="_blank">IWPT 2020 Shared Task</a>.
+                    </div>
+                    <div class="row col-md-3 btn-group mr-2 v-center" role="group">
+                        <a href="iwptst2020.pdf" class="btn btn-outline-primary btn-sm">pdf</a>
+                        <a href="https://arxiv.org/abs/2005.12094" class="btn btn-outline-primary btn-sm">arXiv</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm"
+                           onclick="$('#udst2018_abstract').slideToggle(); $(this).toggleClass('active'); return false;">abstract</a>
+                        <a href="iwptst2020.bib" class="btn btn-outline-primary btn-sm">bib</a>
+                        <a href="https://github.com/coastalcph/koepsala-parser" class="btn btn-outline-primary btn-sm">code</a>
+                    </div>
+                    <div id="iwptst2020_abstract" class="abstract row" style="display:none;">
+                        <i>We present Køpsala, the Copenhagen-Uppsala system for the Enhanced Universal Dependencies
+                            Shared Task at IWPT 2020. Our system is a pipeline consisting of off-the-shelf models for
+                            everything but enhanced graph parsing, and for the latter, a transition-based graph parser
+                            adapted from Che et al. (2019). We train a single enhanced parser model per language, using
+                            gold sentence splitting and tokenization for training, and rely only on tokenized surface
+                            forms and multilingual BERT for encoding. While a bug introduced just before submission
+                            resulted in a severe drop in precision, its post-submission fix would bring us to 4th place
+                            in the official ranking, according to average ELAS. Our parser demonstrates that a unified
+                            pipeline is effective for both Meaning Representation Parsing and Enhanced Universal
+                            Dependencies.</i>
+                    </div>
+                </div>
+            </li>
+
             <li><a id="thesis"></a>
                 <div class="row">
                     <div class="col-md-4">
