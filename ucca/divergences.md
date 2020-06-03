@@ -25,7 +25,7 @@ In addition, see the following for the full EWT Reviews data:
 <!-- - [Rule-based parser output](https://github.com/danielhers/streusle/tree/images)-->
 
 For a broader perspective on meaning representations, take a look at the
-[CoNLL 2019 shared task on Cross-Framework Meaning Representation Parsing](http://mrp.nlpl.eu).
+[CoNLL 2020 shared task on Cross-Framework Meaning Representation Parsing](http://mrp.nlpl.eu).
 
 ## Scene/Non-Scene
 
